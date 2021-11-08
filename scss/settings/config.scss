@@ -1,5 +1,7 @@
 body{
     height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
 .wrapper{
     min-height: 100%;
@@ -7,10 +9,14 @@ body{
     flex-direction: column;
     color: white;
     header{
+        background: green;
+
     }
     main{
         flex: 1 1 auto;
+        background: pink;
     }
     footer{
+        background: orange;
     }
 }

@@ -1,6 +1,8 @@
 $layout_bg: black;
+$_limit_cont: 90%;
 .navbar{
     background: orange;
+    padding: 0;
     border: 1px solid black;
     .navigation__layout{
         background: $layout_bg;
@@ -20,6 +22,60 @@ $layout_bg: black;
             font-weight: 500;
             font-size: 16px;
             line-height: 16px;
+        }
+    }
+    .navigation__menu{
+        width: 100%;
+        background: white;
+        ._limmit_container{
+            padding: 24px 0;
+            margin: 0 auto;
+            box-sizing: border-box;
+            width: $_limit_cont;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 16px;
+                letter-spacing: 0.1em;
+                color: #111111;
+            }
+            .menu__logo{
+                width: 15%
+            }
+            .menu__list{
+                width: 30%;
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    li{
+                        list-style-type: none;
+                    }
+                }
+            }
+            .menu__login{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 15%;
+                button{
+                    width: 167px;
+                    height: 60px;
+                    background: #2E00FF;
+                    border-radius: 8px;
+                    color: white;
+                    border: none;
+                    outline: none;
+                }
+            }
         }
     }
 }
