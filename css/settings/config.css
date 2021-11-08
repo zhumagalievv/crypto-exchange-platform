@@ -4,13 +4,9 @@ body {
 .wrapper {
   min-height: 100%;
   display: flex;
-  flex-direction: column; }
-  .wrapper header {
-    background: green; }
+  flex-direction: column;
+  color: white; }
   .wrapper main {
-    flex: 1 1 auto;
-    background: black; }
-  .wrapper footer {
-    background: orange; }
+    flex: 1 1 auto; }
 
 /*# sourceMappingURL=config.css.map */

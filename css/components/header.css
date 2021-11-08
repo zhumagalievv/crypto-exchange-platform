@@ -1,0 +1,22 @@
+.navbar {
+  background: orange;
+  border: 1px solid black; }
+  .navbar .navigation__layout {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%; }
+    .navbar .navigation__layout span {
+      display: inline-block;
+      margin: 24px 15px;
+      letter-spacing: 0.1em;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px; }
+      .navbar .navigation__layout span a {
+        color: white;
+        text-decoration: none; }
+
+/*# sourceMappingURL=header.css.map */
