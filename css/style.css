@@ -55,6 +55,21 @@ select {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important; } }
+body {
+  height: 100vh; }
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .wrapper header {
+    background: green; }
+  .wrapper main {
+    flex: 1 1 auto;
+    background: black; }
+  .wrapper footer {
+    background: orange; }
+
 .App {
   text-align: center; }
 

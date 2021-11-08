@@ -1,3 +1,16 @@
+body {
+  height: 100vh; }
 
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .wrapper header {
+    background: green; }
+  .wrapper main {
+    flex: 1 1 auto;
+    background: black; }
+  .wrapper footer {
+    background: orange; }
 
 /*# sourceMappingURL=config.css.map */

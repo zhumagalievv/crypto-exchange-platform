@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    header{
+        background: green;
+
+    }
+    main{
+        flex: 1 1 auto;
+        background: black;
+    }
+    footer{
+        background: orange;
+    }
+}
