@@ -1,0 +1,19 @@
+main ._limit_container {
+  background-image: url(../../media/img/account_page_desctiption_bg.svg);
+  background-size: auto;
+  background-position: center;
+  border: 1px solid red;
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  main ._limit_container h1 {
+    color: #3E1BDB; }
+  main ._limit_container h2 {
+    color: #111111; }
+
+/*# sourceMappingURL=account_page.css.map */
