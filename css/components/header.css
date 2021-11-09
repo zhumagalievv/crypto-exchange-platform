@@ -44,12 +44,15 @@
       .navbar .navigation__menu ._limmit_container .menu__list {
         width: 30%; }
         .navbar .navigation__menu ._limmit_container .menu__list ul {
+          margin: 0;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
+          align-items: center;
           flex-wrap: wrap; }
           .navbar .navigation__menu ._limmit_container .menu__list ul li {
-            list-style-type: none; }
+            list-style-type: none;
+            margin: 10px; }
       .navbar .navigation__menu ._limmit_container .menu__login {
         display: flex;
         flex-direction: row;

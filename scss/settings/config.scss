@@ -1,7 +1,14 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
 body{
     height: 100vh;
     margin: 0px;
     padding: 0px;
+    
 }
 .wrapper{
     min-height: 100%;
@@ -9,7 +16,7 @@ body{
     flex-direction: column;
     color: white;
     header{
-        background: green;
+        background: white;
 
     }
     main{
@@ -17,5 +24,6 @@ body{
         background: pink;
     }
     footer{
+        
     }
 }
