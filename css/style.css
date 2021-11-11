@@ -258,7 +258,7 @@ body {
   .wrapper main {
     flex: 1 1 auto; }
 
-main ._limit_container, main footer .copyright, footer main .copyright {
+.account_page ._limit_container, .account_page footer .copyright, footer .account_page .copyright {
   background-image: url("../media/img/account_page_description_bg.svg");
   background-repeat: no-repeat;
   background-size: 95%;
@@ -267,7 +267,7 @@ main ._limit_container, main footer .copyright, footer main .copyright {
   border: 1px solid red;
   width: 90%;
   margin: 0 auto; }
-  main ._limit_container .page_description, main footer .copyright .page_description, footer main .copyright .page_description {
+  .account_page ._limit_container .page_description, .account_page footer .copyright .page_description, footer .account_page .copyright .page_description {
     border: 1px solid red;
     box-sizing: border-box;
     width: 100%;
@@ -276,12 +276,12 @@ main ._limit_container, main footer .copyright, footer main .copyright {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    main ._limit_container .page_description h1, main footer .copyright .page_description h1, footer main .copyright .page_description h1 {
+    .account_page ._limit_container .page_description h1, .account_page footer .copyright .page_description h1, footer .account_page .copyright .page_description h1 {
       font-size: 60px;
       z-index: 1;
       letter-spacing: 0.02em;
       color: #3E1BDB; }
-    main ._limit_container .page_description h2, main footer .copyright .page_description h2, footer main .copyright .page_description h2 {
+    .account_page ._limit_container .page_description h2, .account_page footer .copyright .page_description h2, footer .account_page .copyright .page_description h2 {
       width: 60%;
       font-size: 16px;
       line-height: 32px;
