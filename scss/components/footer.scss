@@ -3,13 +3,12 @@ footer{
     width: 100%;
     color: #FFFFFF;
     box-sizing: border-box;
-    padding: 3% 0;
+    padding: 32px 0 22px;
     background-color: #010221;
     width: 100%;
     height: fit-content;
     margin-bottom: 0px;
     ._limit_container{
-        border: 1px sorgb(216, 0, 0)lack;
         width: $_limit_cont;
         margin: 0 auto;
         display: flex;
@@ -27,25 +26,25 @@ footer{
                 label{
                     letter-spacing: 0.1em;
                     font-size: 18px;
-                    margin-top: 12%;
+                    margin-top: 40px;
                 }
                 .email-send{
                     display: flex;
                     flex-direction: row;
-                    margin-top: 4%;
+                    margin-top: 16px;
                     width: 100%;
                     
                     input{
-                        width: 70%;
-                        height: 50px;
+                        width: 60%;
+                        height: 47px;
                         border: 0;
-                        padding: 4% 4% 4% 8%;
+                        padding: 24px;
                         border-radius: 8px;
                         background-color: #262741;
                         transition: 0.2s ease-out;
                         outline: none;
                         letter-spacing: 0.1em;
-                        color: #FFFFFF;
+                        color: #a78c8c;
                         &:focus{
                             background-color: white;
                             color: #000000;
@@ -53,12 +52,12 @@ footer{
                         }
                     }
                     button{
-                        height: 50px;
+                        height: 47px;
                         background-color: #3E1BDB;
                         color: #FFFFFF;
-                        width: 30%;
+                        width: 25%;
                         margin-left: 3%;
-                        padding: 4%;
+                        padding: 16px 24px ;
                         border: 0;
                         border-radius: 8px;
                         text-align: center;
@@ -74,7 +73,7 @@ footer{
                     }
                 }
                 .phone_email{
-                    margin-top: 10%;
+                    margin-top: 40px;
 
                     display: flex;
                     flex-direction: column;
@@ -82,12 +81,17 @@ footer{
 
                         display: table-cell;
                         font-size: 16px;
-                        padding-top: 5%;
+                        padding-bottom: 48px;
+
+                        &:first-child{
+                            padding-bottom: 32px;
+
+                        }
                     }
                     i{
                         vertical-align: middle;
 
-                        padding: 0 5%;
+                        padding: 0 15px;
                         font-size: 20px;
                     }
                 }
@@ -102,27 +106,33 @@ footer{
             }
         }
         .footer-list{
-            
             display: flex;
             width: 70%;
             flex-direction: row;
             ul{
+                margin:0;
                 list-style-type: none;
                 display: flex;
                 flex-direction: column;
-                width: 100%;
+                width: fit-content;
 
                     li{
+
                         letter-spacing: 0.1em;
                         list-style-type: none;
                         font-size: 14px;
                         color: #CDCDCD;
-                        width: 100%;
-                        padding-bottom: 2%;
+                        width: fit-content;
+                        line-height: 14px;
+                        padding-bottom: 10px;
                          &:first-child{
+                            font-weight: bold;
                             letter-spacing: 0.1em;
+                            line-height: 16px;
                             font-size: 16px;
                             color: #FFFFFF;
+                            padding-bottom: 32px;
+                            
                     }
                 }
             }
@@ -132,10 +142,9 @@ footer{
         @extend ._limit_container;
         width: $_limit_cont;
         border-top: 1px solid #1D1F4D;
-        margin-top: 2%;
         color: #60637C;
         flex-direction: row;
-        padding-top: 2%;
+        padding: 32px 0;
         font-size: 16px;
         span{
             &:first-child{
@@ -161,7 +170,6 @@ footer{
 
                     label{
                         font-size: 22px;
-                        margin-top: 6%;
 
                     }
                     .email-send{
@@ -171,11 +179,10 @@ footer{
                         input{
                             width: 100%;
                             font-size: 20px;
-                            padding-left: 4% ;
                             text-align: center;
                         }
                         button{
-                            margin-top: 3%;
+                            margin-top: 10px;
                             text-align: center;
 
                             width: 100%;
@@ -185,16 +192,7 @@ footer{
                         
 
                     }
-                    .phone_email{
-                        margin-top: 1%;
-                        i{
-                            padding: 0 1%;
-                            font-size: 25px;
-                        }
-                        span{
-                            font-size: 20px;
-                        }
-                    }
+                    
                     
                     
                 }
@@ -210,10 +208,11 @@ footer{
             }
             .footer-list{
                 width: fit-content;
-                margin-top: 5%;
                 flex-direction: column;
-                align-items: center;
+                justify-content: start;
+                align-items: flex-start;
                 ul{
+                    margin-top: 30px;
                     li{
                         font-size: 20px;
                         &:first-child{

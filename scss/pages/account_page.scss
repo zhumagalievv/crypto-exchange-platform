@@ -1,23 +1,40 @@
 main{
     ._limit_container{
-        background-image: url(../../media/img/account_page_desctiption_bg.svg);
-        background-size: auto;
-        background-position: center;
+        background-image: url('../media/img/account_page_description_bg.svg');
+        background-repeat: no-repeat;
+        background-size: 95%;
+        background-position-x: center;
+        background-position-y: bottom;
         border: 1px solid red;
-        height: 100vh;
         width: 90%;
         margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        h1{
-            color: #3E1BDB;
+        .page_description{
+            border: 1px solid red;
+            box-sizing: border-box;
+            width: 100%;
+            text-align: center;
+            padding: 125px 0px 27% ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                font-size: 60px;
+                z-index: 1;
+                letter-spacing: 0.02em;
+                color: #3E1BDB;
+            }
+            h2{
+                width: 60%;
+                font-size: 16px;
+                line-height: 32px;
+                letter-spacing: 0.1em;
+                margin-top: 40px;
+    
+                color: #111111;
+            }
         }
-        h2{
-            color: #111111;
-        }
+        
+    
     }
    
 }

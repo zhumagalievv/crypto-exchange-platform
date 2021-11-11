@@ -70,13 +70,12 @@ footer {
   width: 100%;
   color: #FFFFFF;
   box-sizing: border-box;
-  padding: 3% 0;
+  padding: 32px 0 22px;
   background-color: #010221;
   width: 100%;
   height: fit-content;
   margin-bottom: 0px; }
   footer ._limit_container, footer .copyright {
-    border: 1px sorgb(216, 0, 0) lack;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -93,33 +92,33 @@ footer {
         footer ._limit_container .contact form label, footer .copyright .contact form label {
           letter-spacing: 0.1em;
           font-size: 18px;
-          margin-top: 12%; }
+          margin-top: 40px; }
         footer ._limit_container .contact form .email-send, footer .copyright .contact form .email-send {
           display: flex;
           flex-direction: row;
-          margin-top: 4%;
+          margin-top: 16px;
           width: 100%; }
           footer ._limit_container .contact form .email-send input, footer .copyright .contact form .email-send input {
-            width: 70%;
-            height: 50px;
+            width: 60%;
+            height: 47px;
             border: 0;
-            padding: 4% 4% 4% 8%;
+            padding: 24px;
             border-radius: 8px;
             background-color: #262741;
             transition: 0.2s ease-out;
             outline: none;
             letter-spacing: 0.1em;
-            color: #FFFFFF; }
+            color: #a78c8c; }
             footer ._limit_container .contact form .email-send input:focus, footer .copyright .contact form .email-send input:focus {
               background-color: white;
               color: #000000; }
           footer ._limit_container .contact form .email-send button, footer .copyright .contact form .email-send button {
-            height: 50px;
+            height: 47px;
             background-color: #3E1BDB;
             color: #FFFFFF;
-            width: 30%;
+            width: 25%;
             margin-left: 3%;
-            padding: 4%;
+            padding: 16px 24px;
             border: 0;
             border-radius: 8px;
             text-align: center;
@@ -132,16 +131,18 @@ footer {
             footer ._limit_container .contact form .email-send button:hover, footer .copyright .contact form .email-send button:hover {
               background: #3e1bdb9f; }
         footer ._limit_container .contact form .phone_email, footer .copyright .contact form .phone_email {
-          margin-top: 10%;
+          margin-top: 40px;
           display: flex;
           flex-direction: column; }
           footer ._limit_container .contact form .phone_email span, footer .copyright .contact form .phone_email span {
             display: table-cell;
             font-size: 16px;
-            padding-top: 5%; }
+            padding-bottom: 48px; }
+            footer ._limit_container .contact form .phone_email span:first-child, footer .copyright .contact form .phone_email span:first-child {
+              padding-bottom: 32px; }
           footer ._limit_container .contact form .phone_email i, footer .copyright .contact form .phone_email i {
             vertical-align: middle;
-            padding: 0 5%;
+            padding: 0 15px;
             font-size: 20px; }
       footer ._limit_container .contact .footer-logo, footer .copyright .contact .footer-logo {
         text-align: start; }
@@ -152,28 +153,32 @@ footer {
       width: 70%;
       flex-direction: row; }
       footer ._limit_container .footer-list ul, footer .copyright .footer-list ul {
+        margin: 0;
         list-style-type: none;
         display: flex;
         flex-direction: column;
-        width: 100%; }
+        width: fit-content; }
         footer ._limit_container .footer-list ul li, footer .copyright .footer-list ul li {
           letter-spacing: 0.1em;
           list-style-type: none;
           font-size: 14px;
           color: #CDCDCD;
-          width: 100%;
-          padding-bottom: 2%; }
+          width: fit-content;
+          line-height: 14px;
+          padding-bottom: 10px; }
           footer ._limit_container .footer-list ul li:first-child, footer .copyright .footer-list ul li:first-child {
+            font-weight: bold;
             letter-spacing: 0.1em;
+            line-height: 16px;
             font-size: 16px;
-            color: #FFFFFF; }
+            color: #FFFFFF;
+            padding-bottom: 32px; }
   footer .copyright {
     width: 90%;
     border-top: 1px solid #1D1F4D;
-    margin-top: 2%;
     color: #60637C;
     flex-direction: row;
-    padding-top: 2%;
+    padding: 32px 0;
     font-size: 16px; }
     footer .copyright span:first-child {
       width: 40%; }
@@ -188,8 +193,7 @@ footer {
       width: 100%;
       text-align: center; }
       footer ._limit_container .contact form label, footer .copyright .contact form label {
-        font-size: 22px;
-        margin-top: 6%; }
+        font-size: 22px; }
       footer ._limit_container .contact form .email-send, footer .copyright .contact form .email-send {
         flex-direction: column;
         align-self: center;
@@ -197,20 +201,12 @@ footer {
         footer ._limit_container .contact form .email-send input, footer .copyright .contact form .email-send input {
           width: 100%;
           font-size: 20px;
-          padding-left: 4%;
           text-align: center; }
         footer ._limit_container .contact form .email-send button, footer .copyright .contact form .email-send button {
-          margin-top: 3%;
+          margin-top: 10px;
           text-align: center;
           width: 100%;
           margin-left: 0;
-          font-size: 20px; }
-      footer ._limit_container .contact form .phone_email, footer .copyright .contact form .phone_email {
-        margin-top: 1%; }
-        footer ._limit_container .contact form .phone_email i, footer .copyright .contact form .phone_email i {
-          padding: 0 1%;
-          font-size: 25px; }
-        footer ._limit_container .contact form .phone_email span, footer .copyright .contact form .phone_email span {
           font-size: 20px; }
       footer ._limit_container .contact .footer-logo, footer .copyright .contact .footer-logo {
         display: flex;
@@ -219,13 +215,15 @@ footer {
           width: 35%; }
     footer ._limit_container .footer-list, footer .copyright .footer-list {
       width: fit-content;
-      margin-top: 5%;
       flex-direction: column;
-      align-items: center; }
-      footer ._limit_container .footer-list ul li, footer .copyright .footer-list ul li {
-        font-size: 20px; }
-        footer ._limit_container .footer-list ul li:first-child, footer .copyright .footer-list ul li:first-child {
-          font-size: 22px; }
+      justify-content: start;
+      align-items: flex-start; }
+      footer ._limit_container .footer-list ul, footer .copyright .footer-list ul {
+        margin-top: 30px; }
+        footer ._limit_container .footer-list ul li, footer .copyright .footer-list ul li {
+          font-size: 20px; }
+          footer ._limit_container .footer-list ul li:first-child, footer .copyright .footer-list ul li:first-child {
+            font-size: 22px; }
 
   .copyright {
     flex-direction: column;
@@ -261,21 +259,34 @@ body {
     flex: 1 1 auto; }
 
 main ._limit_container, main footer .copyright, footer main .copyright {
-  background-image: url(../../media/img/account_page_desctiption_bg.svg);
-  background-size: auto;
-  background-position: center;
+  background-image: url("../media/img/account_page_description_bg.svg");
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position-x: center;
+  background-position-y: bottom;
   border: 1px solid red;
-  height: 100vh;
   width: 90%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-  main ._limit_container h1, main footer .copyright h1, footer main .copyright h1 {
-    color: #3E1BDB; }
-  main ._limit_container h2, main footer .copyright h2, footer main .copyright h2 {
-    color: #111111; }
+  margin: 0 auto; }
+  main ._limit_container .page_description, main footer .copyright .page_description, footer main .copyright .page_description {
+    border: 1px solid red;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 125px 0px 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main ._limit_container .page_description h1, main footer .copyright .page_description h1, footer main .copyright .page_description h1 {
+      font-size: 60px;
+      z-index: 1;
+      letter-spacing: 0.02em;
+      color: #3E1BDB; }
+    main ._limit_container .page_description h2, main footer .copyright .page_description h2, footer main .copyright .page_description h2 {
+      width: 60%;
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: 0.1em;
+      margin-top: 40px;
+      color: #111111; }
 
 /*# sourceMappingURL=style.css.map */
