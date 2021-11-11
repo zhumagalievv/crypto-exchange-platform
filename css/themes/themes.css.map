@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,iCAAkC;EACjC,gCAAgC;IAAE,OAAO,EAAE,IAAI;;EAE/C,sCAAsC;IAAE,OAAO,EAAE,KAAK;;EACtD,gCAAgC;IAAE,UAAU,EAAC,CAAC",
-"sources": ["../../scss/themes/themes.scss"],
+"mappings": "",
+"sources": [],
 "names": [],
 "file": "themes.css"
 }

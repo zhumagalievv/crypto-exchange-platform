@@ -1,0 +1,350 @@
+$wlimit: 90%;
+
+.mainContent__section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-bottom: 100px;
+    .main__content{
+        margin: auto auto;
+        .content__bigTitle{
+            text-align: center;
+            letter-spacing: 0.02em;
+            font-weight: 500;
+            font-size: 100px;
+            line-height: 100px;
+            color: #2E00FF;
+        }
+        .content__smTitle{
+            margin: 20px 20px;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #111111;
+        }
+        .content__text{
+            margin: 46px 20px;
+            width: 690px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 33px;
+            /* or 206% */
+
+            text-align: center;
+            letter-spacing: 0.1em;
+
+            color: #111111;
+        }
+    }
+    .animated__coins{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        img{
+            position: absolute;
+            &:first-child{
+                left: 21%;
+                top: 9%;
+            }
+            &:nth-child(2){
+                left: 15%;
+                top: 45%;
+            }
+            &:nth-child(3){
+                left: 25%;
+                top: 80%;
+            }
+            &:nth-child(4){
+                left: 48%;
+                bottom: -12%;
+            }
+            &:nth-child(5){
+                right: 25%;
+                top: 80%;
+            }
+            &:nth-child(6){
+                right: 16%;
+                top: 45%;
+            }
+            &:nth-child(7){
+                right: 21%;
+                top: 9%;
+            }
+
+        }
+    }
+}
+.cardCarousel{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    width: 100%;
+    overflow: hidden;
+    .cardCarousel__title{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.3px;
+        width: 90%;
+        margin: 0 auto;
+        color: #111111;
+        .cardCarousel__img{
+            margin-top: 50px;
+            img{
+                width: 162px;
+                height: 32px;
+            }
+        }
+    }
+    .carousel-wrapper {
+        position: relative;
+        width: 70%;
+        height: 70%;
+        margin: 0 auto;
+        // overflow: hidden;/
+        .carousel{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            height: auto;
+            .carousel-cell {
+                padding: 10px;
+                background-color: #FFFFFF;
+                width: 394px;
+                height:  196px;
+                min-width: 120px;
+                margin: 0 20px;
+                transition: transform 500ms ease;
+                background: rgba(255, 255, 255, 0.4);
+                border: 1px solid #111111;
+                box-sizing: border-box;
+                border-radius: 12px;
+                h3{
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height, or 150% */
+                
+                    letter-spacing: 0.5px;
+                
+                    color: #111111;
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 24px;
+                
+                    letter-spacing: 0.3px;
+                
+                    color: rgba(17, 17, 17, 0.65);
+                }
+              }
+              .learn_more{
+                color: black;
+                justify-content: end;
+                display: flex;
+                align-items: center;
+                i{
+                    margin: 0 10px;
+                  }
+              }
+          }
+          .flickity-page-dots {
+            display: none;
+          }
+          .flickity-viewport, .flickity-slider{
+            overflow: visible;
+          }
+        .flickity-prev-next-button{
+            position: absolute;
+            top: -30%;
+        }
+        .previous{
+            margin-right: 110px;
+            right: 0;
+            left: unset;
+        }
+    }
+}
+.blockContent{
+    margin: 90px 0;
+    ._limit_container{ 
+        width: $wlimit;
+        margin: 0 auto;
+        .container__flex{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            .blockContent__content{
+                color: black;
+                width: 781px;
+                height: 100%;
+                .content__title{
+                    position: relative;
+                    padding: 24px 0; 
+                    box-sizing: border-box;
+                    margin: 40px 0;
+                    h4{
+                        font-weight: bold;
+                        font-size: 30px;
+                        line-height: 30px;
+                        letter-spacing: 0.3px;
+                        color: #111111;
+                    }
+                    &::after{
+                        content: "";
+                        width: 200px;
+                        display: block;
+                        height: 2px;
+                        position: absolute;
+                        bottom: 0;
+                        background: #2E00FF;
+                    }
+                    
+                }
+                .content__list{
+                    margin: 0;
+                    li{
+                        margin-top: 24px;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0.1em;
+                        color: #111111;
+                    }
+                }
+                .content__btn{
+                    button{
+                        margin: 40px 0;
+                        cursor: pointer;
+                        background: none;
+                        border: none;
+                        line-height:24px;
+                        font-size: 24px;
+                        line-height: 117%;
+                        letter-spacing: -0.03em;
+                        color: #111111;
+                        .fas{
+                            position: absolute;
+                            margin: 4px 0 0 15px;
+                        }
+                    }
+                }
+            }
+            .blockContent__img{
+                height: 100%;
+                margin: 80px
+            }
+        }
+        
+
+    }
+}
+.flex__container{
+    width: 100%;
+    height: 351px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    .container__content{
+        max-width: 588px !important;
+        width: 100%;
+        h4{
+            margin-bottom: 36px;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 30px;
+            letter-spacing: 0.3px;
+            color: #111111;
+        }
+        p{
+            margin: 12px 0;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.1em;
+            color: #111111;
+        }
+    }
+}
+.buyCrypto__section{
+    padding: 30px 0;
+    box-sizing: content-box;
+    .section__title{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.3px;
+        color: #111111;
+        margin: 10px 0;
+    }
+    .section__contentList{
+        .contentImg{
+            margin: 56px 0;
+        }
+        .contentList{
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            li{
+                width: 273px;
+                height:contain;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0.1em;
+                color: #111111;
+            }
+        }
+    }
+    .sectionRecImg{
+        margin: 50px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sectionLearnMoreBtn{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .buttons{
+            width: 450px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: row;
+            div{
+                cursor: pointer;
+                button{
+                    width: 190px;
+                    margin: 40px 0;
+                    background: none;
+                    border: none;
+                    line-height:24px;
+                    font-size: 24px;
+                    line-height: 117%;
+                    letter-spacing: -0.03em;
+                    color: #111111;
+                    text-align: start;
+                }
+                .fas{
+                    color: black;
+                }
+            }
+        }
+    }
+}
