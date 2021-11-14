@@ -1,4 +1,5 @@
 $wlimit: 90%;
+@import "../utils/mixins.scss";
 
 .mainContent__section{
     position: relative;
@@ -348,3 +349,4 @@ $wlimit: 90%;
         }
     }
 }
+

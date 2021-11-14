@@ -317,9 +317,9 @@
   .container_navigation .navigation_menu {
     margin: 10px 0px; }
     .container_navigation .navigation_menu ul {
-      padding: 0;
       margin: 0;
-      list-style-type: none;
+      padding: 0;
+      list-style: none;
       font-size: 16px;
       display: flex;
       flex-direction: row;
@@ -357,6 +357,18 @@
       color: white;
       border-radius: 8px; }
 
+@media (max-width: 1300px) {
+  .container_navigation .navigation_logo img {
+    margin: 10px 80px 10px 0;
+    width: 100px;
+    height: 60px; }
+  .container_navigation .navigation_menu {
+    margin: 10px 0px; }
+    .container_navigation .navigation_menu ul {
+      min-width: 400px; }
+  .container_navigation .navigation_login button {
+    width: 147px;
+    height: 50px; } }
 footer {
   width: 100%;
   color: #FFFFFF;

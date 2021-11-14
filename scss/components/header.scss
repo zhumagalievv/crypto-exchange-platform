@@ -1,6 +1,7 @@
 $layout_bg: black;
 $wlimit: 90%;
 $font: 16px;
+@import "../utils/mixins.scss";
 
 
 .container_header{
@@ -47,9 +48,7 @@ $font: 16px;
     .navigation_menu{
         margin: 10px 0px;
         ul{
-            padding: 0;
-            margin: 0;
-            list-style-type: none;
+            @include reset-lists;
             font-size: $font;
             display: flex;
             flex-direction: row;
@@ -96,3 +95,29 @@ $font: 16px;
         }
     }
 }
+@media (max-width: 1300px){
+    .container_navigation{
+        .navigation_logo{
+            img{
+                margin:10px 80px 10px 0;
+                width: 100px;
+                height: 60px;
+            }
+        }
+        .navigation_menu{
+            margin: 10px 0px;
+            ul{
+                
+                min-width: 400px;
+            }
+        }
+        .navigation_login{
+        button{
+            width: 147px;
+            height: 50px;
+
+        }
+    }
+    }
+}
+
