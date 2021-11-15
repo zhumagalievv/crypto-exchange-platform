@@ -3,3 +3,17 @@
     padding: 0;
     list-style: none;
 }
+@mixin reset-button{
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+@mixin display-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
