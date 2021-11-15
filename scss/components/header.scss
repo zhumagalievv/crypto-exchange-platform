@@ -61,6 +61,9 @@ nav{
         margin: 5px 22px;
     }
   }
+  .wrapperN .nav-links li{
+    margin: 5px 0;
+  }
   .navigation_login{
     margin: 10px 0;
     font-size: 16px;
@@ -140,8 +143,7 @@ nav{
   }
   .content .content__row .mega-links{
     @include reset-lists;
-    display: block;
-    
+    display: block;    
   }
   .content__row .mega-links li a{
     padding: 0;
@@ -275,6 +277,7 @@ nav{
     }
     .content__row .mega-links li{
       margin: 0;
+      padding: 5px 0;
     }
     .content .content__row header{
       font-size: 19px;
