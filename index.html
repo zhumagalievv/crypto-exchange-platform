@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/f13dd7e9a5.js" crossorigin="anonymous"></script>
+    
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Carousel JQery CDN -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/f13dd7e9a5.js" crossorigin="anonymous"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
-
+    <!-- Custom style -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="test.css">
-    <title>Document</title>
+
+    <title>SnowLeopard</title>
 </head>
 <body>
     <div class="wrapper">
@@ -100,7 +99,6 @@
           </div>
       </nav>
       </header>
-
       <main>
         <div class="main__wrapper">
           <div class="mainContent__section">
@@ -116,7 +114,13 @@
               </div>
             </div>
             <div class="animated__coins">
-              <img src="media/img/coin_circle.svg" alt="">
+              <img src="media/img/coin1.svg" alt="">
+              <img src="media/img/coin2.svg" alt="">
+              <img src="media/img/coin3.svg" alt="">
+              <img src="media/img/coin4.svg" alt="">
+              <img src="media/img/coin5.svg" alt="">
+              <img src="media/img/coin6.svg" alt="">
+              <img src="media/img/coin7.svg" alt="">
             </div>
           </div>
           <div class="cardCarousel">
@@ -227,13 +231,13 @@
                   <img src="media/img/rec2.svg" alt="">
                   <img src="media/img/rec3.svg" alt="">
                 </div>
-                <div class="sectionLearnMoreBtn">
+                <!-- <div class="sectionLearnMoreBtn">
                   <img src="media/img/but_sell.svg" alt="">
                   <div class="buttons">
                     <div><button>Learn more about Crypto</button><i style='font-size:24px' class='fas'>&#xf061;</i></div>
                     <div><button>Learn more about Commodities</button><i style='font-size:24px' class='fas'>&#xf061;</i></div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -311,18 +315,7 @@
 
    <!-- Boostrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
-    <script src='script/slider.js'></script>
-    <script type='text/javascript'>
-      var btn = document.getElementById('toggleBtn');
-      var closeBtn = document.getElementById('closeBtn');
-      var block = document.getElementById('navbar');
-      btn.addEventListener('click', function(){
-        block.style.left = 0;
-      })
-  
-      closeBtn.addEventListener('click', function(){
-        block.style.left = '-100%';
-      })
-    </script>
+
+    <script src="script/menuBtn.js"></script>
   </body>
 </html>

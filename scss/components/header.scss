@@ -3,13 +3,6 @@ $wlimit: 90%;
 $font: 16px;
 @import "../utils/mixins.scss";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-
 .container_header{
     height: 58px;
     background: #111111;
@@ -36,10 +29,10 @@ nav{
     position: relative;
     z-index: 99;
     width: 100%;
-    background: #FBFCF8;
+    background: #fff;
 }
 .wrapperN{
-    background: #FBFCF8;
+    background: #fff;
     position: relative;
     max-width: 90%;
     height: 90px;
@@ -113,7 +106,6 @@ nav{
   }
 
   .nav-links li:hover .mega-box{
-    transition: all 0.5s ease;
     top: 70px;
     opacity: 1;
     visibility: visible;
@@ -223,7 +215,7 @@ nav{
       max-width: 350px;
       top: 0;
       left: -100%;
-      background: #FBFCF8;
+      background: #ffff;
       display: block;
       padding: 50px 10px;
       line-height: 50px;
