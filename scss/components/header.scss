@@ -52,7 +52,7 @@ nav{
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    width: 67%;
+    width: 68%;
   }
   .wrapperN .nav-links{
     display: inline-flex;
@@ -62,7 +62,7 @@ nav{
     }
   }
   .wrapperN .nav-links li{
-    margin: 5px 0;
+    margin: 5px 20px;
   }
   .navigation_login{
     margin: 10px 0;
@@ -107,7 +107,6 @@ nav{
   .nav-links .mobile-item{
     display: none;
   }
-
   .nav-links li:hover .mega-box{
     top: 70px;
     opacity: 1;
@@ -140,6 +139,7 @@ nav{
     letter-spacing: 0.1em;
     font-weight: bold;
     color: #111111;
+    margin-left: 20px;
   }
   .content .content__row .mega-links{
     @include reset-lists;

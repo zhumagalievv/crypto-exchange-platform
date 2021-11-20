@@ -172,7 +172,7 @@ $wlimit: 90%;
 }
 .blockContent{
     margin: 90px 0;
-    ._limit_container{ 
+    ._limit_container{
         width: $wlimit;
         margin: 0 auto;
         .container__flex{
@@ -185,29 +185,6 @@ $wlimit: 90%;
                 color: black;
                 width: 781px;
                 height: 100%;
-                .content__title{
-                    position: relative;
-                    padding: 0 0 24px 0; 
-                    box-sizing: border-box;
-                    margin:  14px 0 40px 0;
-                    h4{
-                        font-weight: bold;
-                        font-size: 30px;
-                        line-height: 30px;
-                        letter-spacing: 0.3px;
-                        color: #111111;
-                    }
-                    &::after{
-                        content: "";
-                        width: 200px;
-                        display: block;
-                        height: 2px;
-                        position: absolute;
-                        bottom: 0;
-                        background: #2E00FF;
-                    }
-                    
-                }
                 .content__list{
                     margin: 0;
                     li{
@@ -219,23 +196,6 @@ $wlimit: 90%;
                         color: #111111;
                     }
                 }
-                .content__btn{
-                    button{
-                        margin: 40px 0;
-                        cursor: pointer;
-                        background: none;
-                        border: none;
-                        line-height:24px;
-                        font-size: 24px;
-                        line-height: 117%;
-                        letter-spacing: -0.03em;
-                        color: #111111;
-                        .fas{
-                            position: absolute;
-                            margin: 4px 0 0 15px;
-                        }
-                    }
-                }
             }
             .blockContent__img{
                 height: 100%;
@@ -244,6 +204,46 @@ $wlimit: 90%;
         }
         
 
+    }
+}
+.content__title{
+    position: relative;
+    padding: 0 0 24px 0; 
+    box-sizing: border-box;
+    margin:  14px 0 40px 0;
+    h4{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.3px;
+        color: #111111;
+    }
+    &::after{
+        content: "";
+        width: 200px;
+        display: block;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        background: #2E00FF;
+    }
+    
+}
+.content__btn{
+    button{
+        margin: 40px 0;
+        cursor: pointer;
+        background: none;
+        border: none;
+        line-height:24px;
+        font-size: 24px;
+        line-height: 117%;
+        letter-spacing: -0.03em;
+        color: #111111;
+        .fas{
+            position: absolute;
+            margin: 4px 0 0 15px;
+        }
     }
 }
 .flex__container{
@@ -273,6 +273,7 @@ $wlimit: 90%;
             letter-spacing: 0.1em;
             color: #111111;
         }
+
     }
 }
 .buyCrypto__section{
@@ -381,27 +382,200 @@ $wlimit: 90%;
     .section__arrowImg{
         margin: 30px 0;
     }
-    .section__item{
-        margin: 30px 0;
-        @include display-flex;
-        justify-content: space-between;
-        img{
-            margin: 20px 20px 20px 0;
-            &:last-child{
-                margin-right: unset;
+}
+.section__item{
+    margin: 30px 0;
+    @include display-flex;
+    justify-content: space-between;
+    img{
+        margin: 20px 20px 20px 0;
+        &:last-child{
+            margin-right: unset;
+        }
+    }
+    .item_block{
+        margin: 10px 30px 10px 0;
+        width: 410px;
+        min-height: 128px;
+        padding: 25px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 16px;
+        line-height: 170%;
+        letter-spacing: -0.005em;
+        color: #111111;
+        &:last-child{
+            margin-right: 0;
+        }
+        .block-title{
+            position: relative;
+            border-bottom: 1px solid #111111;
+            margin-bottom: 20px;
+            img, h5{
+                display: inline-block;
+                margin-right: 5px;
+                font-size: 16px;
+                line-height: 15px;
+                letter-spacing: -0.005em;
+                color: #111111;
+            }
+            span{
+                position: absolute;
+                right: 0px;
+                top: 50%;
+                transform: translateY(-50%);
+                display: inline-block;
+                font-size: 16px;
+                line-height: 15px;
+                letter-spacing: -0.005em;
+                color: #2E00FF;
             }
         }
-        .item_block{
-            margin: 10px 0;
-            width: 410px;
-            height: 128px;
-            padding: 25px;
-            border: 1px solid black;
-            border-radius: 10px;
-            font-size: 16px;
-            line-height: 170%;
-            letter-spacing: -0.005em;
+    }
+}
+.cube-bg{
+    height: 476px;
+    .cube-bg{
+        position: absolute;
+        left: -5%;
+    }
+    .container__transactionImg{
+        z-index: 100;
+        margin-left: 14%;
+        margin-right: 50px;
+    }
+}
+.mt-50{
+    margin-top: 50px;
+}
+.external{
+    height: 200px;
+}
+.top-sec{
+    align-items: end;
+    ul{
+        margin: 48px 0 0 0;
+        li{
+            position: relative;
+            list-style-type: none;
+            margin: 12px 0;
+            padding: 0 10px;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0.1em;
             color: #111111;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -30px;
+                width: 24px;
+                height: 24px;
+                background-image: url('../../media/img/Frame.svg');
+            }
+        }
+    }
+}
+.plan_container{
+    text-align: center;
+    h1{
+        display: inline-block;
+        position: relative;
+        font-size: 45px;
+        line-height: 50px;
+        letter-spacing: 0.3px;
+        color: #111111;
+        padding: 30px;
+        &::after{
+            content: " ";
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            width: 160px;
+            height: 2px;
+            background: #2E00FF;
+        }
+    }
+    p{
+        padding: 40px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        color: #000000;     
+    }
+}
+.price_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .price_box{
+        padding: 24px;
+        position: relative;
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 24px;
+        margin: 20px 20px 20px 0;
+        width: 261px;
+        height: 355px;
+        &:last-child{
+            margin-right: 0;
+        }
+        h5{
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: 0.1em;
+            color: #111111;
+        }
+        span{
+            display: inline-block;
+            font-size: 16px;
+            line-height: 16px;
+            letter-spacing: 0.1em;
+            color: #2E00FF;
+            margin-bottom: 16px;
+        }
+        .box_content{
+            position: relative;
+            margin: 20px auto;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            color: #111111;
+            width: 213px;
+            height: 142px;
+            &::before{
+                content: " ";
+                position: absolute;
+                left: 50%;
+                top: -20px;
+                transform: translateX(-50%);
+                width: 160px;
+                height: 1px;
+                background: #111111;
+            }
+        }
+        button{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 40px 0;
+            cursor: pointer;
+            background: none;
+            border: none;
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.1em;
+                color: #111111;
+            }
         }
     }
 }
@@ -421,6 +595,11 @@ $wlimit: 90%;
     }
     .section__arrowImg{
         width: 100% !important;
+    }
+}
+@media (max-width: 620px){
+    .price_container{
+        flex-direction: column !important;
     }
 }
 @media screen and (max-width: 735px) {
@@ -474,8 +653,15 @@ $wlimit: 90%;
             }
         }
     }
+    .sectionRecImg{
+            flex-direction: column !important;
+            align-items: center;
+    }
 }
 @media screen and (max-width: 950px){
+    .animated__coins{
+        display: none !important;
+    }
     .mainContent__section{
         .main__content{
             .content__bigTitle{
@@ -504,6 +690,16 @@ $wlimit: 90%;
     }
 }
 @media screen and (max-width: 1100px){
+    .dis-none{
+        display: none;
+    }
+    .cube-bg{
+        margin-top: -60px!important;
+        .container__transactionImg{
+            margin-left: 0 !important;
+        }
+        height: 620px;
+    }
     .animated__coins{
         img{
             &:first-child{
@@ -599,6 +795,7 @@ $wlimit: 90%;
     .blockContent{
         margin: 30px 0 90px 0;
         ._limit_container{
+            
             .container__flex{
                 .blockContent__content{
                     width: 544px;
