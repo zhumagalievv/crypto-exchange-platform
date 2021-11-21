@@ -22,5 +22,9 @@ body{
     main{
         flex: 1 1 auto;
     }
+    footer{
+        position:relative;
+        z-index: 1000;
+    }
     
 }
