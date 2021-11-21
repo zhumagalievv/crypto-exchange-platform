@@ -1,7 +1,5 @@
 $width: 90%;
-body{
-    overflow: hidden;
-}
+
 ._limit_container{
     overflow: hidden;
     z-index: 10;
@@ -83,6 +81,7 @@ body{
     }
     &:nth-child(2){
         margin-left: 7%;
+        margin-bottom: 150px;
     }
     &:last-child{
         margin-bottom: 150px;
