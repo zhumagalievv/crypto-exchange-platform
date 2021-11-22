@@ -1305,6 +1305,7 @@ body {
   .content-section:last-child {
     margin-bottom: 150px; }
   .content-section .section-text {
+    position: relative;
     max-width: 700px;
     margin-right: 40px; }
     .content-section .section-text h2 {
@@ -1459,5 +1460,18 @@ body {
   line-height: 12px;
   letter-spacing: 0.3px;
   color: #858484; }
+
+.footer-cube {
+  position: relative;
+  height: 250px; }
+  .footer-cube img {
+    position: absolute;
+    bottom: -100%;
+    left: 6%; }
+
+.arrow-marketplace {
+  position: absolute;
+  bottom: -100px;
+  right: 0; }
 
 /*# sourceMappingURL=style.css.map */
