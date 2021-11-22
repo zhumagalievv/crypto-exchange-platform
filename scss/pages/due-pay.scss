@@ -74,18 +74,25 @@ $width: 90%;
         }
     }
 }
+.right{
+    margin-right: 7%;
+}
+.left{
+    margin-left: 7%;
+}
 .content-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
     &:first-child{
-        margin-right: 7%;
-        margin-bottom: 150px;
+        margin-top: 0px;
     }
-    &:nth-child(2){
-        margin-left: 7%;
-        margin-bottom: 150px;
-    }
-    &:last-child{
-        margin-bottom: 150px;
-    }
+    // &:nth-child(2){
+    //     margin-left: 7%;
+    //     margin-bottom: 150px;
+    // }
+    // &:last-child{
+    //     margin-bottom: 150px;
+    // }
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -144,7 +151,7 @@ $width: 90%;
     }
 }
 .bg-arrow{
-    margin: 74px 0;
+    margin:0;
     img{
         z-index: 2;
         width: 400px;

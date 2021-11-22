@@ -1290,20 +1290,22 @@ body {
         line-height: 32px;
         letter-spacing: 0.1em; }
 
+.right {
+  margin-right: 7%; }
+
+.left {
+  margin-left: 7%; }
+
 .content-section {
+  margin-top: 150px;
+  margin-bottom: 150px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center; }
   .content-section:first-child {
-    margin-right: 7%;
-    margin-bottom: 150px; }
-  .content-section:nth-child(2) {
-    margin-left: 7%;
-    margin-bottom: 150px; }
-  .content-section:last-child {
-    margin-bottom: 150px; }
+    margin-top: 0px; }
   .content-section .section-text {
     position: relative;
     max-width: 700px;
@@ -1348,7 +1350,7 @@ body {
     height: 100%; }
 
 .bg-arrow {
-  margin: 74px 0; }
+  margin: 0; }
   .bg-arrow img {
     z-index: 2;
     width: 400px;
