@@ -997,124 +997,162 @@ body {
   color: #111111;
 }
 
-.budgeting_page {
-  width: 100%;
-  padding: 0 80px;
-}
-
-.budgeting_page .arrow-nav span {
-  margin-top: 24px;
-}
-
-.budgeting_page .arrow-nav span a {
-  text-decoration: none;
-  color: #888888;
-}
-
-.budgeting_page .arrow-nav span svg {
-  margin-top: -1px;
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-.budgeting_page .arrow-nav span:last-child a {
-  color: #111111;
-}
-
-.budgeting_page .bt-line {
-  width: 10rem;
-  border-top: 1px solid #888888;
-  margin-top: 1rem;
-}
-
-.budgeting_page .headers {
-  margin-top: 141px;
-}
-
-.budgeting_page .headers__title h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-style: normal;
+}
+
+h1 {
   font-weight: bold;
   font-size: 60px;
   line-height: 60px;
-  padding: 0 91px;
-  text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02rem;
+  /* Blue */
   color: #3e1bdb;
 }
 
-.budgeting_page .headers__title h2 {
-  font-style: normal;
+h2 {
   font-weight: normal;
   font-size: 16px;
   line-height: 32px;
   /* or 200% */
-  margin-top: 38px;
-  padding: 0 276px;
-  text-align: center;
   letter-spacing: 0.1em;
   /* Black */
   color: #111111;
 }
 
-.budgeting_page .headers__bg-img img {
-  width: 100%;
-  margin-top: -130px;
-}
-
-.budgeting_page .headers h3 {
-  margin: 160px 260px 0;
-  font-style: normal;
+h3 {
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
+  letter-spacing: 0.3px;
+  /* Blue */
+  color: #3e1bdb;
+}
+
+h4,
+h5 {
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  /* Black */
+  color: #111111;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #111111;
+}
+
+.bt-line {
+  width: 10rem;
+}
+
+.budgeting-page {
+  background-image: url("../media/img/budget_page/bg_figures.svg"), url("../media/img/budget_page/bg_figures.svg"), url("../media/img/budget_page/cube.svg");
+  background-repeat: no-repeat;
+  background-position-x: 4%, 18%, 14%;
+  background-position-y: 43%, 73%, 105.5%;
+}
+
+.budgeting-page .budgeting-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.budgeting-page .sub-navigation {
+  margin-bottom: 124px;
+}
+
+.budgeting-page .sub-navigation__container {
+  margin-bottom: 16px;
+}
+
+.budgeting-page .sub-navigation__item {
+  margin-top: 24px;
+}
+
+.budgeting-page .sub-navigation__item a {
+  text-decoration: none;
+  color: #888888;
+}
+
+.budgeting-page .sub-navigation__item svg {
+  margin-top: -1px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.budgeting-page .sub-navigation__item:last-child a {
+  color: #111111;
+}
+
+.budgeting-page .sub-navigation .bt-line {
+  border-top: 1px solid #888888;
+}
+
+.budgeting-page .headers {
+  margin-bottom: 161px;
   text-align: center;
-  letter-spacing: 0.3px;
-  color: #3e1bdb;
+  margin: 0 auto;
 }
 
-.budgeting_page .analytics {
-  margin-top: 64px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+.budgeting-page .headers__container {
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
-.budgeting_page .analytics__desc {
+.budgeting-page .headers__main-title {
+  margin: 0 91px 37px;
+}
+
+.budgeting-page .headers__sub-title {
+  margin: 0 286px;
+}
+
+.budgeting-page .headers__img img {
+  width: 100%;
+  top: -130px;
+  position: relative;
+}
+
+.budgeting-page .intro-text {
   width: 50%;
+  margin: 0 auto 61px;
+  text-align: center;
 }
 
-.budgeting_page .analytics__desc h4,
-.budgeting_page .analytics__desc h5 {
-  font-style: normal;
-  letter-spacing: 0.3px;
-  line-height: 24px;
-  /* Black */
-  color: #111111;
+.budgeting-page .analytics {
+  margin-bottom: 176px;
 }
 
-.budgeting_page .analytics__desc h4 {
-  font-weight: bold;
-  font-size: 24px;
+.budgeting-page .analytics__desc {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
-.budgeting_page .analytics__desc .bt-line {
-  border-color: #111111;
+.budgeting-page .analytics__img {
+  text-align: end;
 }
 
-.budgeting_page .analytics__desc h5 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+.budgeting-page .analytics__title {
+  margin-bottom: 19px;
+}
+
+.budgeting-page .analytics .bt-line {
+  border-top: 1px solid #111111;
+}
+
+.budgeting-page .analytics__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1125,71 +1163,38 @@ body {
   margin-top: 83px;
 }
 
-.budgeting_page .analytics__desc h5 span:not(:last-child) {
+.budgeting-page .analytics__text span:not(:last-child) {
   margin-bottom: 24px;
 }
 
-.budgeting_page .analytics__desc h5 i {
+.budgeting-page .analytics__text i {
   color: #3e1bdb;
   padding-right: 10px;
 }
 
-.budgeting_page .analytics__img {
-  width: 40%;
+.budgeting-page .charts {
+  margin-bottom: 163px;
 }
 
-.budgeting_page .analytics__img img {
-  width: 100%;
+.budgeting-page .charts__desc {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
-.budgeting_page .bg_figure {
-  position: absolute;
-  z-index: -1;
+.budgeting-page .charts__img {
+  text-align: start;
 }
 
-.budgeting_page .charts {
-  margin-top: 258px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+.budgeting-page .charts__title {
+  margin-bottom: 19px;
 }
 
-.budgeting_page .charts__desc {
-  width: 50%;
+.budgeting-page .charts .bt-line {
+  border-top: 1px solid #111111;
 }
 
-.budgeting_page .charts__desc h4,
-.budgeting_page .charts__desc h5 {
-  font-style: normal;
-  letter-spacing: 0.3px;
-  line-height: 24px;
-  /* Black */
-  color: #111111;
-}
-
-.budgeting_page .charts__desc h4 {
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.budgeting_page .charts__desc .bt-line {
-  border-color: #111111;
-}
-
-.budgeting_page .charts__desc h5 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+.budgeting-page .charts__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1200,69 +1205,47 @@ body {
   margin-top: 83px;
 }
 
-.budgeting_page .charts__desc h5 span:not(:last-child) {
+.budgeting-page .charts__text span:not(:last-child) {
   margin-bottom: 24px;
 }
 
-.budgeting_page .charts__desc h5 i {
+.budgeting-page .charts__text i {
   color: #3e1bdb;
   padding-right: 10px;
 }
 
-.budgeting_page .charts__img {
-  width: 40%;
+.budgeting-page .notifications {
+  margin-bottom: 162px;
 }
 
-.budgeting_page .charts__img img {
-  width: 100%;
+.budgeting-page .notifications__desc {
+  padding-bottom: 130px;
 }
 
-.budgeting_page .notifications {
-  margin-top: 174px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: unset;
-      -ms-flex-align: unset;
-          align-items: unset;
+.budgeting-page .notifications__img {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
-.budgeting_page .notifications__desc {
-  width: 50%;
+.budgeting-page .notifications__desc {
+  -ms-flex-item-align: unset;
+      -ms-grid-row-align: unset;
+      align-self: unset;
 }
 
-.budgeting_page .notifications__desc h4,
-.budgeting_page .notifications__desc h5 {
-  font-style: normal;
-  letter-spacing: 0.3px;
-  line-height: 24px;
-  /* Black */
-  color: #111111;
+.budgeting-page .notifications__img {
+  text-align: center;
 }
 
-.budgeting_page .notifications__desc h4 {
-  font-weight: bold;
-  font-size: 24px;
+.budgeting-page .notifications__title {
+  margin-bottom: 19px;
 }
 
-.budgeting_page .notifications__desc .bt-line {
-  border-color: #111111;
+.budgeting-page .notifications .bt-line {
+  border-top: 1px solid #111111;
 }
 
-.budgeting_page .notifications__desc h5 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+.budgeting-page .notifications__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1273,28 +1256,41 @@ body {
   margin-top: 83px;
 }
 
-.budgeting_page .notifications__desc h5 span:not(:last-child) {
+.budgeting-page .notifications__text span:not(:last-child) {
   margin-bottom: 24px;
 }
 
-.budgeting_page .notifications__desc h5 i {
+.budgeting-page .notifications__text i {
   color: #3e1bdb;
   padding-right: 10px;
 }
 
-.budgeting_page .notifications__img {
-  width: 30%;
+.budgeting-page .conclusion {
+  margin-bottom: 500px;
 }
 
-.budgeting_page .notifications__img img {
-  width: 100%;
+.budgeting-page .conclusion__left {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
-.budgeting_page .notifications__img {
-  margin-right: 110px;
+.budgeting-page .conclusion__left h4 {
+  color: #111111;
+  margin-bottom: 24px;
 }
 
-.budgeting_page .notifications__img img {
-  padding-top: 90px;
+.budgeting-page .conclusion__left .bt-line {
+  border-top: 2px solid #111111;
+  margin-bottom: 82px;
+}
+
+.budgeting-page .conclusion__right h4 {
+  color: #3e1bdb;
+  margin-bottom: 22px;
+}
+
+.budgeting-page .conclusion__right h5:not(:last-child) {
+  margin-bottom: 42px;
 }
 /*# sourceMappingURL=style.css.map */

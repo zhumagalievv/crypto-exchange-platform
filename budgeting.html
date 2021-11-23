@@ -21,7 +21,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="test.css">
-    <title>Document</title>
+    <title>Budget</title>
 </head>
 
 <body>
@@ -52,136 +52,170 @@
             </div>
         </header>
 
-        <main class="budgeting_page">
-
-            <div class="arrow-nav">
-                <span id="home"> <a href="#">Home</a> </span>
-                <span id="private">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
-                            fill="#888888" />
-                    </svg>
-                    <a href="#">Private</a>
-                </span>
-                <span id="feautures">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
-                            fill="#888888" />
-                    </svg>
-                    <a href="#">Features</a>
-                </span>
-                <span id="account">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
-                            fill="#888888" />
-                    </svg>
-                    <a href="#">Account</a>
-                </span>
-                <span id="budgeting">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
-                            fill="#111111" />
-                    </svg>
-                    <a href="#">Budgeting</a>
-                </span>
-            </div>
-            <div class="bt-line"></div>
-
-            <section class="headers">
-                <div class="headers__title">
-                    <h1>Track your spendings, budget right and spend right</h1>
-                    <h2>Follow your spending pattern and budget smarter with our analytics and reporting tools
-                        in real
-                        time</h2>
-                </div>
-                <div class="headers__bg-img">
-                    <img src="./media/img/headers_img.svg" alt="Background image">
-                </div>
-                <h3>SnowLeopard will always keep you updated on your finances </h3>
-            </section>
-
-
-            <section class="analytics">
-                <div class="analytics__desc">
-                    <h4>
-                        Better financial decisions with smart analytics
-                    </h4>
-                    <div class="bt-line"></div>
-                    <h5>
-                        <span><i class="fas fa-check"></i>Smart automated grouping of your spendings</span>
-                        <span><i class="fas fa-check"></i>We evaluate your spending to give you predictions and
-                            tips on better financial planning</span>
-                        <span><i class="fas fa-check"></i>At the end of each month you will get monthly spending
-                            summaries</span>
-                    </h5>
-                </div>
-                <div class="analytics__img">
-                    <img src="./media/img/analytics.svg" alt="analytics">
-                </div>
-            </section>
-
-
-            <div class="bg_figure">
-                <img src="./media/img/bg_figures.svg" alt="figure">
-            </div>
-
-            <section class="charts">
-                <div class="charts__img">
-                    <img src="./media/img/charts.svg" alt="charts">
-                </div>
-
-                <div class="charts__desc">
-                    <h4>
-                        Smart budgeting
-                    </h4>
-                    <div class="bt-line"></div>
-                    <h5>
-                        <span><i class="fas fa-check"></i>You can set up a monthly budget, and we will calculate your
-                            personal daily
-                            spending limit, to help you stay on track</span>
-                        <span><i class="fas fa-check"></i>You can also customize you daily spending limit in regards to
-                            your
-                            preferences
+        <main class="budgeting-page">
+            <div class="budgeting-container">
+                <section class="sub-navigation">
+                    <div class="sub-navigation__container">
+                        <span class="sub-navigation__item" id="home"> <a href="#">Home</a> </span>
+                        <span class="sub-navigation__item" id="private">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                                    fill="#888888" />
+                            </svg>
+                            <a href="#">Private</a>
                         </span>
-                    </h5>
-                </div>
-            </section>
-
-            <section class="notifications">
-                <div class="notifications__desc">
-                    <h4>
-                        Daily alerts and notifications to keep
-                        you right on track
-                    </h4>
-                    <div class="bt-line"></div>
-                    <h5>
-                        <span>Get buzzed when getting closer to your daily spending limit</span>
-                        <span>You will get notification on your daily spendings
+                        <span class="sub-navigation__item" id="feautures">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                                    fill="#888888" />
+                            </svg>
+                            <a href="#">Features</a>
                         </span>
-                    </h5>
-                </div>
-                <div class="notifications__img">
-                    <img src="./media/img/notifications.svg" alt="Analytics">
-                </div>
-            </section>
-            <div class="bg_figures">
-                <img src="./media/img/cube.svg" alt="figures">
+                        <span class="sub-navigation__item" id="account">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                                    fill="#888888" />
+                            </svg>
+                            <a href="#">Account</a>
+                        </span>
+                        <span class="sub-navigation__item" id="budgeting">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                                    fill="#111111" />
+                            </svg>
+                            <a href="#">Budgeting</a>
+                        </span>
+                    </div>
+                    <div class="bt-line"></div>
+                </section>
+
+
+                <section class="headers">
+                    <div class="headers__container">
+                        <h1 class="headers__main-title">Track your spendings, budget right and spend right
+                        </h1>
+                        <h2 class="headers__sub-title">Follow your spending pattern and budget smarter with our
+                            analytics
+                            and
+                            reporting tools
+                            in real
+                            time</h2>
+                        <div class="headers__img">
+                            <img src="./media/img/budget_page/headers_img.svg" alt="Headers image">
+                        </div>
+                    </div>
+                </section>
+
+                <h3 class="intro-text">SnowLeopard will always keep you updated on your finances </h3>
+
+
+                <section class="analytics">
+                    <div class="row w-100 analytics__container">
+                        <div class="col-sm-12 col-md-6 analytics__desc">
+                            <h4 class="analytics__title">
+                                Better financial decisions with smart analytics
+                            </h4>
+                            <div class="bt-line"></div>
+                            <h5 class="analytics__text">
+                                <span><i class="fas fa-check"></i>Smart automated grouping of your spendings</span>
+                                <span><i class="fas fa-check"></i>We evaluate your spending to give you predictions and
+                                    tips on better financial planning</span>
+                                <span><i class="fas fa-check"></i>At the end of each month you will get monthly spending
+                                    summaries</span>
+                            </h5>
+                        </div>
+                        <div class="col-sm-12 col-md-6 analytics__img">
+                            <img src="./media/img/budget_page/analytics.svg" alt="analytics">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 
+                <div class="bg-figure">
+                    <img src="./media/img/budget_page/bg_figures.svg" alt="figure">
+                </div> -->
+
+                <section class="charts">
+                    <div class="row charts__container">
+
+                        <div class="col-sm-12 col-md-6 charts__img">
+                            <img src="./media/img/budget_page/charts.svg" alt="charts">
+                        </div>
+
+                        <div class="col-md-6 charts__desc">
+                            <h4 class="charts__title">
+                                Smart budgeting
+                            </h4>
+                            <div class="bt-line"></div>
+                            <h5 class="charts__text">
+                                <span><i class="fas fa-check"></i>You can set up a monthly budget, and we will calculate
+                                    your
+                                    personal daily
+                                    spending limit, to help you stay on track</span>
+                                <span><i class="fas fa-check"></i>You can also customize you daily spending limit in
+                                    regards to
+                                    your
+                                    preferences
+                                </span>
+                            </h5>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="notifications">
+                    <div class="row w-100 notification__container">
+                        <div class="col-sm-12 col-md-6 notifications__desc">
+                            <h4 class="notifications__title">
+                                Daily alerts and notifications to keep
+                                you right on track
+                            </h4>
+                            <div class="bt-line"></div>
+                            <h5 class="notifications__text">
+                                <span><i class="fas fa-check"></i>Get buzzed when getting closer to your daily spending
+                                    limit</span>
+                                <span><i class="fas fa-check"></i>You will get notification on your daily spendings
+                                </span>
+                            </h5>
+                        </div>
+                        <div class="col-sm-12 col-md-6 notifications__img">
+                            <img src="./media/img/budget_page/notifications.svg" alt="Notifications">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- <div class="bg-figure">
+                    <img src="./media/img/budget_page/bg_figures.svg" alt="figure">
+                </div> -->
+
+                <section class="conclusion">
+                    <div class="row w-100 conclusion__container">
+                        <div class="col-sm-12 col-md-6 conclusion__left">
+                            <h4>How to get started?</h4>
+                            <div class="bt-line"></div>
+                            <h5>Manage your money and keep track of your spendings with SnowLeopard</h5>
+                        </div>
+                        <div class="col-sm-12 col-md-6 conclusion__right">
+                            <h4>1. Get the SnowLeopard App</h4>
+                            <h5>Download SnowLeopard App on your iOS or Android device</h5>
+                            <h4>2. Open the Budget and Analytics tab</h4>
+                            <h5>Set up a budget for different payments and categories</h5>
+                            <h4>3. Manage your money</h4>
+                            <h5>Follow your spending pattern for better understanding and smart budgeting
+                            </h5>
+                        </div>
+                    </div>
+                </section>
+
             </div>
 
-            <section class="conclusion">
-                <div class="conclusion__text">
-
-                </div>
-                <div class="conclusion__desc">
-                    
-                </div>
-            </section>
-
-            <div class="bg_cub"></div>
 
         </main>
 
