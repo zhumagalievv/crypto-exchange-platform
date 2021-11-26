@@ -1374,32 +1374,32 @@ body {
 
 .stocks-page .headers .stock-tokens img:first-child {
   left: 0;
-  top: -7%;
+  top: -13%;
 }
 
 .stocks-page .headers .stock-tokens img:nth-child(2) {
   left: 7%;
-  top: 25%;
+  top: 55%;
 }
 
 .stocks-page .headers .stock-tokens img:nth-child(3) {
-  left: 22%;
-  top: 50%;
+  left: 24%;
+  top: 110%;
 }
 
 .stocks-page .headers .stock-tokens img:nth-child(4) {
   right: 0;
-  top: -7%;
+  top: -13%;
 }
 
 .stocks-page .headers .stock-tokens img:nth-child(5) {
   right: 7%;
-  top: 25%;
+  top: 55%;
 }
 
 .stocks-page .headers .stock-tokens img:nth-child(6) {
-  right: 22%;
-  top: 50%;
+  right: 24%;
+  top: 110%;
 }
 
 .stocks-page .intro__title {
@@ -1494,7 +1494,7 @@ body {
 }
 
 .stocks-page .global-comp {
-  margin-bottom: 256px;
+  margin-bottom: 160px;
 }
 
 .stocks-page .global-comp__desc {
