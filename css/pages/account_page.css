@@ -5,11 +5,18 @@
   background-position-x: center;
   background-position-y: bottom; }
 
+.account_page_body {
+  height: 100%;
+  background-image: url("../media/img/bg-element-cube.svg");
+  background-position-x: 25%;
+  background-repeat: no-repeat;
+  background-position-y: 98%; }
+
 .account_page {
-  background-image: url("../media/img/bg-element.svg"), url("../media/img/bg-element-cube.svg");
-  background-repeat: no-repeat,no-repeat;
-  background-position-x: 7%, 25%;
-  background-position-y: 80%, 120%;
+  background-image: url("../media/img/bg-element.svg");
+  background-repeat: no-repeat;
+  background-position-x: 7%;
+  background-position-y: 75%;
   color: #111111; }
   .account_page ._limit_container {
     width: 90%;
