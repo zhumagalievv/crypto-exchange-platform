@@ -1,4 +1,4 @@
-@import url(~mdb-ui-kit/css/mdb.min.css);
+@charset "UTF-8";
 .mainContent__section {
   position: relative;
   width: 100%;
@@ -1652,5 +1652,361 @@ h2 {
     text-align: center; }
   .cub_page .money_security .block_pos .block_img {
     text-align: center; }
+
+@forward 'utils/mixins';
+.bt-line {
+  width: 10rem; }
+
+.headers {
+  margin-bottom: 161px;
+  text-align: center;
+  margin: 0 auto; }
+  .headers__container {
+    max-width: 1300px;
+    margin: 0 auto; }
+  .headers__main-title {
+    margin: 0 91px 37px; }
+  .headers__sub-title {
+    margin: 0 286px; }
+  .headers__img #budget_img {
+    max-width: 100%;
+    top: -130px;
+    position: relative; }
+
+._limit_container, footer .copyright {
+  width: 90%;
+  margin: 0 auto; }
+
+.sub-navigation {
+  margin-bottom: 124px;
+  margin-top: 50px; }
+  .sub-navigation__container {
+    margin-bottom: 16px; }
+  .sub-navigation__item {
+    margin-top: 24px; }
+    .sub-navigation__item a {
+      text-decoration: none;
+      color: #888888; }
+    .sub-navigation__item svg {
+      margin-top: -1px;
+      margin-left: 8px;
+      margin-right: 8px; }
+    .sub-navigation__item:last-child a {
+      color: #111111; }
+  .sub-navigation .bt-line {
+    border-top: 1px solid #888888; }
+
+.budgeting-page {
+  background-image: url("../media/img/budget_page/bg_figures.svg"), url("../media/img/budget_page/bg_figures.svg"), url("../media/img/budget_page/cube.svg");
+  background-repeat: no-repeat;
+  background-position-x: 4%, 18%, 14%;
+  background-position-y: 43%, 73%, 105.5%; }
+  .budgeting-page h1,
+  .budgeting-page h2,
+  .budgeting-page h3,
+  .budgeting-page h4,
+  .budgeting-page h5 {
+    font-style: normal; }
+  .budgeting-page h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0.02rem;
+    /* Blue */
+    color: #3e1bdb; }
+  .budgeting-page h2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    letter-spacing: 0.1em;
+    /* Black */
+    color: #111111; }
+  .budgeting-page h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.3px;
+    /* Blue */
+    color: #3e1bdb; }
+  .budgeting-page h4,
+  .budgeting-page h5 {
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    /* Black */
+    color: #111111; }
+  .budgeting-page h4 {
+    font-size: 24px;
+    font-weight: bold; }
+  .budgeting-page h5 {
+    font-weight: normal;
+    font-size: 16px;
+    color: #111111; }
+  .budgeting-page .intro-text {
+    width: 50%;
+    margin: 0 auto 61px;
+    text-align: center; }
+  .budgeting-page .analytics {
+    margin-bottom: 176px; }
+    .budgeting-page .analytics__desc {
+      align-self: center; }
+    .budgeting-page .analytics__img {
+      text-align: end; }
+    .budgeting-page .analytics__title {
+      margin-bottom: 19px; }
+    .budgeting-page .analytics .bt-line {
+      border-top: 1px solid #111111; }
+    .budgeting-page .analytics__text {
+      display: flex;
+      flex-direction: column;
+      margin-top: 83px; }
+      .budgeting-page .analytics__text span:not(:last-child) {
+        margin-bottom: 24px; }
+      .budgeting-page .analytics__text i {
+        color: #3e1bdb;
+        padding-right: 10px; }
+  .budgeting-page .charts {
+    margin-bottom: 163px; }
+    .budgeting-page .charts__desc {
+      align-self: center; }
+    .budgeting-page .charts__img {
+      text-align: start; }
+    .budgeting-page .charts__title {
+      margin-bottom: 19px; }
+    .budgeting-page .charts .bt-line {
+      border-top: 1px solid #111111; }
+    .budgeting-page .charts__text {
+      display: flex;
+      flex-direction: column;
+      margin-top: 83px; }
+      .budgeting-page .charts__text span:not(:last-child) {
+        margin-bottom: 24px; }
+      .budgeting-page .charts__text i {
+        color: #3e1bdb;
+        padding-right: 10px; }
+  .budgeting-page .notifications {
+    margin-bottom: 162px; }
+    .budgeting-page .notifications__desc {
+      padding-bottom: 130px; }
+    .budgeting-page .notifications__img {
+      align-self: flex-end; }
+    .budgeting-page .notifications__desc {
+      align-self: unset; }
+    .budgeting-page .notifications__img {
+      text-align: center; }
+    .budgeting-page .notifications__title {
+      margin-bottom: 19px; }
+    .budgeting-page .notifications .bt-line {
+      border-top: 1px solid #111111; }
+    .budgeting-page .notifications__text {
+      display: flex;
+      flex-direction: column;
+      margin-top: 83px; }
+      .budgeting-page .notifications__text span:not(:last-child) {
+        margin-bottom: 24px; }
+      .budgeting-page .notifications__text i {
+        color: #3e1bdb;
+        padding-right: 10px; }
+  .budgeting-page .conclusion {
+    margin-bottom: 500px; }
+    .budgeting-page .conclusion__left {
+      align-self: center; }
+      .budgeting-page .conclusion__left h4 {
+        color: #111111;
+        margin-bottom: 24px; }
+      .budgeting-page .conclusion__left .bt-line {
+        border-top: 2px solid #111111;
+        margin-bottom: 82px; }
+    .budgeting-page .conclusion__right h4 {
+      color: #3e1bdb;
+      margin-bottom: 22px; }
+    .budgeting-page .conclusion__right h5:not(:last-child) {
+      margin-bottom: 42px; }
+
+@forward 'pages/budgeting';
+@forward 'utils/mixins';
+.stocks-page {
+  background-image: url("../media/img/stocks_page/triangle3.svg"), url("../media/img/budget_page/bg_figures.svg");
+  background-repeat: no-repeat;
+  background-position-x: 79%, 28.5%;
+  background-position-y: 51%, 93.5%; }
+  .stocks-page h1,
+  .stocks-page h2,
+  .stocks-page h3,
+  .stocks-page h4,
+  .stocks-page h5 {
+    font-style: normal; }
+  .stocks-page h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0.02rem;
+    /* Blue */
+    color: #3e1bdb; }
+  .stocks-page h2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    letter-spacing: 0.1em;
+    /* Black */
+    color: #111111; }
+  .stocks-page h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.3px;
+    /* Blue */
+    color: #3e1bdb; }
+  .stocks-page h4,
+  .stocks-page h5 {
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    /* Black */
+    color: #111111; }
+  .stocks-page h4 {
+    font-size: 24px;
+    font-weight: bold; }
+  .stocks-page h5 {
+    font-weight: normal;
+    font-size: 16px;
+    color: #111111; }
+  .stocks-page .headers {
+    position: relative; }
+    .stocks-page .headers__container {
+      margin-bottom: 257px; }
+    .stocks-page .headers .stock-tokens img {
+      position: absolute; }
+      .stocks-page .headers .stock-tokens img:first-child {
+        left: 0;
+        top: -13%; }
+      .stocks-page .headers .stock-tokens img:nth-child(2) {
+        left: 7%;
+        top: 55%; }
+      .stocks-page .headers .stock-tokens img:nth-child(3) {
+        left: 24%;
+        top: 110%; }
+      .stocks-page .headers .stock-tokens img:nth-child(4) {
+        right: 0;
+        top: -13%; }
+      .stocks-page .headers .stock-tokens img:nth-child(5) {
+        right: 7%;
+        top: 55%; }
+      .stocks-page .headers .stock-tokens img:nth-child(6) {
+        right: 24%;
+        top: 110%; }
+  .stocks-page .intro__title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height */
+    letter-spacing: 0.3px;
+    color: #111111;
+    margin-bottom: 80px; }
+  .stocks-page .commision-free {
+    margin-bottom: 160px; }
+    .stocks-page .commision-free__desc h4 {
+      color: #3e1bdb;
+      font-size: 24px;
+      margin-bottom: 16px; }
+    .stocks-page .commision-free__desc .bt-line {
+      border-top: 2px solid #111111;
+      margin-bottom: 40px;
+      width: 20rem; }
+    .stocks-page .commision-free__desc .buy_and_sell {
+      margin-bottom: 24.4px; }
+    .stocks-page .commision-free__desc ul li {
+      list-style-type: none;
+      position: relative;
+      /* It's needed for setting position to absolute in the next rule. */
+      margin-bottom: 24px; }
+    .stocks-page .commision-free__desc ul li::before {
+      content: '•';
+      position: absolute;
+      left: -0.8em;
+      /* Adjust this value so that it appears where you want. */
+      font-size: .9em;
+      /* Adjust this value so that it appears what size you want. */ }
+    .stocks-page .commision-free__desc a {
+      font-family: "DM Sans";
+      font-size: 24px;
+      line-height: 117%;
+      /* or 28px */
+      letter-spacing: -0.03em;
+      /* Black */
+      color: #111111;
+      margin-right: 60px; }
+      .stocks-page .commision-free__desc a i {
+        font-size: 2rem;
+        margin-left: 8px; }
+    .stocks-page .commision-free__desc a:hover {
+      text-decoration: none; }
+    .stocks-page .commision-free__img {
+      align-self: center;
+      display: flex; }
+      .stocks-page .commision-free__img .cross-img {
+        align-self: end; }
+        .stocks-page .commision-free__img .cross-img img {
+          padding-bottom: 30px; }
+      .stocks-page .commision-free__img .profile-img {
+        flex: 1;
+        text-align: center; }
+  .stocks-page .global-comp {
+    margin-bottom: 160px; }
+    .stocks-page .global-comp__desc {
+      align-self: center; }
+    .stocks-page .global-comp__img {
+      text-align: center; }
+    .stocks-page .global-comp__title {
+      margin-bottom: 19px; }
+    .stocks-page .global-comp .bt-line {
+      border-top: 1px solid #111111; }
+    .stocks-page .global-comp__text {
+      display: flex;
+      flex-direction: column;
+      margin-top: 83px; }
+      .stocks-page .global-comp__text span:not(:last-child) {
+        margin-bottom: 24px; }
+      .stocks-page .global-comp__text i {
+        color: #3e1bdb;
+        padding-right: 10px; }
+    .stocks-page .global-comp__title {
+      color: #3e1bdb; }
+    .stocks-page .global-comp .bt-line {
+      width: 20rem;
+      border-top: 2px solid #111111; }
+  .stocks-page .zoom {
+    margin-bottom: 80px; }
+    .stocks-page .zoom__desc {
+      align-self: center; }
+    .stocks-page .zoom__img {
+      text-align: center; }
+    .stocks-page .zoom__title {
+      margin-bottom: 19px; }
+    .stocks-page .zoom .bt-line {
+      border-top: 1px solid #111111; }
+    .stocks-page .zoom__text {
+      display: flex;
+      flex-direction: column;
+      margin-top: 83px; }
+      .stocks-page .zoom__text span:not(:last-child) {
+        margin-bottom: 24px; }
+      .stocks-page .zoom__text i {
+        color: #3e1bdb;
+        padding-right: 10px; }
+    .stocks-page .zoom__title {
+      color: #3e1bdb; }
+    .stocks-page .zoom .bt-line {
+      width: 20rem;
+      border-top: 2px solid #111111; }
+  .stocks-page .bt-desc {
+    margin-bottom: 80px; }
+    .stocks-page .bt-desc__text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 12px;
+      letter-spacing: 0.3px;
+      color: #888888; }
 
 /*# sourceMappingURL=style.css.map */
