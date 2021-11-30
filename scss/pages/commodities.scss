@@ -74,26 +74,26 @@
         }
     }
     .section-item2{
-        ul{
-            padding: 0;
-            li{
-                list-style-type: none;
-                h2{
-                    font-weight: bold;
-                    font-size: 24px;
-                    line-height: 24px;
-                    letter-spacing: 0.3px;
-                    color: #3E1BDB;
-                }
-                p{
-                    margin-bottom: 40px;
-                    margin-top: 24px;
-                    font-size: 16px;
-                    line-height: 24px;
-                    letter-spacing: 0.3px;
-                    color: #111111;
-                }
-            }
+        .section-item2-list{
+                    padding: 0;
+                    li{
+                        list-style-type: none;
+                        .list-header{
+                            font-weight: bold;
+                            font-size: 24px !important;
+                            line-height: 24px !important;
+                            letter-spacing: 0.3px !important;
+                            color: #3E1BDB;
+                        }
+                        p{
+                            margin-bottom: 40px;
+                            margin-top: 24px;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.3px;
+                            color: #111111;
+                        }
+                    }
         }
     }
 }

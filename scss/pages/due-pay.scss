@@ -81,8 +81,8 @@ $width: 90%;
     margin-left: 7%;
 }
 .content-section{
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 120px;
+    margin-bottom: 120px;
     &:first-child{
         margin-top: 0px;
     }
@@ -102,30 +102,6 @@ $width: 90%;
         position: relative;
         max-width: 700px;
         margin-right: 40px;
-        h2{
-            margin-bottom: 80px;
-            position: relative;
-            font-weight: bold;
-            font-size: 30px;
-            line-height: 30px;
-            letter-spacing: 0.3px;
-            color: #111111;
-            padding: 16px 0;
-            &:after{
-                position: absolute;
-                content: " ";
-                width: 160px;
-                height: 1px;
-                background: #888888;
-                bottom: 0;
-                left: 0;
-            }
-        }
-        .blue-text-underline{
-            color: #3E1BDB;
-            font-size: 24px;
-            line-height: 24px;
-        }
         span{
             display: inline-block;
             margin: 0 0 40px 0;
@@ -149,6 +125,30 @@ $width: 90%;
             height: 100%;
         }
     }
+}
+h2{
+    margin-bottom: 80px;
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #111111;
+    padding: 16px 0;
+    &:after{
+        position: absolute;
+        content: " ";
+        width: 160px;
+        height: 1px;
+        background: #888888;
+        bottom: 0;
+        left: 0;
+    }
+}
+.blue-text-underline{
+    color: #3E1BDB;
+    font-size: 24px;
+    line-height: 24px;
 }
 .bg-arrow{
     margin:0;
