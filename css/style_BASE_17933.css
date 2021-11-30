@@ -1159,7 +1159,6 @@ body {
   .wrapper header {
     background: white; }
   .wrapper main {
-    position: relative;
     flex: 1 1 auto; }
   .wrapper footer {
     position: relative;
@@ -1172,18 +1171,11 @@ body {
   background-position-x: center;
   background-position-y: bottom; }
 
-.account_page_body {
-  height: 100%;
-  background-image: url("../media/img/bg-element-cube.svg");
-  background-position-x: 25%;
-  background-repeat: no-repeat;
-  background-position-y: 98%; }
-
 .account_page {
-  background-image: url("../media/img/bg-element.svg");
-  background-repeat: no-repeat;
-  background-position-x: 7%;
-  background-position-y: 75%;
+  background-image: url("../media/img/bg-element.svg"), url("../media/img/bg-element-cube.svg");
+  background-repeat: no-repeat,no-repeat;
+  background-position-x: 7%, 25%;
+  background-position-y: 80%, 120%;
   color: #111111; }
   .account_page ._limit_container, .account_page footer .copyright, footer .account_page .copyright {
     width: 90%;
@@ -1305,8 +1297,8 @@ body {
   margin-left: 7%; }
 
 .content-section {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 150px;
+  margin-bottom: 150px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1318,6 +1310,27 @@ body {
     position: relative;
     max-width: 700px;
     margin-right: 40px; }
+    .content-section .section-text h2 {
+      margin-bottom: 80px;
+      position: relative;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 30px;
+      letter-spacing: 0.3px;
+      color: #111111;
+      padding: 16px 0; }
+      .content-section .section-text h2:after {
+        position: absolute;
+        content: " ";
+        width: 160px;
+        height: 1px;
+        background: #888888;
+        bottom: 0;
+        left: 0; }
+    .content-section .section-text .blue-text-underline {
+      color: #3E1BDB;
+      font-size: 24px;
+      line-height: 24px; }
     .content-section .section-text span {
       display: inline-block;
       margin: 0 0 40px 0;
@@ -1335,29 +1348,6 @@ body {
   .content-section .section-img img {
     width: 100%;
     height: 100%; }
-
-h2 {
-  margin-bottom: 80px;
-  position: relative;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 30px;
-  letter-spacing: 0.3px;
-  color: #111111;
-  padding: 16px 0; }
-  h2:after {
-    position: absolute;
-    content: " ";
-    width: 160px;
-    height: 1px;
-    background: #888888;
-    bottom: 0;
-    left: 0; }
-
-.blue-text-underline {
-  color: #3E1BDB;
-  font-size: 24px;
-  line-height: 24px; }
 
 .bg-arrow {
   margin: 0; }
@@ -1448,17 +1438,17 @@ h2 {
       line-height: 24px;
       letter-spacing: 0.3px;
       color: #111111; }
-  .section-snowL-app .section-item2 .section-item2-list {
+  .section-snowL-app .section-item2 ul {
     padding: 0; }
-    .section-snowL-app .section-item2 .section-item2-list li {
+    .section-snowL-app .section-item2 ul li {
       list-style-type: none; }
-      .section-snowL-app .section-item2 .section-item2-list li .list-header {
+      .section-snowL-app .section-item2 ul li h2 {
         font-weight: bold;
-        font-size: 24px !important;
-        line-height: 24px !important;
-        letter-spacing: 0.3px !important;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
         color: #3E1BDB; }
-      .section-snowL-app .section-item2 .section-item2-list li p {
+      .section-snowL-app .section-item2 ul li p {
         margin-bottom: 40px;
         margin-top: 24px;
         font-size: 16px;
@@ -1485,172 +1475,5 @@ h2 {
   position: absolute;
   bottom: -100px;
   right: 0; }
-
-.card-img {
-  margin: 30px auto;
-  max-width: 900px;
-  max-height: 530px; }
-  .card-img img {
-    width: 100%;
-    height: 100%; }
-
-.card-section-list {
-  margin-top: 50px;
-  padding: 20px 0;
-  box-sizing: border-box; }
-
-.card-list {
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap; }
-  .card-list li {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    max-width: 350px;
-    list-style-type: none;
-    list-style-image: url("../../media/img/01.svg"); }
-    .card-list li h3 {
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 24px;
-      letter-spacing: 0.3px;
-      color: #111111;
-      margin-bottom: 20px; }
-    .card-list li p {
-      font-size: 16px;
-      line-height: 24px;
-      letter-spacing: 0.3px;
-      color: #111111; }
-
-.price_box {
-  background: white; }
-
-.section-img {
-  position: relative; }
-
-.arrow-card-img {
-  position: absolute;
-  top: 120%; }
-
-.price_container {
-  z-index: 10;
-  position: relative; }
-
-.cards-cube2 {
-  z-index: 1;
-  position: absolute;
-  left: 17%;
-  bottom: 0;
-  height: 250px; }
-  .cards-cube2 .card_cube__block {
-    position: relative; }
-    .cards-cube2 .card_cube__block img {
-      max-width: 610px;
-      max-height: 580px; }
-
-.margin-bottom {
-  height: 180px; }
-
-.title-bg {
-  background-image: url("../media/img/cub_page_img_overview.svg");
-  background-repeat: no-repeat;
-  background-size: 95%;
-  background-position-x: center;
-  background-position-y: bottom; }
-
-.cub_page_body {
-  height: 100%;
-  background-image: url("../media/img/bg-element-cube.svg");
-  background-position-x: -12%;
-  background-repeat: no-repeat;
-  background-position-y: 92%; }
-
-.cub_page {
-  background-image: url("../media/img/cub_page_bg1.svg"), url("../media/img/cub_page_bg2.svg");
-  background-repeat: no-repeat ,no-repeat;
-  background-position-x: 50%,90%;
-  background-position-y: 61%,80%;
-  color: #111111; }
-  .cub_page ._limit_container, .cub_page footer .copyright, footer .cub_page .copyright {
-    width: 90%;
-    margin: 0 auto; }
-  .cub_page .page_description {
-    box-sizing: border-box;
-    width: 100%;
-    text-align: center;
-    padding: 125px 0px 15%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .cub_page .page_description h1 {
-      font-size: 60px;
-      z-index: 1;
-      letter-spacing: 0.02em;
-      color: #3E1BDB; }
-    .cub_page .page_description h2 {
-      width: 60%;
-      font-size: 16px;
-      line-height: 32px;
-      letter-spacing: 0.1em;
-      margin-top: 40px;
-      color: #111111; }
-  .cub_page .cub_brilliant {
-    margin-top: 160px; }
-  .cub_page .block_m {
-    margin-bottom: 160px; }
-    .cub_page .block_m .block_text {
-      color: #111111; }
-      .cub_page .block_m .block_text .block_text-subheading {
-        font-size: 20px;
-        color: #3E1BDB;
-        font-weight: bold; }
-      .cub_page .block_m .block_text h2 {
-        font-size: 24px;
-        line-height: 24px;
-        letter-spacing: 0.3px;
-        padding-bottom: 16px; }
-      .cub_page .block_m .block_text .text_underline {
-        border-top: 1px #111111 solid;
-        width: 160px;
-        padding: 0;
-        margin: 0  0 83px; }
-      .cub_page .block_m .block_text h5 {
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.3px;
-        margin-top: 16px; }
-    .cub_page .block_m .block_pos {
-      width: 100%;
-      align-items: center; }
-      .cub_page .block_m .block_pos .block_text {
-        color: #111111; }
-        .cub_page .block_m .block_pos .block_text .block_text-subheading {
-          font-size: 20px;
-          color: #3E1BDB;
-          font-weight: bold; }
-        .cub_page .block_m .block_pos .block_text h2 {
-          font-size: 24px;
-          line-height: 24px;
-          letter-spacing: 0.3px;
-          padding-bottom: 16px; }
-        .cub_page .block_m .block_pos .block_text .text_underline {
-          border-top: 1px #111111 solid;
-          width: 160px;
-          padding: 0;
-          margin: 0  0 64px; }
-        .cub_page .block_m .block_pos .block_text h5 {
-          font-size: 16px;
-          line-height: 24px;
-          letter-spacing: 0.3px;
-          margin-top: 16px; }
-      .cub_page .block_m .block_pos .block_img {
-        text-align: end; }
-  .cub_page .money_add .block_pos .block_img {
-    text-align: center; }
-  .cub_page .money_security .block_pos .block_img {
-    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
