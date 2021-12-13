@@ -1,4 +1,4 @@
-@forward 'utils/mixins';
+@import '../utils/mixins.scss';
 
 $primary-color: #e5e5e5;
 $gray: #888888;
@@ -12,6 +12,7 @@ $bg-header-img: url('../media/img/budget_page/headers_img.svg');
 .bt-line {
 	width: 10rem;
 }
+
 
 .headers {
 	margin-bottom: 161px;
@@ -72,6 +73,13 @@ $bg-header-img: url('../media/img/budget_page/headers_img.svg');
 	}
 }
 
+.intro-text {
+	width: 50%;
+	margin: 0 auto 61px;
+	text-align: center;
+}
+
+
 .budgeting-page {
 	background-image: $bg-figures, $bg-figures, $bg-cube;
 	background-repeat: no-repeat;
@@ -80,11 +88,6 @@ $bg-header-img: url('../media/img/budget_page/headers_img.svg');
 
 	@include commonFonts;
 
-	.intro-text {
-		width: 50%;
-		margin: 0 auto 61px;
-		text-align: center;
-	}
 
 	.analytics {
 		@include container_div(center, end, 176px);
@@ -106,30 +109,30 @@ $bg-header-img: url('../media/img/budget_page/headers_img.svg');
 		@include container_div(unset,center, 162px);
 	}
 
-	.conclusion {
-		margin-bottom: 500px;
-		&__left {
-			align-self: center;
-			h4 {
-				color: $black;
-				margin-bottom: 24px;
-			}
+	// .conclusion {
+	// 	margin-bottom: 500px;
+	// 	&__left {
+	// 		align-self: center;
+	// 		h4 {
+	// 			color: $black;
+	// 			margin-bottom: 24px;
+	// 		}
 
-			.bt-line {
-				border-top: 2px solid $black;
-				margin-bottom: 82px;
-			}
-		}
+	// 		.bt-line {
+	// 			border-top: 2px solid $black;
+	// 			margin-bottom: 82px;
+	// 		}
+	// 	}
 
-		&__right {
-			h4 {
-				color: $blue;
-				margin-bottom: 22px;
-			}
+	// 	&__right {
+	// 		h4 {
+	// 			color: $blue;
+	// 			margin-bottom: 22px;
+	// 		}
 
-			h5:not(:last-child) {
-				margin-bottom: 42px;
-			}
-		}
-	}
+	// 		h5:not(:last-child) {
+	// 			margin-bottom: 42px;
+	// 		}
+	// 	}
+	// }
 }

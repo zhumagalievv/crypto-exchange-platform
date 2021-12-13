@@ -1,7 +1,21 @@
-@forward 'pages/budgeting';
-@forward 'utils/mixins';
+@import '../pages/budgeting';
+@import '../utils/mixins.scss';
+
 
 $bg-triangle: url('../media/img/stocks_page/triangle3.svg');
+
+.bt-desc {
+	margin-bottom: 80px;
+	&__text {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.3px;
+
+		color: $gray;
+	}
+}
 
 .stocks-page {
 	background-image: $bg-triangle, $bg-figures;
@@ -57,7 +71,7 @@ $bg-triangle: url('../media/img/stocks_page/triangle3.svg');
 		/* identical to box height */
 
 		letter-spacing: 0.3px;
-
+		
 		color: $black;
 
 		margin-bottom: 80px;
@@ -159,16 +173,5 @@ $bg-triangle: url('../media/img/stocks_page/triangle3.svg');
 		}
 	}
 
-	.bt-desc {
-		margin-bottom: 80px;
-		&__text {
-			font-style: normal;
-			font-weight: normal;
-			font-size: 12px;
-			line-height: 12px;
-			letter-spacing: 0.3px;
-
-			color: $gray;
-		}
-	}
+	
 }
