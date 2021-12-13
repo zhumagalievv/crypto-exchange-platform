@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Carousel JQery CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+    <script src="https://kit.fontawesome.com/f13dd7e9a5.js" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>SnowLeopard</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container_header">
+                <span><a href="#">Private</a></span>
+                <span><a href="#">Business</a></span>
+            </div>
+            <nav>
+                <div class="wrapperN">
+                    <div class="logo"><a href="#"><img src="media/img/logo.svg" alt=""></a></div>
+                    <div class="navigation_bar" id='navbar'>
+                        <ul class="nav-links">
+                            <button id='closeBtn' class='closeBtn'><i class="fas fa-times"></i></button>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pick a plan</a></li>
+                            <li>
+                                <a href="#" class="desktop-item">About us</a>
+                                <input type="checkbox" id="showMega">
+                                <label for="showMega" class="mobile-item">About us</label>
+                                <div class="mega-box">
+                                    <div class="content">
+                                        <div class="content__row">
+                                            <header>Account</header>
+                                            <ul class="mega-links">
+                                                <li><a href="#">Joined accounts</a></li>
+                                                <li><a href="#">Budgeting</a></li>
+                                                <li><a href="#">Cards</a></li>
+                                                <li><a href="#">SnowLeopard Cub</a></li>
+                                                <li><a href="#">DuePay</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="content__row">
+                                            <header>Wealth builder</header>
+                                            <ul class="mega-links">
+                                                <li><a href="#">Stocks</a></li>
+                                                <li><a href="#">Crypto</a></li>
+                                                <li><a href="#">Commodities</a></li>
+                                                <li><a href="#">MoneyBox</a></li>
+                                                <li><a href="#">Marketplace</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="content__row">
+                                            <header>Payments</header>
+                                            <ul class="mega-links">
+                                                <li><a href="#">Money transfers</a></li>
+                                                <li><a href="#">Split a bill</a></li>
+                                                <li><a href="#">Early salary</a></li>
+                                                <li><a href="#">Subscriptions</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="content__row">
+                                            <header>Even more</header>
+                                            <ul class="mega-links">
+                                                <li><a href="#">SNL Bonus</a></li>
+                                                <li><a href="#">Travel insurance</a></li>
+                                                <li><a href="#">Device insurance</a></li>
+                                                <li><a href="#">Property</a></li>
+                                                <li><a href="#">Security</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="content__row">
+                                            <header>Blockchain</header>
+                                            <ul class="mega-links">
+                                                <li><a href="#">SNL Token</a></li>
+                                                <li><a href="#">Built on Stellar</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                        <div class="navigation_login">
+                            <a href="#">Login</a>
+                            <button class='getStarted'>Get Started</button>
+                        </div>
+                    </div>
+                    <button class="ToggleBtn" id='toggleBtn'><i class="fas fa-bars"></i></button>
+                </div>
+            </nav>
+        </header>
+
+        <main class="crypto-page">
+
+            <div class="crypto-img">
+                <img src="./media/img/crypto_page/bg-img01.svg" alt="bg-img01">
+                <img src="./media/img/crypto_page/bg-img02.svg" alt="bg-img02">
+                <img src="./media/img/crypto_page/bg-img03.svg" alt="bg-img03">
+                <img src="./media/img/crypto_page/bg-img04.svg" alt="bg-img04">
+                <img src="./media/img/crypto_page/bg-img05.svg" alt="bg-img05">
+                <img src="./media/img/crypto_page/bg-img06.svg" alt="bg-img06">
+            </div>
+
+            
+            <div class="_limit_container">
+                <section class="sub-navigation">
+                    <div class="sub-navigation__container">
+                        <span class="sub-navigation__item" id="home"> <a href="#">Home</a> </span>
+                        <span class="sub-navigation__item" id="private">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                                    fill="#888888" />
+                            </svg>
+                            <a href="#">Private</a>
+                        </span>
+                        <span class="sub-navigation__item" id="feautures">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                                    fill="#888888" />
+                            </svg>
+                            <a href="#">Features</a>
+                        </span>
+                        <span class="sub-navigation__item" id="account">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                                    fill="#888888" />
+                            </svg>
+                            <a href="#">Wealth Builder</a>
+                        </span>
+                        <span class="sub-navigation__item" id="budgeting">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                                    fill="#111111" />
+                            </svg>
+                            <a href="#">Crypto</a>
+                        </span>
+                    </div>
+                    <div class="bt-line"></div>
+                </section>
+
+                <section class="headers">
+                    <div class="headers__container">
+                        <h1 class="headers__main-title">Move from fiat to crypto at lightning speed
+                        </h1>
+                        <h2 class="headers__sub-title">Buying, selling, and spending cryptocurrencies has never been as
+                            easy as with SnowLeopard</h2>
+                    </div>
+                </section>
+
+               
+
+
+                <div class="intro">
+                    <h3 class="intro-text">
+                        Get into Crypto action in seconds
+                    </h3>
+                </div>
+
+                <section class="content-section">
+                    <div class="section-text">
+                        <h4 class="section-text__title primary-text">Start investing in crypto with just $1</h4>
+                        <div class="bt-line"></div>
+                        <h5>
+                            <p><i class="fas fa-check"></i>Buy Bitcoin, Ether, EOS, Stellar and more with 30+ fiat
+                                currencies right away</p>
+                            <p><i class="fas fa-check"></i>Start trading with just $1 commission-free within your
+                                monthly Plan allowance</p>
+                        </h5>
+                    </div>
+                    <div class="section-img">
+                        <img src="media/img/crypto_page/listOfCrypto.svg" alt="duePay">
+                    </div>
+                </section>
+
+
+                <section class="content-section">
+                    <div class="section-img left">
+                        <img src="media/img/crypto_page/buyCrypto.svg" alt="duePay">
+                    </div>
+                    <div class="section-text">
+                        <h4 class="section-text__title primary-text">Easy to purchase, sell and send</h4>
+                        <div class="bt-line"></div>
+                        <h5>
+                            <p><i class="fas fa-check"></i>Buy, sell and transfer crypto to anyone in seconds without
+                                hassle</p>
+                            <p><i class="fas fa-check"></i>Set up Price Alerts and Auto Exchanges to stay relevant with
+                                market fluctuations</p>
+                            <p><i class="fas fa-check"></i>You can track crypto movements in real time with useful
+                                notifications</p>
+                        </h5>
+                    </div>
+                </section>
+
+
+                <section class="content-section right2">
+                    <div class="section-text">
+                        <h4 class="section-text__title primary-text">Spend crypto like fiat </h4>
+                        <div class="bt-line"></div>
+                        <h5>
+                            <p><i class="fas fa-check"></i>Make payments with crypto using SnowLeopard card globally</p>
+                            <p><i class="fas fa-check"></i>Buy online and pay with crypto</p>
+                            <p><i class="fas fa-check"></i>Withdraw crypto from ATM’s anywhere in the world</p>
+
+                        </h5>
+                    </div>
+                    <div class="section-img" >
+                        <img src="media/img/crypto_page/exchangeCrypto.svg" alt="cryptoImg">
+                    </div>
+                </section>
+
+
+
+                <section class="conclusion">
+                    <div class="conclusion__title">
+                        <h3>How to exchange crypto with SnowLeopard?</h3>
+                        <div class="bt-line"></div>
+            
+                        <h5>Start exchanging cryptocurrencies today with SnowLeopard app</h5>
+                    </div>
+                    <div class="conclusion__body">
+                        <div class="conclusion__item">
+                            <h4>1. Get the SnowLeopard App</h4>
+                            <h5>Download SnowLeopard App on your iOS or Android device</h5>
+                        </div>
+                        <div class="conclusion__item">
+                            <h4>2. Tap on Cryptocurrencies</h4>
+                            <h5>Go to Dashboard, press on Cryptocurrencies, get familiar with T&C’s, then accept and get
+                                started</h5>
+                        </div>
+                        <div class="conclusion__item">
+                            <h4>3. Start your exchange</h4>
+                            <h5>Follow market rates and start trading cryptocurrencies with any supported currencies
+                            </h5>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="bt-desc">
+                    <p class="bt-desc__text">
+                        This stock trading platform is facilitated by SnowLeopard Trading. Neither SnowLeopard nor
+                        SnowLeopard Trading provides investment advice and individual investors should make their own
+                        decisions or seek professional independent advice if they are unsure as to the
+                        suitability/appropriateness of any investment for their individual circumstances or needs. The
+                        value of investments can go up as well as down and you may receive less than your original
+                        investment or lose the value of your entire initial investment. Past performance is not a
+                        reliable indicator
+                        of future results. Currency rate fluctuations can adversely impact the overall returns on your
+                        original investment. Learn more by reading our full Risk Disclosure and our Trading FAQ
+                    </p>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div class="_limit_container">
+                <div class="contact">
+                    <div class="footer-logo">
+                        <img src="media/img/footer-logo.svg" alt="">
+                    </div>
+                    <form action="">
+                        <label for="email">Contact us</label>
+                        <div class="email-send">
+                            <input type="email" placeholder="Email">
+                            <button>Send</button>
+                        </div>
+
+                        <div class="phone_email">
+                            <span><i class="fas fa-phone-alt"></i>+7 775 000 3978</span>
+                            <span><i class="fas fa-envelope"></i>snowleopard@gmail.com</span>
+
+                        </div>
+                    </form>
+                </div>
+
+                <div class="footer-list">
+                    <ul>
+                        <li>Account</li>
+                        <li>Joined accounts</li>
+                        <li>Budgeting</li>
+                        <li>Cards</li>
+                        <li>SnowLeopard Cub</li>
+                        <li>DuePay</li>
+                    </ul>
+                    <ul>
+                        <li>Wealth builder</li>
+                        <li>Stocks</li>
+                        <li>Crypto</li>
+                        <li>Commodities</li>
+                        <li>MoneyBox</li>
+                        <li>Marketplace</li>
+                    </ul>
+                    <ul>
+                        <li>Payments</li>
+                        <li>Money Transfers</li>
+                        <li>Split a bill</li>
+                        <li>Early salary</li>
+                        <li>Subscriptions</li>
+                    </ul>
+                    <ul>
+                        <li>Even more</li>
+                        <li>SNL Bonus</li>
+                        <li>Travel insurance</li>
+                        <li>Device insurance</li>
+                        <li>Property</li>
+                        <li>Security</li>
+                    </ul>
+                    <ul>
+                        <li>Blockchain</li>
+                        <li>SNL Token</li>
+                        <li>Built on Stellar</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="copyright">
+                <span>© 2021 SnowLeopard аll rights reserved</span>
+                <span>Website development. Developed by a Digital Agency Nidge</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Boostrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src='script/slider.js'></script>
+</body>
+
+</html>
