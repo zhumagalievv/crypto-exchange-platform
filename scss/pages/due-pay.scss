@@ -131,7 +131,7 @@ $width: 90%;
         }
     }
 }
-h2{
+.section-text h2{
     margin-bottom: 80px;
     position: relative;
     font-weight: bold;
@@ -145,7 +145,7 @@ h2{
         content: " ";
         width: 160px;
         height: 1px;
-        background: #888888;
+        background: #f00000;
         bottom: 0;
         left: 0;
     }
