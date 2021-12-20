@@ -1,18 +1,16 @@
 @import '../utils/mixins';
 @import '../pages/stocks';
 
-$bg-figures-reversed: url('../media/img/crypto_page/bg-img07.svg');
+$bg-tri-figures-reversed: url('../media/img/crypto_page/bg-img07.svg');
 $bg-img08: url('../media/img/crypto_page/bg-img08.svg');
 $bg-img09: url('../media/img/crypto_page/bg-img09.svg');
 $bg-img10: url('../media/img/crypto_page/bg-img10.svg');
 
-
 .crypto-page {
-	background-image: $bg-figures-reversed, $bg-img08, $bg-img09, $bg-figures, $bg-img10;
+	background-image: $bg-tri-figures-reversed, $bg-img08, $bg-img09, $bg-figures, $bg-img10;
 	background-repeat: no-repeat;
-	background-position-x: 0% , 43%, 100%, 94%, 0%;
-	background-position-y: 46%, 63%, 65%,  77%, 95%;
-
+	background-position-x: 0%, 43%, 100%, 94%, 0%;
+	background-position-y: 46%, 63%, 65%, 77%, 95%;
 
 	@include commonFonts;
 
@@ -28,6 +26,7 @@ $bg-img10: url('../media/img/crypto_page/bg-img10.svg');
 		margin: 0 auto;
 	}
 }
+
 
 .crypto-img {
 	width: 100%;
@@ -68,14 +67,45 @@ $bg-img10: url('../media/img/crypto_page/bg-img10.svg');
 	}
 
 	.bt-line {
-		border-bottom: 1px solid $black;
+		border-bottom: 2px solid $black;
 		margin-top: 16px;
 		margin-bottom: 80px;
+	}
+
+	p.bold-text {
+		font-weight: bold;
+		margin-left: 30px;
+	}
+
+	a {
+		font-family: "DM Sans";
+		font-size: 24px;
+		line-height: 117%;
+		/* or 28px */
+
+		letter-spacing: -0.03em;
+
+		/* Black */
+
+		color: $black;
+		margin-right: 60px;
+
+		text-decoration: none;
+
+		svg {
+			margin-top: -1px;
+			margin-left: 8px;
+		}
+	}
+	a:hover {
+		text-decoration: none;
 	}
 }
 
 .conclusion {
 	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 	align-items: center;
 
 	h3 {
@@ -83,12 +113,16 @@ $bg-img10: url('../media/img/crypto_page/bg-img10.svg');
 	}
 
 	.bt-line {
-		border-bottom: 1px solid $black;
+		border-bottom: 2px solid $black;
 		margin-bottom: 40px;
 	}
 
 	h4 {
 		margin-bottom: 24px;
+	}
+
+	&__body  {
+		max-width: 700px;
 	}
 
 	&__item {

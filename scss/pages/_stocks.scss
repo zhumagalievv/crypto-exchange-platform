@@ -121,10 +121,12 @@ $bg-triangle: url('../media/img/stocks_page/triangle3.svg');
 
 				color: $black;
 				margin-right: 60px;
-				i {
+				svg {
 					font-size: 2rem;
+					margin-top: -1px;
 					margin-left: 8px;
-				}
+				}		
+				text-decoration: none;
 			}
 			a:hover {
 				text-decoration: none;
@@ -155,7 +157,6 @@ $bg-triangle: url('../media/img/stocks_page/triangle3.svg');
 		}
 		.bt-line {
 			width: 20rem;
-
 			border-top: 2px solid $black;
 		}
 	}
