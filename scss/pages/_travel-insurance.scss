@@ -1,0 +1,73 @@
+.travel-insurance-page {
+	@include commonFonts;
+
+    $bg-cub: url('../media/img/travel-insurance/bg-cub.svg');
+
+    background-image: $bg-figures, $bg-figures-reversed, $bg-figures-colored, $bg-cub;
+
+    background-repeat: no-repeat;
+    background-position-x: 3%, 90%, 5%, 102%;
+    background-position-y: 45%, 60%, 77%, 112%;
+
+	.headers {
+		margin: 0 auto;
+		max-width: 1400px;
+		width: 100%;
+		position: relative;
+		&__main-title {
+			padding: 0 100px;
+		}
+
+		&__sub-title {
+			margin: 0 200px;
+			margin-bottom: 48px;
+		}
+
+		&__img {
+			img {
+				width: 100%;
+			}
+			margin-bottom: 160px;
+		}
+	}
+
+	.content-section {
+		flex-wrap: nowrap;
+		gap: 50px;
+		.section-text {
+			width: 100%;
+			&-first {
+				max-width: 500px;
+			}
+			&-two {
+				max-width: 500px;
+			}
+			&-third {
+				max-width: 550px;
+			}
+            &-fourth {
+                max-width: 600px;
+            }
+		}
+	}
+
+	.conclusion {
+		display: flex;
+		flex-wrap: nowrap;
+        gap: 50px;
+		&__title {
+			max-width: 550px;
+		}
+		&__body {
+			max-width: 600px;
+		}
+	}
+
+
+
+    @media screen and (max-width: 1000px) {
+        .conclusion, .content-section {
+            flex-wrap: wrap;
+        }
+    }
+}

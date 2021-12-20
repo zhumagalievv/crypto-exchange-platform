@@ -4926,4 +4926,140 @@ body {
 .snl_bonus-page .conclusion__body {
   max-width: 670px;
 }
+
+.travel-insurance-page {
+  background-image: url("../media/img/bg-figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-figures-colored.svg"), url("../media/img/travel-insurance/bg-cub.svg");
+  background-repeat: no-repeat;
+  background-position-x: 3%, 90%, 5%, 102%;
+  background-position-y: 45%, 60%, 77%, 112%;
+}
+
+.travel-insurance-page h1,
+.travel-insurance-page h2,
+.travel-insurance-page h3,
+.travel-insurance-page h4,
+.travel-insurance-page h5 {
+  font-style: normal;
+}
+
+.travel-insurance-page h1 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.02rem;
+  /* Blue */
+  color: #3e1bdb;
+}
+
+.travel-insurance-page h2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  letter-spacing: 0.1em;
+  /* Black */
+  color: #111111;
+}
+
+.travel-insurance-page h3 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+  /* Blue */
+  color: #3e1bdb;
+}
+
+.travel-insurance-page h4,
+.travel-insurance-page h5 {
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  /* Black */
+  color: #111111;
+}
+
+.travel-insurance-page h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.travel-insurance-page h5 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #111111;
+}
+
+.travel-insurance-page .headers {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  position: relative;
+}
+
+.travel-insurance-page .headers__main-title {
+  padding: 0 100px;
+}
+
+.travel-insurance-page .headers__sub-title {
+  margin: 0 200px;
+  margin-bottom: 48px;
+}
+
+.travel-insurance-page .headers__img {
+  margin-bottom: 160px;
+}
+
+.travel-insurance-page .headers__img img {
+  width: 100%;
+}
+
+.travel-insurance-page .content-section {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 50px;
+}
+
+.travel-insurance-page .content-section .section-text {
+  width: 100%;
+}
+
+.travel-insurance-page .content-section .section-text-first {
+  max-width: 500px;
+}
+
+.travel-insurance-page .content-section .section-text-two {
+  max-width: 500px;
+}
+
+.travel-insurance-page .content-section .section-text-third {
+  max-width: 550px;
+}
+
+.travel-insurance-page .content-section .section-text-fourth {
+  max-width: 600px;
+}
+
+.travel-insurance-page .conclusion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 50px;
+}
+
+.travel-insurance-page .conclusion__title {
+  max-width: 550px;
+}
+
+.travel-insurance-page .conclusion__body {
+  max-width: 600px;
+}
+
+@media screen and (max-width: 1000px) {
+  .travel-insurance-page .conclusion, .travel-insurance-page .content-section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 /*# sourceMappingURL=style.css.map */
