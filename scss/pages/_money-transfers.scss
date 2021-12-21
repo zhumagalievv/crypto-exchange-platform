@@ -1,0 +1,71 @@
+.money-transfers-page {
+	@include commonFonts;
+
+
+	$bg-fg01: url('../media/img/money-transfers/bg-figures01.svg');
+
+	background-image: $bg-fg01, $bg-figures, $bg-figures-reversed, $bg-cub;
+	background-repeat: no-repeat;
+	background-position-x: 15%, 90%, 92%, 10%;
+	background-position-y: 61.5%, 62.5%, 76.5%, 110%;
+
+	.headers {
+		margin: 0 auto;
+		max-width: 1400px;
+		width: 100%;
+		position: relative;
+		&__main-title {
+			padding: 0 50px;
+		}
+
+		&__sub-title {
+			padding: 0 20px;
+			margin-bottom: 48px;
+		}
+
+		&__img {
+			img {
+				width: 100%;
+			}
+			margin-bottom: 160px;
+		}
+	}
+
+	.content-section {
+        &-first {
+            margin-bottom: 200px;
+        }
+
+		&-third {
+			margin-bottom: 210px;
+		}
+
+		.section-text {
+            &__desc {
+                margin-bottom: 70px;
+            }
+
+			&__clue {
+                max-width: 500px;
+                position: relative;
+				font-weight: bold;
+				font-size: 16px;
+				line-height: 24px;
+				/* or 150% */
+
+				letter-spacing: 0.3px;
+
+                color: $black;
+                margin-left: 50px;
+
+                &::before {
+                    position: absolute;
+                    top: 50%;
+                    left: -50px;
+                    transform: translate(0,-50%);
+                    content: url('../media/img/money-transfers/arrow.svg');
+                }
+			}
+		}
+	}
+}
