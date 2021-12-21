@@ -1,0 +1,33 @@
+.split-bill-page {
+	@include commonFonts;
+
+	$bg-fg01: url('../media/img/split_bill/bg-fg01.svg');
+	background-image: $bg-figures, $bg-fg01, $bg-figures-reversed, $bg-cub;
+	background-repeat: no-repeat;
+	background-position-x: 7%, 39%, 95%, 9%;
+	background-position-y: 36.5%, 53%, 58%, 112%;
+
+	padding-bottom: 150px;
+
+	.headers {
+		margin: 0 auto;
+		max-width: 1400px;
+		width: 100%;
+		position: relative;
+		&__main-title {
+			padding: 0 50px;
+		}
+
+		&__sub-title {
+			padding: 0 10px;
+			margin-bottom: 48px;
+		}
+	}
+
+
+	.content-section {
+		.section-text {
+			max-width: 800px;
+		}
+	}
+}

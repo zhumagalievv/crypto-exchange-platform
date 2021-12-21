@@ -5183,4 +5183,87 @@ body {
           transform: translate(0, -50%);
   content: url("../media/img/money-transfers/arrow.svg");
 }
+
+.split-bill-page {
+  background-image: url("../media/img/bg-figures.svg"), url("../media/img/split_bill/bg-fg01.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-cub.svg");
+  background-repeat: no-repeat;
+  background-position-x: 7%, 39%, 95%, 9%;
+  background-position-y: 36.5%, 53%, 58%, 112%;
+  padding-bottom: 150px;
+}
+
+.split-bill-page h1,
+.split-bill-page h2,
+.split-bill-page h3,
+.split-bill-page h4,
+.split-bill-page h5 {
+  font-style: normal;
+}
+
+.split-bill-page h1 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.02rem;
+  /* Blue */
+  color: #3e1bdb;
+}
+
+.split-bill-page h2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  letter-spacing: 0.1em;
+  /* Black */
+  color: #111111;
+}
+
+.split-bill-page h3 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+  /* Blue */
+  color: #3e1bdb;
+}
+
+.split-bill-page h4,
+.split-bill-page h5 {
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  /* Black */
+  color: #111111;
+}
+
+.split-bill-page h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.split-bill-page h5 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #111111;
+}
+
+.split-bill-page .headers {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  position: relative;
+}
+
+.split-bill-page .headers__main-title {
+  padding: 0 50px;
+}
+
+.split-bill-page .headers__sub-title {
+  padding: 0 10px;
+  margin-bottom: 48px;
+}
+
+.split-bill-page .content-section .section-text {
+  max-width: 800px;
+}
 /*# sourceMappingURL=style.css.map */
