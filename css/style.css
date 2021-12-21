@@ -4878,6 +4878,20 @@ body {
   right: 13%;
 }
 
+.snl_bonus-page .conclusion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.snl_bonus-page .conclusion__title {
+  max-width: 550px;
+}
+
+.snl_bonus-page .conclusion__body {
+  max-width: 670px;
+}
+
 @-webkit-keyframes rotate {
   from {
     -webkit-transform: rotate(0);
@@ -4920,20 +4934,6 @@ body {
     -webkit-transform: rotate(-360deg);
             transform: rotate(-360deg);
   }
-}
-
-.snl_bonus-page .conclusion {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.snl_bonus-page .conclusion__title {
-  max-width: 550px;
-}
-
-.snl_bonus-page .conclusion__body {
-  max-width: 670px;
 }
 
 .travel-insurance-page {
@@ -5265,5 +5265,140 @@ body {
 
 .split-bill-page .content-section .section-text {
   max-width: 800px;
+}
+
+.early-salary-page {
+  background-image: url("../media/img/bg-figures-reversed.svg"), url("../media/img/early-salary/bg-cub-reversed.svg");
+  background-repeat: no-repeat;
+  background-position-x: 96%, 100%;
+  background-position-y: 66%, 123%;
+  padding-bottom: 150px;
+}
+
+.early-salary-page h1,
+.early-salary-page h2,
+.early-salary-page h3,
+.early-salary-page h4,
+.early-salary-page h5 {
+  font-style: normal;
+}
+
+.early-salary-page h1 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.02rem;
+  /* Blue */
+  color: #3e1bdb;
+}
+
+.early-salary-page h2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  letter-spacing: 0.1em;
+  /* Black */
+  color: #111111;
+}
+
+.early-salary-page h3 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+  /* Blue */
+  color: #3e1bdb;
+}
+
+.early-salary-page h4,
+.early-salary-page h5 {
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  /* Black */
+  color: #111111;
+}
+
+.early-salary-page h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.early-salary-page h5 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #111111;
+}
+
+.early-salary-page .headers {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 160px;
+}
+
+.early-salary-page .headers__main-title {
+  padding: 0 70px;
+}
+
+.early-salary-page .headers__sub-title {
+  margin: 0 220px;
+}
+
+.early-salary-page .headers__img {
+  height: 350px;
+  position: relative;
+}
+
+.early-salary-page .headers__img img {
+  position: absolute;
+}
+
+.early-salary-page .headers__img img:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.early-salary-page .headers__img img:nth-child(2) {
+  top: 36%;
+  left: 14%;
+}
+
+.early-salary-page .headers__img img:nth-child(3) {
+  left: 33%;
+  bottom: 0;
+}
+
+.early-salary-page .headers__img img:nth-child(4) {
+  right: 33%;
+  bottom: 0;
+}
+
+.early-salary-page .headers__img img:nth-child(5) {
+  top: 37%;
+  right: 15%;
+}
+
+.early-salary-page .headers__img img:nth-child(6) {
+  top: 0;
+  right: 0;
+}
+
+.early-salary-page .content-section-second h5 p:nth-child(2) {
+  margin: 12px;
+}
+
+.early-salary-page .content-section-second li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.early-salary-page .content-section-second li::before {
+  content: "·";
+  padding-right: 7px;
+  font-size: 30px;
+  vertical-align: middle;
+  line-height: 20px;
 }
 /*# sourceMappingURL=style.css.map */
