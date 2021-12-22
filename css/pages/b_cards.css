@@ -1,0 +1,76 @@
+main {
+  background-image: url("../../media/img/b_cards_page/bg-1.svg"), url("../../media/img/b_cards_page/bg-2.svg"), url("../../media/img/b_cards_page/cube.svg");
+  background-repeat: no-repeat;
+  background-position-x: 70%,10%,100%;
+  background-position-y: 46%,60%,112%; }
+
+.title h1 {
+  width: 90%; }
+.title h2 {
+  width: 70%; }
+.title .image {
+  width: 80%; }
+  .title .image img {
+    width: 100%; }
+
+.footer-title {
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 25vh 0; }
+  .footer-title h1 {
+    font-size: 60px;
+    font-weight: 600; }
+  .footer-title h2 {
+    width: 60%; }
+  .footer-title .image {
+    width: 60%; }
+    .footer-title .image img {
+      width: 100%; }
+
+.image-globe {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto; }
+  .image-globe img {
+    width: 100%; }
+    .image-globe img:last-child {
+      top: 12%;
+      right: -20%;
+      position: absolute;
+      width: 65%; }
+
+.image-cardlock {
+  position: relative;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto; }
+  .image-cardlock img {
+    width: 100%; }
+    .image-cardlock img:last-child {
+      top: 12%;
+      right: -20%;
+      position: absolute;
+      width: 45%; }
+
+.image-2 {
+  height: 100%;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center; }
+  .image-2 img {
+    width: 100%; }
+
+.image-3 {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center; }
+  .image-3 img {
+    width: 100%; }
+
+/*# sourceMappingURL=b_cards.css.map */

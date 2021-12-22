@@ -1,0 +1,100 @@
+main{
+    background-image: 
+    url("../../media/img/b_expenses_page/cube.svg");
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    background-position-y: 105%;
+    background-size: 50%;
+}   
+.title-img{
+    width: 100%;
+    
+}
+.title-img img{
+    width: 100%;
+}
+
+.image-1{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    img{
+        width: 100%;
+    }
+}
+.image-2{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    img{
+        width: 100%;
+    }
+}
+.image-3{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    img{
+        width: 100%;
+    }
+}
+.footer_block{
+    margin-top: 160px;
+    margin-bottom: 160px;
+
+    text-align: center;
+    h3{
+        color: #3E1BDB;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        font-weight: bold;
+        margin-bottom: 160px;
+    }
+    .row{
+        margin: 0 auto;
+    }
+}
+.work_block{
+    background-color: white;
+    padding: 0;
+    h5{
+        color: #3E1BDB;
+        font-size: 24px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0.1em;
+        width: 80%;
+        margin: 0 auto;
+        padding: 24px 0;
+        border-bottom: 1px solid black;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1em;
+        padding: 24px 30px;
+    }
+    border: 1px solid black;
+    border-radius: 24px;
+}
+@media screen  and  (max-width: 768px) {
+    .footer_block{
+        .row{
+            align-items: center;
+            .work_block{
+                margin: 24px 0 ;
+                &:last-child{
+                    margin-bottom: 160px;
+                }
+            }
+        }
+    }
+    .work_block_arrow{
+        img{
+            transform: rotate(90deg);
+        }
+    }
+ }

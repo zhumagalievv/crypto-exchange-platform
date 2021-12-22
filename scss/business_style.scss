@@ -1,0 +1,130 @@
+.b_page_container{
+    width: 90%;
+    margin: 0 auto;
+}
+.b_page_block{
+    margin-top: 160px;
+    &:last-child{
+        margin-bottom: 160px;
+    }
+}
+.title { 
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 124px 0 0;
+    h1{
+        color: #3E1BDB;
+        font-size: 60px;
+        font-weight: 600;
+    }
+    h2{
+        margin-top: 40px;
+        font-size: 16px;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+
+}
+.footer-title { 
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 25vh 0;
+    h1{
+        color: #3E1BDB;
+        font-size: 60px;
+        font-weight: 600;
+    }
+    h2{
+        margin-top: 40px;
+        font-size: 16px;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+    .image{
+        width: 60%;
+        img{
+            width: 100%;
+        }
+    }
+
+}
+.text{
+
+    color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+h4{
+    font-size: 24px;
+    padding-bottom:16px ;
+}
+.underline{
+    border-top: black 2px solid;
+    width: 160px;
+    margin-bottom: 53px;
+} 
+
+.point{
+    margin-top: 27px;
+    h5{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+       
+        
+    }
+    i{
+        color: #3E1BDB;
+    }
+} 
+.learn-more-btn{
+    margin-top: 24px;
+    a,i{
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        line-height: 117%;
+        letter-spacing: -0.03em;
+    }
+}
+}
+
+.image{
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+img{
+    width: 100%;
+}}
+
+@media only screen and (max-width: 1000px){
+    .image{
+        margin-bottom: 50px;
+    }
+      .flex{
+          display: flex;
+          
+        flex-direction: column-reverse;
+    }
+      .flex-r{
+        display: flex;
+        
+        flex-direction: column;
+    }
+  }

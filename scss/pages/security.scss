@@ -1,0 +1,108 @@
+.device-insurance__title{
+    
+    color: black;
+    background-image: url(../../media/img/security_page/title-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+main.device-insurance{
+    background-image: url("../../media/img/device-insurance/bg-1.svg"),
+                      url("../../media/img/device-insurance/bg-2.svg"),
+                      url("../../media/img/device-insurance/cube-bg.svg"),
+                      url("../../media/img/security_page/bg-1.svg"); 
+    background-repeat: no-repeat;
+    background-position-x: 10%,90%,90%,95%;
+    background-position-y: 68%,82%,115%,40%;
+
+
+}
+._limit_container{
+    width: 90%;
+    margin: 0 auto;
+}
+.page_description{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 125px 0px 15% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-weight: bold;
+        width: 70%;
+        font-size: 60px;
+        z-index: 1;
+        letter-spacing: 0.02em;
+        color: #3E1BDB;
+    }
+    h2{
+        width: 80%;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 0.1em;
+        margin-top: 40px;
+
+        color: #111111;
+    }}
+.block-title{
+    margin-top: 0;
+    margin-bottom: 68px;
+
+    color: #3E1BDB;
+        font-size: 36px;
+        text-align: center;
+        font-weight: bold;
+    }   
+.block_m{
+    margin-bottom: 160px;
+    .block_pos{
+        width: 100%;
+        align-items: center;
+        .block_text{
+            
+            .block_text-subheading{
+                font-size: 20px;
+                color: #3E1BDB;
+                font-weight: bold;
+            }
+            color: #111111;
+            h2{
+                font-size: 24px;
+                line-height: 24px;
+                letter-spacing: 0.3px;
+                padding-bottom: 16px;
+            }
+            .text_underline{
+                border-top: 1.5px #111111 solid;
+                width: 160px;
+                padding: 0;
+                margin:0  0 64px;
+            }
+            .block_text-point{
+                margin-bottom: 16px;
+                h5{
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.3px; 
+                    margin-top: 16px; 
+                }
+
+            }
+            a{
+                margin-top: 8px;
+                text-decoration: none;
+                font-size: 24px;
+                color: black;
+            }
+        }
+        .block_img{
+            text-align: center;
+           
+        }
+        .last-img{
+            text-align: center;
+        }
+    }}
