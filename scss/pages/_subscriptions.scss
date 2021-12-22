@@ -1,0 +1,66 @@
+.subscriptions-page {
+	@include commonFonts;
+
+	$bg-cub-reversed: url('../media/img/bg-cub-reversed.svg');
+
+	background-image: $bg-figures-reversed, $bg-cub-reversed;
+	background-repeat: no-repeat;
+	background-position-x: 96%, 99%;
+	background-position-y: 67%, 130%;
+
+	padding-bottom: 150px;
+
+	.headers {
+		margin: 0 auto;
+		max-width: 1400px;
+		width: 100%;
+		position: relative;
+		margin-bottom: 160px;
+
+		&__main-title {
+			padding: 0 70px;
+		}
+
+		&__sub-title {
+			margin: 0 310px;
+		}
+
+		&__img {
+			height: 350px;
+			width: 100%;
+			border: 1px solid red;
+			position: relative;
+			img {
+				position: absolute;
+				&:nth-child(1) {
+					top: 0;
+					left: 0;
+				}
+				&:nth-child(2) {
+					top: 33%;
+					left: 15%;
+				}
+				&:nth-child(3) {
+					top: 39%;
+					left: 29%;
+				}
+				&:nth-child(4) {
+					top: 60%;
+					left: 45%;
+				}
+				&:nth-child(5) {
+					top: 52%;
+					right: 25%;
+				}
+				&:nth-child(6) {
+					top: 39%;
+					right: 11%;
+				}
+				&:nth-child(7) {
+					top: 0;
+					right: 0;
+				}
+			}
+		}
+	}
+}
