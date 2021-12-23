@@ -5386,7 +5386,7 @@ body {
 }
 
 .early-salary-page .content-section-second h5 p:nth-child(2) {
-  margin: 12px;
+  margin-bottom: 10px;
 }
 
 .early-salary-page .content-section-second li {
@@ -5631,5 +5631,120 @@ body {
 .snl-token-page .content-section .secondary-text {
   color: #3e1bdb;
   margin-left: 27px;
+}
+
+.built-on-stellar-page {
+  background-image: url("../media/img/bg-figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-cub-reversed.svg");
+  background-repeat: no-repeat;
+  background-position-x: 7%, 102%, 90%;
+  background-position-y: 69%,73%, 125%;
+}
+
+.built-on-stellar-page h1,
+.built-on-stellar-page h2,
+.built-on-stellar-page h3,
+.built-on-stellar-page h4,
+.built-on-stellar-page h5 {
+  font-style: normal;
+}
+
+.built-on-stellar-page h1 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.02rem;
+  /* Blue */
+  color: #3e1bdb;
+}
+
+.built-on-stellar-page h2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  letter-spacing: 0.1em;
+  /* Black */
+  color: #111111;
+}
+
+.built-on-stellar-page h3 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+  /* Blue */
+  color: #3e1bdb;
+}
+
+.built-on-stellar-page h4,
+.built-on-stellar-page h5 {
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  /* Black */
+  color: #111111;
+}
+
+.built-on-stellar-page h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.built-on-stellar-page h5 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #111111;
+}
+
+.built-on-stellar-page .headers {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 160px;
+}
+
+.built-on-stellar-page .headers__main-title {
+  padding: 0 70px;
+}
+
+.built-on-stellar-page .headers__sub-title {
+  margin: 0 150px 52px;
+}
+
+.built-on-stellar-page .headers__img {
+  width: 100%;
+}
+
+.built-on-stellar-page .headers__img img + img {
+  margin-left: 100px;
+}
+
+.built-on-stellar-page .headers-second {
+  margin-bottom: 50px;
+}
+
+.built-on-stellar-page .headers-second img {
+  width: 100%;
+}
+
+.built-on-stellar-page .intro-text {
+  margin: 0 auto;
+}
+
+.built-on-stellar-page .content-section {
+  margin-top: 50px;
+}
+
+.built-on-stellar-page .content-section-first li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.built-on-stellar-page .content-section-first li::before {
+  content: "·";
+  padding-right: 7px;
+  font-size: 30px;
+  vertical-align: middle;
+  line-height: 20px;
 }
 /*# sourceMappingURL=style.css.map */
