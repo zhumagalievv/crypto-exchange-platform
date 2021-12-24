@@ -5874,4 +5874,130 @@ body {
 .basic-page .content-section-fourth .desc__item:nth-child(2) {
   margin: 0 0 10px 30px;
 }
+
+.plus-page {
+  background-image: url("../media/img/bg-figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-figures.svg"), url("../media/img/plus/bg-fg01.svg"), url("../media/img/plus/bg-fg02.svg"), url("../media/img/plus/bg-fg01.svg"), url("../media/img/bg-cub-reversed.svg");
+  background-repeat: no-repeat;
+  background-position-x: 10%, 88%,8%,    74%, 5%, 90%,  81%;
+  background-position-y: 14%, 8%, 30.5%, 66.5%, 55.5%, 99%, 108%;
+}
+
+.plus-page h1,
+.plus-page h2,
+.plus-page h3,
+.plus-page h4,
+.plus-page h5 {
+  font-style: normal;
+}
+
+.plus-page h1 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.02rem;
+  /* Blue */
+  color: #3e1bdb;
+}
+
+.plus-page h2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  letter-spacing: 0.1em;
+  /* Black */
+  color: #111111;
+}
+
+.plus-page h3 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+  /* Blue */
+  color: #3e1bdb;
+}
+
+.plus-page h4,
+.plus-page h5 {
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  /* Black */
+  color: #111111;
+}
+
+.plus-page h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.plus-page h5 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #111111;
+}
+
+.plus-page .headers {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 160px;
+}
+
+.plus-page .headers__main-title {
+  padding: 0 70px;
+}
+
+.plus-page .headers__sub-title {
+  margin: 0 240px 52px;
+}
+
+.plus-page .headers__img img {
+  width: 70%;
+}
+
+.plus-page .headers .price_container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+}
+
+.plus-page .headers .price_container h5 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  /* Black */
+  color: #111111;
+}
+
+.plus-page .headers .price_box span {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.plus-page .headers .price_box button > a {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  letter-spacing: 0.1em;
+  /* Black */
+  color: #111111;
+}
+
+.plus-page .content-section-sixth .desc__item:nth-child(1) {
+  margin: 0 0 10px;
+}
+
+.plus-page .content-section-sixth .desc__item:nth-child(2) {
+  margin: 0 0 10px 30px;
+}
 /*# sourceMappingURL=style.css.map */
