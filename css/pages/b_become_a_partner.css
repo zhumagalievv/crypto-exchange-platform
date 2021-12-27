@@ -1,0 +1,34 @@
+.title h1 {
+  width: 80%; }
+.title h2 {
+  width: 70%; }
+
+.partner_block {
+  margin: 160px 0; }
+  .partner_block h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0.02em; }
+  .partner_block a {
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 29px 80px;
+    background-color: #3E1BDB;
+    border: 1px solid #3E1BDB;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    transition: 0.2s ease; }
+    .partner_block a:hover {
+      background-color: white;
+      color: #3E1BDB;
+      transition: 0.2s ease; }
+  .partner_block div {
+    margin-top: 54px; }
+
+/*# sourceMappingURL=b_become_a_partner.css.map */
