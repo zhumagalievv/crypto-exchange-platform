@@ -1,0 +1,49 @@
+main {
+  background-image: url("../../media/img/b_built_on_stellar_page/cube.svg"), url("../../media/img/b_built_on_stellar_page/bg-1.svg");
+  background-repeat: no-repeat;
+  background-position-x: 90%,10%;
+  background-position-y: 115%, 63%;
+  background-size: 50%,35%; }
+
+.title h1 {
+  width: 60%; }
+.title h2 {
+  width: 85%;
+  margin-bottom: 55px; }
+.title .title-img img {
+  width: 80%; }
+
+.b_page_block {
+  margin-top: 0; }
+
+.blue_text {
+  margin-top: 160px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #3E1BDB;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.02em; }
+
+.blue_text2 {
+  margin-bottom: 140px; }
+
+.text ul {
+  margin-top: 24px; }
+
+.image-1 {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center; }
+  .image-1 img {
+    width: 100%; }
+
+.image-2 {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center; }
+  .image-2 img {
+    width: 100%; }
+
+/*# sourceMappingURL=b_built_on_stellar.css.map */

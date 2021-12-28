@@ -1,0 +1,42 @@
+.title h2 {
+  width: 85%;
+  margin-bottom: 55px; }
+
+.blue_text i {
+  color: transparent; }
+.blue_text h5 {
+  color: #3E1BDB;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px; }
+
+.image-1 {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center; }
+  .image-1 img {
+    width: 100%; }
+
+.image-2 {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center; }
+  .image-2 img {
+    width: 100%; }
+
+.image-3 {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center; }
+  .image-3 img {
+    width: 100%; }
+
+.image-4 {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center; }
+  .image-4 img {
+    width: 100%; }
+
+/*# sourceMappingURL=b_snl_token.css.map */
