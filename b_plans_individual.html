@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Carousel JQery CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+    <script src="https://kit.fontawesome.com/f13dd7e9a5.js" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/business_style.css">
+    <link rel="stylesheet" href="css/pages/b_plans_individual.css">
+
+    <title>SnowLeopard</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container_header">
+                <span><a href="#">Private</a></span>
+                <span><a href="index.html">Business</a></span>
+            </div>
+            <nav>
+                <div class="wrapperN">
+                    <div class="logo"><a href="business_main.html"><img src="media/img/logo.svg" alt=""></a></div>
+                    <div class="navigation_bar" id='navbar'>
+                        <ul class="nav-links">
+                            <button id='closeBtn' class='closeBtn'><i class="fas fa-times"></i></button>
+                            <li><a href="#" class="desktop-item">Features</a>
+                                <input type="checkbox" id="showMega">
+                                <label for="showMega" class="mobile-item">Features</label>
+                                <div class="mega-box">
+                                    <div class="content">
+                                        <div class="content__row">
+                                            <header>Account</header>
+                                            <ul class="mega-links">
+                                                <li><a href="b_joined_accounts.html">Joined accounts</a></li>
+                                                <li><a href="b_universal_accounts.html">Universal accounts</a></li>
+                                                <li><a href="b_cards.html">Cards</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="content__row">
+                                            <header>Payments</header>
+                                            <ul class="mega-links">
+                                                <li><a href="b_money_transfers.html">Money transfers</a></li>
+                                                <li><a href="b_online_payments.html">Online payments</a></li>
+                                                <li><a href="b_request_payments.html">Request payments</a></li>
+                                                <li><a href="b_recurring_payments.html">Recurring payments</a></li>
+                                                <li><a href="b_expenses.html">Expenses</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="content__row">
+                                            <header>Marketplace</header>
+                                            <ul class="mega-links">
+                                                <li><a href="b_fintech_hub.html">FinTech Hub</a></li>
+                                                <li><a href="b_rewards.html">Rewards</a></li>
+                                                <li><a href="b_become_a_partner.html">Become a partner</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="content__row">
+                                            <header>Blockchain</header>
+                                            <ul class="mega-links">
+                                                <li><a href="b_snl_token.html">SNL Token</a></li>
+                                                <li><a href="b_built_on_stellar.html">Built on Stellar</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="b_plans_company.html">Pick a plan</a>
+                                
+                            
+                            </li>
+                            <li>
+                                <a href="b_about_us.html" >About us</a>
+                            </li>
+                            <li><a href="b_help.html">Help</a></li>
+                        </ul>
+                        <div class="navigation_login">
+                            <a href="#">Login</a>
+                            <button class='getStarted'>Get Started</button>
+                        </div>
+                    </div>
+                    <button class="ToggleBtn" id='toggleBtn'><i class="fas fa-bars"></i></button>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="b_page_container">
+                <div class="site-path">
+                    <span>Home <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
+                    <span>Business <i class="fas fa-arrow-right"
+                            style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
+                    <span>Plans <i class="fas fa-arrow-right"
+                            style="font-size: 14px; margin: 0 8px 0 5px; color: black;"></i></span>
+                    <span>Choose your plan</span>
+                </div>
+                <div class="title">
+                    <h1>Pick the right Plan for your business
+                    </h1>
+                    <h2>Go through our plans and compare different features that each plan offers</h2>
+                        <div class="plans_btn row text-center">
+                            <a href="b_plans_company.html" class="btn col-6 ">Company</a>
+                            <a href="b_plans_individual.html" class="btn col-6 active">Individual</a>
+                        </div>
+                   
+                </div>
+               
+                <div class="container">
+                    <div class="row blocks justify-content-center text-center gx-3">
+                        <div class="block col-sm-12 col-md-3">
+                            <div class="points">
+                                <h3>Basic</h3>
+                                <h4>Free</h4>
+                                <h5>Sign up</h5>
+                            </div>
+                        </div>
+                        <div class="block col-sm-12 col-md-3">
+                            <div class="points">
+                                <h3>Standard+</h3>
+                                <h4>$9.99/m</h4>
+                                <h5>Sign up</h5>
+                            </div>
+
+                            
+                        </div>
+                        <div class="block col-sm-12 col-md-3">
+                            <div class="points">
+                                <h3>Professional</h3>
+                                <h4>$33.99/m</h4>
+                                <h5>Sign up</h5>
+                            </div>
+
+                            
+                        </div>
+                       
+                    </div>
+
+                </div>
+                <div class="title title-2">
+                    <h1>Start out for free. Switch Plans as you grow. Cancel any time</h1>
+                    <h2>Open an account under your registered  business name. Pick a plan. Switch between plans or cancel any time. Pay monthly</h2>
+                </div>
+
+
+                <table class="w-100 mx-auto">
+                    <tr class="mx-auto">
+                        <th class="col-4">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h3>Basic</h3>
+                                <h4>$0.00 / m</h4>
+                                <h5>Sign up</h5>
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h3>Standard+</h3>
+                                <h4>$9.99/m</h4>
+                                <h5>Sign up</h5>
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h3>Professional</h3>
+                                <h4>$33.99/m</h4>
+                                <h5>Sign up</h5>
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table_blue_row">
+                        <th>
+                            <div class="p-0 m-0 table-text d-flex flex-column justify-content-center text-center text-white align-items-center">
+                                <h3 class="p-0 m-0">Get more for less</h3>
+                            </div>
+                        </th>
+                        <td class="">
+                            
+                        </td>
+                        <td class="">
+                        </td>
+                        <td class="">
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Free international payments</h3>
+                                <h4>A $4 fee applies per 1 international payment outside plan allowance</h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>0</h4>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>7</h4>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>14</h4>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Free local payments</h3>
+                                <h4>A $0.3 fee applies per 1 local payment 
+                                    outside plan allowance</h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>7</h4>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>27</h4>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>114</h4>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Foreign exchange (FX) at the interbank rate</h3>
+                                <h4>A $0.6 markup applies per 1 FX outside plan allowance</h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>$0</h4>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>$7,000</h4>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>$14,000 </h4>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Free metal cards</h3>
+                                <h4>$60 for each extra card outside plan allowance</h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>No metal</h4>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>0</h4>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <h4>1</h4>
+                            
+                            </div>
+
+                            
+                        </td>
+                       
+                    </tr>
+
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Free payments to SnowLeopard accounts</h3>
+                                <h4>Real-time transfers to any SnowLeopard business or personal accounts</h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>24/7 priority customer support</h3>
+                                <h4>Talk to our operators and get answers to your questions
+                                </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-times"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table_blue_row">
+                        <th>
+                            <div class="p-0 m-0 table-text d-flex flex-column justify-content-center text-center text-white align-items-center">
+                                <h3 class="p-0 m-0">UPGRADE FOR EXTRAS</h3>
+                            </div>
+                        </th>
+                        <td class="">
+                            
+                        </td>
+                        <td class="">
+                        </td>
+                        <td class="">
+                        </td>
+                        
+                    </tr>
+
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Easy integrations</h3>
+                                <h4>Connect company’s applications to your SnowLeopard Business account
+                                </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-times"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>    Payment approval rules</h3>
+                                <h4>Set up payment approval methods to minimize the risk of errors
+                                </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-times"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Bulk payment</h3>
+                                <h4>You can create a bulk payment and cover
+                                    multiple payments at the same time
+                                </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-times"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Rewards</h3>
+                                <h4>Get discounts and special offers from our partners
+                                </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-times"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                       
+                    </tr>
+
+                    <tr class="table_blue_row">
+                        <th>
+                            <div class="p-0 m-0 table-text d-flex flex-column justify-content-center text-center text-white align-items-center">
+                                <h3 class="p-0 m-0">GENERAL FEATURES</h3>
+                            </div>
+                        </th>
+                        <td class="">
+                            
+                        </td>
+                        <td class="">
+                        </td>
+                        <td class="">
+                        </td>
+                        
+                    </tr>
+
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Multi-currency account</h3>
+                                <h4>Hold and exchange 30+ fiat currencies and major cryptos</h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Local accounts in USD, SGD, EUR & GBP</h3>
+                                <h4>Send and receive money like a local</h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>IBANs for International transfers</h3>
+                                <h4>Receive payments from anywhere in the world</h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Spend like a local in 150+ countries</h3>
+                                <h4>Save on FX when you pay with company card, all at interbank exchange rate</h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Request a payment </h3>
+                                <h4>Quickly request payments with payment links or QR codes </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Accept payments directly on your website </h3>
+                                <h4>Install one of our plugins or create your own checkout experience using our widgets and Merchant API </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Subscriptions </h3>
+                                <h4>Take care of your recurring payments from one place </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Expenses </h3>
+                                <h4>Manage your company’s expenses from one place </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                       
+                    </tr>
+
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Team’s permissions </h3>
+                                <h4>Manage your whole team’s access and permissions </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Add team members </h3>
+                                <h4>You can add team members to your account as your business grow
+                                </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Company cards </h3>
+                                <h4>Get cards for your company needs, set individual limits and track expenses  </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Virtual cards </h3>
+                                <h4>Let your team spend safely with virtual cards </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Accessibility </h3>
+                                <h4>Use SnowLeopard Business account on the web or via app from anywhere in the world </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <th class="">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-end me-5">
+                                <h3>Marketplace </h3>
+                                <h4>Get in touch with different service
+                                    providers, link your apps and management
+                                    softwares
+                                     </h4>
+                            </div>
+                        </th>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        <td class="col-2">
+                            <div class="table-text d-flex flex-column justify-content-center align-items-center">
+                                <i class="fas fa-check p-0"></i>
+                            
+                            </div>
+
+                            
+                        </td>
+                        
+                    </tr>
+                </table>
+                <!-- 
+                <div class="b_page_block row g-0 flex-md-row flex-sm-column-reverse ">
+                    <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center">
+                        <div class="text d-flex flex-column">
+                            <h4></h4>
+                            <div class="underline"></div>
+
+                            <div class="point d-flex flex-row align-items-start">
+                                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                                <h5 class="p-0 m-0"></h5>
+                            </div>
+                            <div class="point d-flex flex-row align-items-start">
+                                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                                <h5 class="p-0 m-0"></h5>
+                            </div>
+                            <div class="point d-flex flex-row align-items-start">
+                                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                                <h5 class="p-0 m-0"></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block_image col-md-6 col-sm-12  d-flex flex-row justify-items-center">
+                        <div class="image">
+                            <img src="media/img/b_cards_page/globe.svg" alt="">
+                        </div>
+
+                    </div>
+                </div> -->
+            </div>
+
+
+
+
+        </main>
+
+        <footer>
+            <div class="_limit_container">
+                <div class="contact">
+                    <div class="footer-logo">
+                        <img src="media/img/footer-logo.svg" alt="">
+                    </div>
+                    <form action="">
+                        <label for="email">Contact us</label>
+                        <div class="email-send">
+                            <input type="email" placeholder="Email">
+                            <button>Send</button>
+                        </div>
+
+                        <div class="phone_email">
+                            <span><i class="fas fa-phone-alt"></i>+7 775 000 3978</span>
+                            <span><i class="fas fa-envelope"></i>snowleopard@gmail.com</span>
+
+                        </div>
+                    </form>
+                </div>
+
+                <div class="footer-list">
+                    <ul>
+                        <li>Account</li>
+                        <li>Joined accounts</li>
+                        <li>Budgeting</li>
+                        <li>Cards</li>
+                        <li>SnowLeopard Cub</li>
+                        <li>DuePay</li>
+                    </ul>
+                    <ul>
+                        <li>Wealth builder</li>
+                        <li>Stocks</li>
+                        <li>Crypto</li>
+                        <li>Commodities</li>
+                        <li>MoneyBox</li>
+                        <li>Marketplace</li>
+                    </ul>
+                    <ul>
+                        <li>Payments</li>
+                        <li>Money Transfers</li>
+                        <li>Split a bill</li>
+                        <li>Early salary</li>
+                        <li>Subscriptions</li>
+                    </ul>
+                    <ul>
+                        <li>Even more</li>
+                        <li>SNL Bonus</li>
+                        <li>Travel insurance</li>
+                        <li>Device insurance</li>
+                        <li>Property</li>
+                        <li>Security</li>
+                    </ul>
+                    <ul>
+                        <li>Blockchain</li>
+                        <li>SNL Token</li>
+                        <li>Built on Stellar</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="copyright">
+                <span>© 2021 SnowLeopard аll rights reserved</span>
+                <span>Website development. Developed by a Digital Agency Nidge</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Boostrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="script/menuBtn.js"></script>
+</body>
+
+</html>
