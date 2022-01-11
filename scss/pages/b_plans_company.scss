@@ -1,3 +1,11 @@
+main{
+    background-image: 
+    url("../../media/img/b_expenses_page/cube.svg");
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    background-position-y: 105%;
+    background-size: 50%;
+  } 
 .plans_btn{
     margin-top: 40px;
     background-color: #3E1BDB;
@@ -70,10 +78,95 @@
 }
 
 table{
+    margin-top: 160px;
+    margin-bottom: 340px;
     tr{
         td,th{
             border-right: 1px solid black;
             border-bottom: 1px solid black;
+            color: black;
+            
+        }
+        td{
+            h3{
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 24px;
+                letter-spacing: 0.3px;
+                margin-top: 42px;
+            }
+            h4{
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 0.3px;
+                color: #3E1BDB;
+                margin-top: 33px;
+
+            }
+            h5{
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.3px;
+                margin-top: 34;
+                margin-bottom: 42px;
+
+            }
+            &:last-child{
+                border-right: 0;
+            }
+        }
+    }
+}
+.table_blue_row{
+    td,th{
+        background-color: #3E1BDB;
+        font-size: 24px;
+        padding: 12px;
+        text-transform: uppercase;
+    }
+}
+.table-row{
+    &:last-child{
+        td,th{
+            border-bottom: 0;
+
+        }
+    }
+    th{
+        h3{
+            margin-top: 24px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            letter-spacing: 0.3px;
+        }
+        h4{
+            font-size: 12px;
+            line-height: 24px;
+            text-align: right;
+            letter-spacing: 0.3px;
+            margin-bottom: 24px;
+
+        }
+    }
+    td{
+        h4{
+            color: black;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0;                    
+            letter-spacing: 0.3px;
+        }
+        i{
+            color: #3E1BDB;
+            font-size: 28px;
+            line-height: 24px;
+            margin: 0;                    
+            letter-spacing: 0.3px;
         }
     }
 }
