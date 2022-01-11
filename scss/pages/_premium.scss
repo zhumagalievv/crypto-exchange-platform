@@ -1,13 +1,10 @@
-.plus-page {
+.premium-page {
 	@include commonFonts;
-    $bg-fg01: url('../media/img/plus/bg-fg01.svg');
-    $bg-fg02: url('../media/img/plus/bg-fg02.svg');
 
-	background-image: $bg-figures, $bg-figures-reversed, $bg-figures, $bg-fg01,$bg-fg02, $bg-fg01,
-	$bg-cub-reversed;
+	background-image: $bg-figures, $bg-figures-reversed, $bg-cub-reversed;
 	background-repeat: no-repeat;
-	background-position-x: 10%, 88%, 8%,    74%, 5%, 90%,  81%;
-	background-position-y: 15%, 8%,  30.5%, 66.5%, 55%, 99%, 108%;
+	background-position-x: 10%, 90%, 81%;
+	background-position-y: 10%, 5%, 104%;
 
 	.headers {
 		margin: 0 auto;
@@ -27,9 +24,23 @@
 		&__img {
 			img {
 				width: 70%;
+				opacity: 1;
+				// transform: translateY(0);
+				transition: .3s;
 			}
 		}
-
+		// .show {
+		// 	opacity: 1;
+		// 	transform: translateY(0);
+		// 	transition: 1s ease-in-out;
+		// }
+		
+		.hide {
+			opacity: 0;
+			transform: translateY(-100px);
+			transition: 2s ease-in-out;
+		}
+		
 		.price_container {
 			justify-content: center;
 			gap: 50px;
@@ -70,15 +81,5 @@
 
 	.content-section {
 		margin-top: 0px;
-		&-sixth {
-			.desc {
-				&__item:nth-child(1) {
-					margin: 0 0 10px;
-				}
-				&__item:nth-child(2) {
-					margin: 0 0 10px 30px;
-				}
-			}
-		}
 	}
 }

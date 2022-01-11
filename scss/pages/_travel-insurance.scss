@@ -1,6 +1,4 @@
 .travel-insurance-page {
-	@include commonFonts;
-
     $bg-cub: url('../media/img/travel-insurance/bg-cub.svg');
 
     background-image: $bg-figures, $bg-figures-reversed, $bg-figures-colored, $bg-cub;
@@ -24,10 +22,21 @@
 		}
 
 		&__img {
+			padding-top: 10px;
+			position: relative;
 			img {
 				width: 100%;
 			}
 			margin-bottom: 160px;
+			#plane {
+				width: 1%;
+				position: absolute;
+				overflow: hidden;
+				top: 34%;
+				right: 13%;
+				transform: rotate(14deg);
+			}
+
 		}
 	}
 

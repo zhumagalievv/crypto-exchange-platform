@@ -12,8 +12,6 @@ $bg-img10: url('../media/img/crypto_page/bg-img10.svg');
 	background-position-x: 0%, 43%, 100%, 94%, 0%;
 	background-position-y: 46%, 63%, 65%, 77%, 95%;
 
-	@include commonFonts;
-
 	.headers {
 		margin-bottom: 288px;
 		max-width: 1200px;
