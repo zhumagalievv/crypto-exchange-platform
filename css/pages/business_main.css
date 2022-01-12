@@ -21,11 +21,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  padding: 25vh 0 35vh;
-  background-image: url("../../media/img/main_page/title-bg.svg");
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 80%; }
+  padding: 25vh 0 35vh; }
   .title h1 {
     color: #3E1BDB;
     font-size: 60px; }
