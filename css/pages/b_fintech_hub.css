@@ -1,44 +1,62 @@
 .title-img {
-  width: 100%; }
-  .title-img img {
-    width: 100%; }
+  width: 100%;
+}
+
+.title-img img {
+  width: 100%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
 
 .image-1 {
   width: 90%;
   margin: 0 auto;
-  text-align: center; }
-  .image-1 img {
-    width: 100%; }
+  text-align: center;
+}
+
+.image-1 img {
+  width: 100%;
+}
 
 .block_cases {
   color: black;
-  margin-bottom: 160px; }
-  .block_cases .case {
-    box-sizing: border-box;
-    padding: 32px 26px 72px;
-    color: black;
-    border-radius: 24px;
-    border: 1px solid black;
-    width: 30%; }
-    .block_cases .case h4 {
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 24px;
-      text-align: center;
-      letter-spacing: 0.1em; }
-    .block_cases .case h5 {
-      margin-top: 48px;
-      font-size: 16px;
-      line-height: 24px;
-      text-align: center;
-      letter-spacing: 0.1em; }
+  margin-bottom: 160px;
+}
+
+.block_cases .case {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 32px 26px 72px;
+  color: black;
+  border-radius: 24px;
+  border: 1px solid black;
+  width: 30%;
+}
+
+.block_cases .case h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.block_cases .case h5 {
+  margin-top: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
 
 .API h3 {
   color: #3E1BDB;
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
-  letter-spacing: 0.02em; }
+  letter-spacing: 0.02em;
+}
+
 .API h4 {
   font-size: 16px;
   line-height: 24px;
@@ -46,11 +64,13 @@
   width: 40%;
   margin: 0 auto;
   text-align: center;
-  letter-spacing: 0.3px; }
+  letter-spacing: 0.3px;
+}
 
 @media screen and (max-width: 768px) {
   .block_cases .case {
     margin: 25px 0;
-    width: 100%; } }
-
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=b_fintech_hub.css.map */

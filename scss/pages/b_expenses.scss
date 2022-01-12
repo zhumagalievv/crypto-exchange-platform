@@ -8,7 +8,9 @@ main{
 }   
 .title-img{
     width: 100%;
-    
+    img {
+        transition: .3s ease-out;
+    }
 }
 .title-img img{
     width: 100%;

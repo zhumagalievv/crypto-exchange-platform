@@ -30,6 +30,7 @@
 			width: 100%;
 			position: relative;
 			img {
+				transition: .3s ease-out;
 				position: absolute;
 				&:nth-child(1) {
 					top: 0;

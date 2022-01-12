@@ -25,34 +25,39 @@ $bg-img10: url('../media/img/crypto_page/bg-img10.svg');
 	}
 }
 
-.crypto-img {
+.crypto-img__child {
+	display: inline;
+	position: absolute;
 	width: 100%;
+
 	img {
-		position: absolute;
-		&:nth-child(1) {
-			top: 8%;
-			left: 3%;
-		}
-		&:nth-child(2) {
-			top: 16%;
-			left: 10%;
-		}
-		&:nth-child(3) {
-			top: 18%;
-			left: 30%;
-		}
-		&:nth-child(4) {
-			top: 18%;
-			left: 62%;
-		}
-		&:nth-child(5) {
-			top: 14%;
-			left: 78%;
-		}
-		&:nth-child(6) {
-			top: 4%;
-			right: 3%;
-		}
+		transition: .3s ease-out;
+	}
+}
+#crypto-img {
+	&1 {
+		top: 8%;
+		left: 3%;
+	}
+	&2 {
+		top: 16%;
+		left: 10%;
+	}
+	&3 {
+		top: 18%;
+		left: 30%;
+	}
+	&4 {
+		top: 18%;
+		left: 62%;
+	}
+	&5 {
+		top: 14%;
+		left: 78%;
+	}
+	&6 {
+		top: 4%;
+		left: 80%;
 	}
 }
 

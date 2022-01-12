@@ -2,7 +2,6 @@
 @import '../pages/stocks';
 
 .snl_bonus-page {
-	@include commonFonts;	
 	background-image: $bg-figures-reversed, $bg-figures;
 	background-repeat: no-repeat;
 	background-position-x: 87%, 69%;
@@ -22,6 +21,7 @@
 			height: 100%;
 			width: 100%;
 			img {
+				transition: .3s ease-out;
 				position: absolute;
 				&:nth-child(1) {
 					top: 0;

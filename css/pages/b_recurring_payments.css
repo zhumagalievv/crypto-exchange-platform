@@ -13,4 +13,5 @@
 }
 .title-img img{
     width: 100%;
+    transition: .3s ease-out;
 }

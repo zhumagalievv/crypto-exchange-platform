@@ -1,5 +1,4 @@
 .early-salary-page {
-	@include commonFonts;
 
     $bg-cub-reversed: url('../media/img/early-salary/bg-cub-reversed.svg');
 
@@ -30,6 +29,7 @@
 			height: 350px;
 			position: relative;
 			img {
+				transition: .3s ease-out;
 				position: absolute;
 				&:nth-child(1) {
 					top: 0;

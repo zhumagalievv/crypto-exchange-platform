@@ -74,8 +74,8 @@ body {
 }
 
 .mainContent__section .animated__coins img:nth-child(4) {
-  left: 48%;
-  bottom: -12%;
+  left: 45%;
+  top: 102%;
 }
 
 .mainContent__section .animated__coins img:nth-child(5) {
@@ -115,6 +115,12 @@ body {
   width: 90%;
   margin: 0 auto;
   color: #111111;
+}
+
+.cardCarousel .cardCarousel__title .bt-line {
+  width: 12rem;
+  border-top: 3px solid black;
+  margin-top: 16px;
 }
 
 .cardCarousel .cardCarousel__title .cardCarousel__img {
@@ -284,7 +290,7 @@ body {
   height: 2px;
   position: absolute;
   bottom: 0;
-  background: #2e00ff;
+  background: #111111;
 }
 
 .content__btn button {
@@ -334,6 +340,12 @@ body {
   color: #111111;
 }
 
+.flex__container .container__content .bt-line {
+  width: 10rem;
+  border-top: 3px solid black;
+  margin-top: 16px;
+}
+
 .flex__container .container__content h4.line::after {
   content: "";
   width: 200px;
@@ -366,6 +378,12 @@ body {
   letter-spacing: 0.3px;
   color: #111111;
   margin: 10px 0;
+}
+
+.buyCrypto__section .bt-line {
+  width: 10rem;
+  border-top: 3px solid black;
+  margin-top: 16px;
 }
 
 .buyCrypto__section .section__contentList .contentImg {
@@ -488,7 +506,7 @@ body {
 .buyCrypto__section .sectionLearnMoreBtn .BuySell__buttons button a {
   display: block;
   height: 100%;
-  margin-top: 16px;
+  margin-top: 16.5px;
   text-decoration: none;
   font-size: 17px;
   line-height: 15px;
@@ -577,6 +595,12 @@ body {
   letter-spacing: 0.3px;
   color: #111111;
   margin: 30px 0;
+}
+
+.analyticSection .bt-line {
+  width: 10rem;
+  border-top: 3px solid black;
+  margin-top: 16px;
 }
 
 .analyticSection .section__arrowImg {
@@ -751,7 +775,7 @@ body {
           transform: translateX(-50%);
   width: 160px;
   height: 2px;
-  background: #2e00ff;
+  background: #111111;
 }
 
 .plan_container p {
@@ -1080,8 +1104,7 @@ body {
 
 @font-face {
   font-family: 'Gotham Pro';
-  src: url("../fonts/GothamPro/gothampro.ttf");
-  src: url("gothampro.ttf");
+  src: url("./media/font/Muller/Non-commercial/Muller/TTF/Muller-Trial-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -1121,7 +1144,7 @@ body {
 }
 
 .container_header span:nth-child(2) a {
-  text-decoration: underline;
+  text-decoration: none;
   color: white;
 }
 
@@ -1813,7 +1836,7 @@ footer .copyright span:last-child {
           box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Muller';
+  font-family: 'Muller', 'Roboto';
 }
 
 body {
@@ -1933,116 +1956,45 @@ body {
   }
 }
 
-.title-bg {
-  background-image: url("../media/img/account_page_desctiption_bg.svg");
-  font-family: 'Muller';
-  background-repeat: no-repeat;
-  background-size: 95%;
-  background-position-x: center;
-  background-position-y: bottom;
-}
-
 .account_page_body {
   height: 100%;
   background-image: url("../media/img/bg-element-cube.svg");
   background-position-x: 25%;
   background-repeat: no-repeat;
-  background-position-y: 98%;
+  background-position-y: 96%;
 }
 
 .account_page {
   background-image: url("../media/img/bg-element.svg");
   background-repeat: no-repeat;
   background-position-x: 7%;
-  background-position-y: 75%;
+  background-position-y: 77%;
   color: #111111;
 }
 
-.account_page ._limit_container, .account_page footer .copyright, footer .account_page .copyright {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.account_page .page_description {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.account_page .headers__img img {
   width: 100%;
-  text-align: center;
-  padding: 125px 0px 27%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
-.account_page .page_description h1 {
-  font-size: 60px;
-  z-index: 1;
-  letter-spacing: 0.02em;
-  color: #3E1BDB;
+.account_page .image-1 {
+  width: 50%;
 }
 
-.account_page .page_description h2 {
-  width: 60%;
-  font-size: 16px;
-  line-height: 32px;
-  letter-spacing: 0.1em;
-  margin-top: 40px;
-  color: #111111;
+.account_page .image-2 {
+  width: 50%;
+  margin: unset;
+  margin-left: 100px;
+  text-align: unset;
 }
 
-.account_page .block_m {
-  margin-bottom: 160px;
+.account_page .image-3 {
+  width: 55%;
 }
 
-.account_page .block_m .block_pos {
+.account_page .image img {
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.account_page .block_m .block_pos .block_text {
-  color: #111111;
-}
-
-.account_page .block_m .block_pos .block_text h2 {
-  font-size: 24px;
-  line-height: 24px;
-  letter-spacing: 0.3px;
-  padding-bottom: 16px;
-}
-
-.account_page .block_m .block_pos .block_text .text_underline {
-  border-top: 1px #111111 solid;
-  width: 160px;
-  padding: 0;
-  margin: 0  0 64px;
-}
-
-.account_page .block_m .block_pos .block_text h5 {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.3px;
-  margin-top: 16px;
-}
-
-.account_page .block_m .block_pos .block_img {
-  text-align: end;
-}
-
-.account_page .money_add .block_pos .block_img {
-  text-align: center;
-}
-
-.account_page .money_security .block_pos .block_img {
-  text-align: center;
 }
 
 ._limit_container, footer .copyright {
@@ -2220,7 +2172,7 @@ body {
   content: " ";
   width: 160px;
   height: 1px;
-  background: #f00000;
+  background: #111111;
   bottom: 0;
   left: 0;
 }
@@ -2308,9 +2260,9 @@ body {
   width: 90%;
   position: absolute;
   top: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  left: 4.5%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
 }
 
 .section-snowL-app {
@@ -3654,42 +3606,45 @@ body {
   margin: 0 auto;
 }
 
-.crypto-img {
+.crypto-img__child {
+  display: inline;
+  position: absolute;
   width: 100%;
 }
 
-.crypto-img img {
-  position: absolute;
+.crypto-img__child img {
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
 }
 
-.crypto-img img:nth-child(1) {
+#crypto-img1 {
   top: 8%;
   left: 3%;
 }
 
-.crypto-img img:nth-child(2) {
+#crypto-img2 {
   top: 16%;
   left: 10%;
 }
 
-.crypto-img img:nth-child(3) {
+#crypto-img3 {
   top: 18%;
   left: 30%;
 }
 
-.crypto-img img:nth-child(4) {
+#crypto-img4 {
   top: 18%;
   left: 62%;
 }
 
-.crypto-img img:nth-child(5) {
+#crypto-img5 {
   top: 14%;
   left: 78%;
 }
 
-.crypto-img img:nth-child(6) {
+#crypto-img6 {
   top: 4%;
-  right: 3%;
+  left: 80%;
 }
 
 .section-text i {
@@ -4200,61 +4155,6 @@ body {
   background-position-y: 56%, 69%;
 }
 
-.snl_bonus-page h1,
-.snl_bonus-page h2,
-.snl_bonus-page h3,
-.snl_bonus-page h4,
-.snl_bonus-page h5 {
-  font-style: normal;
-}
-
-.snl_bonus-page h1 {
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: 0.02rem;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.snl_bonus-page h2 {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 32px;
-  /* or 200% */
-  letter-spacing: 0.1em;
-  /* Black */
-  color: #111111;
-}
-
-.snl_bonus-page h3 {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: 0.3px;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.snl_bonus-page h4,
-.snl_bonus-page h5 {
-  letter-spacing: 0.3px;
-  line-height: 24px;
-  /* Black */
-  color: #111111;
-}
-
-.snl_bonus-page h4 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.snl_bonus-page h5 {
-  font-weight: normal;
-  font-size: 16px;
-  color: #111111;
-}
-
 .snl_bonus-page .headers {
   margin: 0 auto;
   max-width: 1200px;
@@ -4273,6 +4173,8 @@ body {
 }
 
 .snl_bonus-page .headers__img img {
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
   position: absolute;
 }
 
@@ -4645,61 +4547,6 @@ body {
   padding-bottom: 150px;
 }
 
-.split-bill-page h1,
-.split-bill-page h2,
-.split-bill-page h3,
-.split-bill-page h4,
-.split-bill-page h5 {
-  font-style: normal;
-}
-
-.split-bill-page h1 {
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: 0.02rem;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.split-bill-page h2 {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 32px;
-  /* or 200% */
-  letter-spacing: 0.1em;
-  /* Black */
-  color: #111111;
-}
-
-.split-bill-page h3 {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: 0.3px;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.split-bill-page h4,
-.split-bill-page h5 {
-  letter-spacing: 0.3px;
-  line-height: 24px;
-  /* Black */
-  color: #111111;
-}
-
-.split-bill-page h4 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.split-bill-page h5 {
-  font-weight: normal;
-  font-size: 16px;
-  color: #111111;
-}
-
 .split-bill-page .headers {
   margin: 0 auto;
   max-width: 1400px;
@@ -4716,6 +4563,12 @@ body {
   margin-bottom: 48px;
 }
 
+.split-bill-page .headers__img img {
+  width: 100%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
 .split-bill-page .content-section .section-text {
   max-width: 800px;
 }
@@ -4726,61 +4579,6 @@ body {
   background-position-x: 96%, 100%;
   background-position-y: 66%, 123%;
   padding-bottom: 150px;
-}
-
-.early-salary-page h1,
-.early-salary-page h2,
-.early-salary-page h3,
-.early-salary-page h4,
-.early-salary-page h5 {
-  font-style: normal;
-}
-
-.early-salary-page h1 {
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: 0.02rem;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.early-salary-page h2 {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 32px;
-  /* or 200% */
-  letter-spacing: 0.1em;
-  /* Black */
-  color: #111111;
-}
-
-.early-salary-page h3 {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: 0.3px;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.early-salary-page h4,
-.early-salary-page h5 {
-  letter-spacing: 0.3px;
-  line-height: 24px;
-  /* Black */
-  color: #111111;
-}
-
-.early-salary-page h4 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.early-salary-page h5 {
-  font-weight: normal;
-  font-size: 16px;
-  color: #111111;
 }
 
 .early-salary-page .headers {
@@ -4805,6 +4603,8 @@ body {
 }
 
 .early-salary-page .headers__img img {
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
   position: absolute;
 }
 
@@ -4941,6 +4741,8 @@ body {
 }
 
 .subscriptions-page .headers__img img {
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
   position: absolute;
 }
 
@@ -5117,6 +4919,11 @@ body {
   margin-left: 100px;
 }
 
+.built-on-stellar-page .headers__img img {
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
 .built-on-stellar-page .headers-second {
   margin-bottom: 50px;
 }
@@ -5226,6 +5033,8 @@ body {
 
 .basic-page .headers__img img {
   width: 70%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
 }
 
 .basic-page .headers .price_container {
@@ -5483,8 +5292,8 @@ body {
 .premium-page .headers__img img {
   width: 70%;
   opacity: 1;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
 }
 
 .premium-page .headers .hide {
@@ -5613,13 +5422,11 @@ body {
   margin: 0 240px 52px;
 }
 
-.platinum-page .headers__img img {
+.platinum-page .headers__img--anim img {
   opacity: 1;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
   width: 70%;
-  -webkit-transition: 2s ease-in-out;
-  transition: 2s ease-in-out;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
 }
 
 .platinum-page .headers .price_container {
@@ -5656,6 +5463,11 @@ body {
   letter-spacing: 0.1em;
   /* Black */
   color: #111111;
+}
+
+.platinum-page .headers__img--anim2 img {
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
 }
 
 .platinum-page .content-section {

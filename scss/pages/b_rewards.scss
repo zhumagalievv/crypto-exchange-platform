@@ -1,4 +1,4 @@
-.rewards_block{
+.rewards_block {
     margin: 160px 0;
     h3{
         color:#3E1BDB;
@@ -17,6 +17,14 @@
         text-align: center;
         img{
             width: 100%;
+        }
+    }    
+}
+
+.b_rewards_page {
+    .title-img {
+        img  {
+            transition: .3s ease-out;
         }
     }
 }
