@@ -91,7 +91,7 @@ function fadeIn(parentClass, childClass, duration, triggerHook) {
         triggerHook: triggerHook,
     })
         .setTween(tween)
-        .addIndicators()
+        // .addIndicators()
         .addTo(controller)
 }
 

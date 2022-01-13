@@ -2868,61 +2868,6 @@ body {
   background-position-y: 51%, 93.5%;
 }
 
-.stocks-page h1,
-.stocks-page h2,
-.stocks-page h3,
-.stocks-page h4,
-.stocks-page h5 {
-  font-style: normal;
-}
-
-.stocks-page h1 {
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: 0.02rem;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.stocks-page h2 {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 32px;
-  /* or 200% */
-  letter-spacing: 0.1em;
-  /* Black */
-  color: #111111;
-}
-
-.stocks-page h3 {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: 0.3px;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.stocks-page h4,
-.stocks-page h5 {
-  letter-spacing: 0.3px;
-  line-height: 24px;
-  /* Black */
-  color: #111111;
-}
-
-.stocks-page h4 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.stocks-page h5 {
-  font-weight: normal;
-  font-size: 16px;
-  color: #111111;
-}
-
 .stocks-page .headers {
   position: relative;
 }
@@ -3292,61 +3237,6 @@ body {
   background-repeat: no-repeat;
   background-position-x: 79%, 28.5%;
   background-position-y: 51%, 93.5%;
-}
-
-.stocks-page h1,
-.stocks-page h2,
-.stocks-page h3,
-.stocks-page h4,
-.stocks-page h5 {
-  font-style: normal;
-}
-
-.stocks-page h1 {
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: 0.02rem;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.stocks-page h2 {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 32px;
-  /* or 200% */
-  letter-spacing: 0.1em;
-  /* Black */
-  color: #111111;
-}
-
-.stocks-page h3 {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: 0.3px;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.stocks-page h4,
-.stocks-page h5 {
-  letter-spacing: 0.3px;
-  line-height: 24px;
-  /* Black */
-  color: #111111;
-}
-
-.stocks-page h4 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.stocks-page h5 {
-  font-weight: normal;
-  font-size: 16px;
-  color: #111111;
 }
 
 .stocks-page .headers {
@@ -3854,61 +3744,6 @@ body {
   background-repeat: no-repeat;
   background-position-x: 79%, 28.5%;
   background-position-y: 51%, 93.5%;
-}
-
-.stocks-page h1,
-.stocks-page h2,
-.stocks-page h3,
-.stocks-page h4,
-.stocks-page h5 {
-  font-style: normal;
-}
-
-.stocks-page h1 {
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: 0.02rem;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.stocks-page h2 {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 32px;
-  /* or 200% */
-  letter-spacing: 0.1em;
-  /* Black */
-  color: #111111;
-}
-
-.stocks-page h3 {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: 0.3px;
-  /* Blue */
-  color: #3e1bdb;
-}
-
-.stocks-page h4,
-.stocks-page h5 {
-  letter-spacing: 0.3px;
-  line-height: 24px;
-  /* Black */
-  color: #111111;
-}
-
-.stocks-page h4 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.stocks-page h5 {
-  font-weight: normal;
-  font-size: 16px;
-  color: #111111;
 }
 
 .stocks-page .headers {
@@ -5160,6 +4995,8 @@ body {
 }
 
 .plus-page .headers__img img {
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
   width: 70%;
 }
 
