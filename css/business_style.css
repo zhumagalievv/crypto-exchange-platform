@@ -1,7 +1,3 @@
-.site-path-container{
-  width: 90%;
-  margin: 0 auto;
-}
 .b_page_container {
   width: 90%;
   margin: 0 auto; }
@@ -30,6 +26,11 @@
     line-height: 32px;
     text-align: center;
     letter-spacing: 0.1em; }
+
+.title-img {
+  width: 80%; }
+  .title-img img {
+    width: 100%; }
 
 .footer-title {
   color: black;
