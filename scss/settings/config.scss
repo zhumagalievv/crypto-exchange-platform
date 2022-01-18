@@ -1,31 +1,69 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-body{
-    height: 100vh;
-    margin: 0px;
-    padding: 0px;
-    
-}
-.wrapper{
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    header{
-        background: white;
+@import '../utils/mixins.scss';
 
-    }
-    main{
-        position: relative;
-        flex: 1 1 auto;
-    }
-    footer{
-        position:relative;
-        z-index: 1000;
-    }
-    
+$primary-color: #e5e5e5;
+$gray: #888888;
+$black: #111111;
+$blue: #3e1bdb;
+
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Muller', 'Roboto';
+}
+body {
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	header {
+		background: white;
+	}
+	main {
+		position: relative;
+		flex: 1 1 auto;
+	}
+	footer {
+		position: relative;
+		z-index: 1000;
+	}
+
+	@include commonFonts;
+
+	.headers {
+
+		margin-bottom: 161px;
+		text-align: center;
+		margin: 0 auto;
+
+		&__container {
+			max-width: 1300px;
+			margin: 0 auto;
+		}
+		&__main-title {
+			margin: 0 91px 37px;
+		}
+		&__sub-title {
+			margin: 0 286px;
+		}
+	}
+
+	@media screen and (max-width: 900px) {
+		.headers {
+			&__sub-title {
+				margin: 0 30px;
+			}
+			&__img img {
+				display: none;
+			}
+		}
+	}
 }

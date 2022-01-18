@@ -32,8 +32,9 @@
             width: 90%;
             position: absolute;
             top: 0;
-            left: 50%;
-            transform: translateX(-50%);
+            left: 4.5%;
+            transition: .3s ease-out;
+            // transform: translateX(-50%);
         }
     }
 

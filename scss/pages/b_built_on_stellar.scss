@@ -19,6 +19,7 @@ main{
     .title-img{
         img{
             width: 80%;
+            transition: .3s ease-out;
         }
     }
 }

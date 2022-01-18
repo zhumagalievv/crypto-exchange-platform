@@ -9,6 +9,9 @@ main{
 .title-img{
     width: 100%;
     margin-top: -80px;
+    img {
+        transition: .3s ease-out;
+    }
 }
 .title{
     h2{

@@ -1,19 +1,30 @@
 .rewards_block {
-  margin: 160px 0; }
-  .rewards_block h3 {
-    color: #3E1BDB;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 36px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    margin-bottom: 80px; }
-  .rewards_block .image {
-    width: 100%;
-    width: 85%;
-    margin: 0 auto;
-    text-align: center; }
-    .rewards_block .image img {
-      width: 100%; }
+  margin: 160px 0;
+}
 
+.rewards_block h3 {
+  color: #3E1BDB;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 80px;
+}
+
+.rewards_block .image {
+  width: 100%;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rewards_block .image img {
+  width: 100%;
+}
+
+.b_rewards_page .title-img img {
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
 /*# sourceMappingURL=b_rewards.css.map */

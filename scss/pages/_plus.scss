@@ -6,8 +6,8 @@
 	background-image: $bg-figures, $bg-figures-reversed, $bg-figures, $bg-fg01,$bg-fg02, $bg-fg01,
 	$bg-cub-reversed;
 	background-repeat: no-repeat;
-	background-position-x: 10%, 88%,8%,    74%, 5%, 90%,  81%;
-	background-position-y: 14%, 8%, 30.5%, 66.5%, 55.5%, 99%, 108%;
+	background-position-x: 10%, 88%, 8%,    74%, 5%, 90%,  81%;
+	background-position-y: 15%, 8%,  30.5%, 66.5%, 55%, 99%, 108%;
 
 	.headers {
 		margin: 0 auto;
@@ -26,6 +26,7 @@
 
 		&__img {
 			img {
+				transition: .3s ease-out;
 				width: 70%;
 			}
 		}
@@ -69,6 +70,7 @@
 	}
 
 	.content-section {
+		margin-top: 0px;
 		&-sixth {
 			.desc {
 				&__item:nth-child(1) {
