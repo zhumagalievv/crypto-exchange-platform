@@ -1,7 +1,6 @@
 .b_page_container {
   width: 90%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .b_page_block {
   margin-top: 160px;
@@ -44,6 +43,11 @@
   text-align: center;
   letter-spacing: 0.1em;
 }
+
+.title-img {
+  width: 80%; }
+  .title-img img {
+    width: 100%; }
 
 .footer-title {
   color: black;
