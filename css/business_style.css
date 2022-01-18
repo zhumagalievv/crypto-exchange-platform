@@ -31,7 +31,7 @@
 }
 
 .title h1 {
-  color: #3E1BDB;
+  color: #3e1bdb;
   font-size: 60px;
   font-weight: 600;
 }
@@ -65,7 +65,7 @@
 }
 
 .footer-title h1 {
-  color: #3E1BDB;
+  color: #3e1bdb;
   font-size: 60px;
   font-weight: 600;
 }
@@ -129,14 +129,15 @@
 }
 
 .text .point i {
-  color: #3E1BDB;
+  color: #3e1bdb;
 }
 
 .text .learn-more-btn {
   margin-top: 24px;
 }
 
-.text .learn-more-btn a, .text .learn-more-btn i {
+.text .learn-more-btn a,
+.text .learn-more-btn i {
   text-decoration: none;
   color: black;
   font-size: 24px;
@@ -145,14 +146,18 @@
 }
 
 .image {
-  height: 100%;
-  width: 50%;
   margin: 0 auto;
   text-align: center;
 }
 
 .image img {
   width: 100%;
+}
+
+@media screen and (min-width: 1500px) {
+  .image img {
+    width: unset;
+  }
 }
 
 @media only screen and (max-width: 1000px) {

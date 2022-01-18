@@ -16,6 +16,7 @@
   <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
   <!-- Custom style -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/business_style.css">
 
   <title>SnowLeopard</title>
 </head>
@@ -122,13 +123,45 @@
     ​
     <main class="commodities">
       <div class="_limit_container">
-        <div class="site-path">
-          <span>Home <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-          <span>Private <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-          <span>Features <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-          <span>Wealth builder</span>
-          <span><i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i> Commodities</span>
-        </div>
+        <section class="sub-navigation">
+          <div class="sub-navigation__container">
+            <span class="sub-navigation__item" id="home"> <a href="#">Home</a> </span>
+            <span class="sub-navigation__item" id="private">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Private</a>
+            </span>
+            <span class="sub-navigation__item" id="feautures">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Features</a>
+            </span>
+            <span class="sub-navigation__item" id="account">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Account</a>
+            </span>
+            <span class="sub-navigation__item" id="budgeting">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#111111" />
+              </svg>
+              <a href="#">Stocks</a>
+            </span>
+          </div>
+          <div class="bt-line"></div>
+        </section>
+
         <div class="commodity-header">
           <div class="commodity-header-title">
             <h1>Diversify your portfolio by investing in Commodities </h1>
@@ -139,75 +172,132 @@
             <img src="media/img/Commodities-bg.svg" alt="">
           </div>
         </div>
-      </div>
-      <div class="_limit_container">
-        <div class="content-section right">
-          <div class="section-text">
-            <h2>Instant in-app gold and silver purchase</h2>
-            <span>Buy gold and silver from just $1</span>
-            <p>Invest in precious metals and diversify your portfolio</p>
-            <p>Instant in-app purchase with SnowLeopard</p>
-            <p>Get started from just $1</p>
-            <p>Buy commodities with any supported fiat or cryptocurrency</p>
-          </div>
-          <div class="section-img">
-            <img src="media/img/gold.svg" alt="">
+
+        <div class="intro">
+          <div class="intro-text">
+            <h3>Instant in-app gold and silver purchase</h3>
           </div>
         </div>
-        <div class="content-section left">
-          <div class="section-img">
-            <img src="media/img/gold2.svg" alt="">
+        
+        <div class="b_page_block row g-0 flex-md-row flex-sm-column">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center mb-5">
+            <div class="text d-flex flex-column">
+              <h4>Buy gold and silver from just $1</h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Invest in precious metals and diversify your portfolio</h5>
+              </div>
+              <div class="point point-edit d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Instant in-app purchase with SnowLeopard</h5>
+              </div>
+              <div class="point point-edit d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Get started from just $1</h5>
+              </div>
+              <div class="point point-edit d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Buy commodities with any supported fiat or cryptocurrency</h5>
+              </div>
+            </div>
           </div>
-          <div class="section-text">
-            <h2 class='blue-text-underline'>Stay updated with real-time notifications</h2>
-            <p>Set up price alerts on certain commodities and get instant notification once target is reached</p>
-            <p>Follow real-time prices and use auto-exchange not to miss a desired trade opportunity</p>
-          </div>
-        </div>
-        <div class="content-section right">
-          <div class="section-text">
-            <h2 class='blue-text-underline'>Cashback in commodities </h2>
-            <p><b>Platinum</b> and <b>Premium</b> users can have their cashback in gold, silver and precious metals</p>
-            <p>All users can save up some portion of their gold and silver in MoneyBox</p>
-            <p>Exchange cashback in-app to any preferable currency including crypto</p>
-          </div>
-          <div class="section-img">
-            <img src="media/img/cashback-in-commodity.svg" alt="">
-          </div>
-        </div>
-        <div class="section-snowL-app">
-          <div class="section-item1">
-            <h1>How to trade commodities with SnowLeopard?</h1>
-            <p>Start trading gold, silver, and precious metals with SnowLeopard app today</p>
-          </div>
-          <div class="section-item2">
-            <ul class='section-item2-list'>
-              <li>
-                <h2 class='list-header'>1. Get the SnowLeopard App</h2>
-                <p>Download SnowLeopard App on your iOS or Android device</p>
-              </li>
-              <li>
-                <h2 class='list-header'>2. Tap on Commodities </h2>
-                <p>Go to Dashboard, press on Cryptocurrencies, get familiar with T&C’s, then accept and get started</p>
-              </li>
-              <li>
-                <h2 class='list-header'>3. Start trading</h2>
-                <p>Follow market rates and start trading gold, silver, and precious metals with any supported currencies
-                </p>
-              </li>
-            </ul>
+          <div class="block_image col-md-6 col-sm-12 d-flex flex-row align-self-center mb-n5">
+            <div class="image image-1">
+              <img src="./media/img/gold.svg" alt="stockImg">
+            </div>
           </div>
         </div>
-        <p class="small-text-onfooter">
-          This stock trading platform is facilitated by SnowLeopard Trading. Neither SnowLeopard nor SnowLeopard Trading
-          provides investment advice and individual investors should make their
-          own decisions or seek professional independent advice if they are unsure as to the suitability/appropriateness
-          of any investment for their individual circumstances or needs. The value of
-          investments can go up as well as down and you may receive less than your original investment or lose the value
-          of your entire initial investment. Past performance is not a reliable indicator
-          of future results. Currency rate fluctuations can adversely impact the overall returns on your original
-          investment. Learn more by reading our full Risk Disclosure and our Trading FAQ.
-        </p>
+
+        <div class="b_page_block row g-0 flex-md-row-reverse flex-sm-column">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center mb-5">
+            <div class="text d-flex flex-column">
+              <h4>Stay updated with real-time notifications</h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Set up price alerts on certain commodities and get instant notification once target
+                  is reached</h5>
+              </div>
+              <div class="point point-edit d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Follow real-time prices and use auto-exchange not to miss a desired trade
+                  opportunity</h5>
+              </div>
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12 d-flex flex-row align-self-center mb-n5">
+            <div class="image image-2">
+              <img src="./media/img/gold2.svg" alt="stockImg">
+            </div>
+          </div>
+        </div>
+
+        <div class="b_page_block b_page_block-1 row g-0 flex-md-row flex-sm-column">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center mb-5">
+            <div class="text d-flex flex-column">
+              <h4>Cashback in commodities </h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0"><b>Platinum</b> and <b>Premium</b> users can have their cashback in gold, silver and
+                  precious metals</h5>
+              </div>
+              <div class="point point-edit d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">All users can save up some portion of their gold and silver in MoneyBox</h5>
+              </div>
+              <div class="point point-edit d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Exchange cashback in-app to any preferable currency including crypto</h5>
+              </div>
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12 d-flex flex-row align-self-center mb-n5">
+            <div class="image image-3">
+              <img src="./media/img/cashback-in-commodity.svg" alt="stockImg">
+            </div>
+          </div>
+        </div>
+
+        <section class="conclusion">
+          <div class="row w-100 conclusion__container align-items-center">
+            <div class="col-sm-12 col-md-6 conclusion__left">
+              <h3 class="mb-4">How to trade commodities with SnowLeopard?</h3>
+              <div class="bt-line"></div>
+              <h5>Start trading gold, silver, and precious metals with SnowLeopard app today</h5>
+            </div>
+            <div class="col-sm-12 col-md-6 conclusion__right">
+              <h4>1. Get the SnowLeopard App</h4>
+              <h5>Download SnowLeopard App on your iOS or Android device</h5>
+              <h4>2. Tap on Commodities</h4>
+              <h5>Go to Dashboard, press on Commodities, get familiar with T&C’s, then accept and get started</h5>
+              <h4>3. Start trading</h4>
+              <h5>Follow market rates and start trading gold, silver, and precious metals with any supported currencies
+              </h5>
+            </div>
+          </div>
+        </section>
+
+        <section class="bt-desc">
+          <p class="bt-desc__text">
+            This stock trading platform is facilitated by SnowLeopard Trading. Neither SnowLeopard nor SnowLeopard
+            Trading
+            provides investment advice and individual investors should make their
+            own decisions or seek professional independent advice if they are unsure as to the
+            suitability/appropriateness
+            of any investment for their individual circumstances or needs. The value of
+            investments can go up as well as down and you may receive less than your original investment or lose the
+            value
+            of your entire initial investment. Past performance is not a reliable indicator
+            of future results. Currency rate fluctuations can adversely impact the overall returns on your original
+            investment. Learn more by reading our full Risk Disclosure and our Trading FAQ.
+          </p>
+        </section>
+
       </div>
     </main>
     ​

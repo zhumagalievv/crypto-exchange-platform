@@ -1,41 +1,64 @@
 .account_page_body {
-	height: 100%;
-	background-image: url('../media/img/bg-element-cube.svg');
-	background-position-x: 25%;
-	background-repeat: no-repeat;
-	background-position-y: 96%;
+  height: 100%;
+  background-image: url("../media/img/bg-element-cube.svg");
+  background-position-x: 39%;
+  background-repeat: no-repeat;
+  background-position-y: 95%;
 }
 .account_page {
-	background-image: url('../media/img/bg-element.svg');
-	background-repeat: no-repeat;
-	background-position-x: 7%;
-	background-position-y: 77%;
-	color: #111111;
+  background-image: url("../media/img/bg-element.svg"),
+    url("../media/img/bg-figures-reversed.svg");
+  background-repeat: no-repeat;
+  background-position-x: 7%, 90%;
+  background-position-y: 78.5%, 61.5%;
+  color: #111111;
 
-	.headers {
-		&__img {
-			img {
-				width: 100%;
-				transition: 0.3s ease-out;
-			}
-		}
-	}
+  .b_page_block1 {
+    margin-top: 0;
+  }
 
-	.image {
-		&-1 {
-			width: 50%;
-		}
-		&-2 {
-			width: 50%;
-			margin: unset;
-			margin-left: 100px;
-			text-align: unset;
-		}
-		&-3 {
-			width: 55%;
-		}
-		img {
-			width: 100%;
-		}
-	}
+  .headers {
+    margin-bottom: 100px;
+    &__img {
+      img {
+        top: -10%;
+        width: 100%;
+        transition: 0.3s ease-out;
+      }
+    }
+  }
 }
+
+@media screen and (max-width: 1000px) {
+  .account_page_body {
+    background-position-x: 39%;
+    background-position-y: 68%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .account_page {
+    background-position-x: 7%, 90%;
+    background-position-y: 75%, 56%;
+
+  }
+
+  .account_page_body {
+    background-position-x: 39%;
+    background-position-y: 67%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .account_page {
+    background-position-x: 7%, 90%;
+    background-position-y: 75%, 53%;
+  }
+
+  .account_page_body {
+    background-position-x: 39%;
+    background-position-y: 76%;
+  }
+}
+
+

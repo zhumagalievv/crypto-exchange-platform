@@ -1,6 +1,4 @@
 .basic-page {
-	@include commonFonts;
-
 	background-image: $bg-figures, $bg-figures-reversed, $bg-cub-reversed;
 	background-repeat: no-repeat;
 	background-position-x: 41%, 7%, 81%;

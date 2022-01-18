@@ -4,7 +4,7 @@
 	background-image: $bg-figures, $bg-fg01, $bg-figures-reversed, $bg-cub;
 	background-repeat: no-repeat;
 	background-position-x: 7%, 39%, 95%, 9%;
-	background-position-y: 36.5%, 53%, 58%, 112%;
+	background-position-y: 37%, 53%, 58%, 110.5%;
 
 	padding-bottom: 150px;
 
@@ -29,10 +29,13 @@
 		}
 	}
 
-
-	.content-section {
-		.section-text {
-			max-width: 800px;
-		}
+	.b_page_block-edit-1 {
+		margin-top: 85px;
 	}
+
+	.image-1{
+		margin: unset;
+		margin-left: auto;
+	}
+
 }

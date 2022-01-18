@@ -1,5 +1,5 @@
 // @import '~mdb-ui-kit/css/mdb.min.css';
-@import 'variables/variables.scss';
+@import 'variables/variables';
 @import 'pages/main_page';
 @import 'fonts/fonts';
 @import 'components/components';
@@ -7,7 +7,6 @@
 @import 'components/footer';
 @import 'settings/config';
 @import 'utils/functions';
-@import 'variables/variables';
 @import 'themes/themes';
 @import 'pages/account_page';
 @import 'pages/due-pay';
