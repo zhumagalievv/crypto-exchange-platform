@@ -1,313 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Carousel JQery CDN -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
-    <script src="https://kit.fontawesome.com/f13dd7e9a5.js" crossorigin="anonymous"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
-    <!-- Custom style -->
-    <link rel="stylesheet" href="css/style.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>SnowLeopard</title>
+  <!-- Carousel JQery CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+  <script src="https://kit.fontawesome.com/f13dd7e9a5.js" crossorigin="anonymous"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+  <!-- Custom style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/business_style.css">
+
+  <title>SnowLeopard</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="container_header">
-              <span><a href="index.html">Private</a></span>
-              <span><a href="business_main.html">Business</a></span>
+  <div class="wrapper">
+    <header>
+      <div class="container_header">
+        <span><a href="index.html">Private</a></span>
+        <span><a href="business_main.html">Business</a></span>
+      </div>
+      <nav>
+        <div class="wrapperN">
+          <div class="logo"><a href="index.html"><img src="media/img/logo.svg" alt=""></a></div>
+          <div class="navigation_bar" id='navbar'>
+            <ul class="nav-links">
+              <button id='closeBtn' class='closeBtn'><i class="fas fa-times"></i></button>
+              <li><a href="#" class="desktop-item">Features</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Features</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="content__row">
+                      <header>Account</header>
+                      <ul class="mega-links">
+                        <li><a href="account.html">Joined accounts</a></li>
+                        <li><a href="budgeting.html">Budgeting</a></li>
+                        <li><a href="card.html">Cards</a></li>
+                        <li><a href="cub.html">SnowLeopard Cub</a></li>
+                        <li><a href="due-pay.html">DuePay</a></li>
+                      </ul>
+                    </div>
+                    <div class="content__row">
+                      <header>Wealth builder</header>
+                      <ul class="mega-links">
+                        <li><a href="stocks.html">Stocks</a></li>
+                        <li><a href="crypto.html">Crypto</a></li>
+                        <li><a href="commodities.html">Commodities</a></li>
+                        <li><a href="money-box.html">MoneyBox</a></li>
+                        <li><a href="marketplace.html">Marketplace</a></li>
+                      </ul>
+                    </div>
+                    <div class="content__row">
+                      <header>Payments</header>
+                      <ul class="mega-links">
+                        <li><a href="money-transfers.html">Money transfers</a></li>
+                        <li><a href="split-bill.html">Split a bill</a></li>
+                        <li><a href="early-salary.html">Early salary</a></li>
+                        <li><a href="subscriptions.html">Subscriptions</a></li>
+                      </ul>
+                    </div>
+                    <div class="content__row">
+                      <header>Even more</header>
+                      <ul class="mega-links">
+                        <li><a href="snl_bonus.html">SNL Bonus</a></li>
+                        <li><a href="travel-insurance.html">Travel insurance</a></li>
+                        <li><a href="device-insurance.html">Device insurance</a></li>
+                        <li><a href="property.html">Property</a></li>
+                        <li><a href="security.html">Security</a></li>
+                      </ul>
+                    </div>
+                    <div class="content__row">
+                      <header>Blockchain</header>
+                      <ul class="mega-links">
+                        <li><a href="snl-token.html">SNL Token</a></li>
+                        <li><a href="built-on-stellar.html">Built on Stellar</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="choose_your_plan.html" class="desktop-item">Plans</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Plans</label>
+                <div class="mega-box">
+                  <div class="content d-flex flex-row justify-content-center align-items-center">
+                    <div class="content__row d-flex flex-row justify-content-center">
+                      <ul class="mega-links d-flex flex-column justify-content-center align-items-center ">
+                        <li><a href="basic-page.html">Basic</a></li>
+                        <li><a href="plus.html">Plus</a></li>
+                        <li><a href="premium.html">Premium</a></li>
+                        <li><a href="platinum.html">Platinum</a></li>
+                        <li><a href="choose_your_plan.html">Choose your plan</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#">About us</a>
+
+              </li>
+              <li><a href="#">Help</a></li>
+            </ul>
+            <div class="navigation_login">
+              <a href="#">Login</a>
+              <button class='getStarted'>Get Started</button>
+            </div>
           </div>
-          <nav>
-            <div class="wrapperN">
-              <div class="logo"><a href="index.html"><img src="media/img/logo.svg" alt=""></a></div>
-              <div class="navigation_bar" id='navbar'>
-                <ul class="nav-links">
-                  <button id='closeBtn' class='closeBtn'><i class="fas fa-times"></i></button>
-                  <li><a href="#"  class="desktop-item">Features</a>
-                    <input type="checkbox" id="showMega">
-                    <label for="showMega" class="mobile-item">Features</label>
-                    <div class="mega-box">
-                      <div class="content">
-                          <div class="content__row">
-                              <header>Account</header>
-                              <ul class="mega-links">
-                                <li><a href="account.html">Joined accounts</a></li>
-                                <li><a href="budgeting.html">Budgeting</a></li>
-                                <li><a href="card.html">Cards</a></li>
-                                <li><a href="cub.html">SnowLeopard Cub</a></li>
-                                <li><a href="due-pay.html">DuePay</a></li>
-                              </ul>
-                            </div>
-                        <div class="content__row">
-                          <header>Wealth builder</header>
-                          <ul class="mega-links">
-                            <li><a href="stocks.html">Stocks</a></li>
-                            <li><a href="crypto.html">Crypto</a></li>
-                            <li><a href="commodities.html">Commodities</a></li>
-                            <li><a href="money-box.html">MoneyBox</a></li>
-                            <li><a href="marketplace.html">Marketplace</a></li>
-                          </ul>
-                        </div>
-                        <div class="content__row">
-                          <header>Payments</header>
-                          <ul class="mega-links">
-                            <li><a href="money-transfers.html">Money transfers</a></li>
-                            <li><a href="split-bill.html">Split a bill</a></li>
-                            <li><a href="early-salary.html">Early salary</a></li>
-                            <li><a href="subscriptions.html">Subscriptions</a></li>
-                          </ul>
-                        </div>
-                        <div class="content__row">
-                          <header>Even more</header>
-                          <ul class="mega-links">
-                            <li><a href="snl_bonus.html">SNL Bonus</a></li>
-                            <li><a href="travel-insurance.html">Travel insurance</a></li>
-                            <li><a href="device-insurance.html">Device insurance</a></li>
-                            <li><a href="property.html">Property</a></li>
-                            <li><a href="security.html">Security</a></li>
-                          </ul>
-                        </div>
-                        <div class="content__row">
-                          <header>Blockchain</header>
-                          <ul class="mega-links">
-                            <li><a href="snl-token.html">SNL Token</a></li>
-                            <li><a href="built-on-stellar.html">Built on Stellar</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li><a href="choose_your_plan.html" class="desktop-item">Plans</a>
-                    <input type="checkbox" id="showMega">
-                    <label for="showMega" class="mobile-item">Plans</label>
-                    <div class="mega-box">
-                      <div class="content d-flex flex-row justify-content-center align-items-center">
-                        <div class="content__row d-flex flex-row justify-content-center">
-                          <ul class="mega-links d-flex flex-column justify-content-center align-items-center ">
-                            <li><a href="basic-page.html">Basic</a></li>
-                            <li><a href="plus.html">Plus</a></li>
-                            <li><a href="premium.html">Premium</a></li>
-                            <li><a href="platinum.html">Platinum</a></li>
-                            <li><a href="choose_your_plan.html">Choose your plan</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <a href="#">About us</a>
-                   
-                  </li>
-                  <li><a href="#">Help</a></li>
-                </ul>
-                <div class="navigation_login">
-                  <a href="#">Login</a>
-                  <button class='getStarted'>Get Started</button>
-                </div>
-              </div>
-              <button class="ToggleBtn" id='toggleBtn'><i class="fas fa-bars"></i></button>
-              </div>
-          </nav>
-          </header>
-​
-      <main class="money-box">
-        <div class="_limit_container">
-            <div class="site-path">
-                <span>Home <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-                <span>Private <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-                <span>Features <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-                <span>Wealth builder</span>
-                <span><i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i> MoneyBox</span>
-            </div>
-            <div class="commodity-header">
-                <div class="commodity-header-title">
-                    <h1>Grow your money with daily interest via MoneyBox</h1>
-                </div>
-                <div class="commodity-small-text-img">
-                    <p>MoneyBox allows you to earn interest up to 0.75% on USD paid daily, as well as the ability to withdraw at anytime</p>
-                    <img src="media/img/money-box-bg.svg" alt="">
-                </div>
-            </div>
+          <button class="ToggleBtn" id='toggleBtn'><i class="fas fa-bars"></i></button>
         </div>
-        <div class="_limit_container">
-            <div class="content-section right">
-                <div class="section-text">
-                    <h2>Save and earn with MoneyBox</h2>
-                    <span>Earn daily with MoneyBox</span>
-                    <p>Save some money and earn from it. With MoneyBox you can get up to 0.75% EAR on USD, paid daily</p>
-                    <p>Withdraw anytime convenient </p>
-                </div>
-                <div class="section-img">
-                    <img src="media/img/moneyobox-item1.svg" alt="">
-                </div>
-            </div>
-            <div class="content-section left">
-                <div class="section-img">
-                    <img src="media/img/moneybox-item2.svg" alt="">
-                </div>
-                <div class="section-text">
-                    <h2 class='blue-text-underline'>Enjoy different ways to fund your MoneyBox</h2>
-                    <p>You can start saving by choosing deposit method that fits you best</p>
-                    <p>Fund your savings account with spare change or making a recurring or one-off transfer</p>
-                </div>
-            </div>
-            <div class="content-section right">
-                <div class="section-text">
-                    <h2 class='blue-text-underline'>Put aside different currencies in your 
-                        personal 
-                        MoneyBox</h2>
-                    <p>Save your money in more than 30+ currencies</p>
-                    <p>Like fiat, you can also store your funds in cryptos and commodities </p>
-                </div>
-                <div class="section-img">
-                    <img src="media/img/moneybox-item3.svg" alt="">
-                </div>
-            </div>
-            <div class="content-section">
-                <div class="section-text">
-                    <h2 class='blue-text-underline'>Save for common goal with Group MoneyBox</h2>
-                    <p>Set up a Group MoneyBox with family, friends, and colleagues to achieve common goals like dream holidays, adventurous trips, or simply birthday gifts</p>
-                    <p>Enable trusted members with withdrawal permission and authority to manage money for common cause</p>
-                </div>
-                <div class="section-img">
-                    <img src="media/img/moneybox-item4.svg" alt="">
-                </div>
-            </div>
-            <div class="content-section">
-                <div class="section-img">
-                    <img src="media/img/moneybox-item5.svg" alt="">
-                </div>
-                <div class="section-text">
-                    <h2 class='blue-text-underline'>24/7 accessibility to your savings </h2>
-                    <p>No barriers to get full access to your savings</p>
-                    <p>Deposit and withdraw funds anytime, anywhere with ease, only couple of taps away through the app</p>
-                </div>
-            </div>
-            <div class="content-section right">
-                <div class="section-text">
-                    <h2 class='blue-text-underline'>Top security of your money</h2>
-                    <p>Your funds are deposited and secured with our trusted partner banks. On top of that your money is protected by the <b> Financial Services Compensation Scheme</b>> where eligible</p>
-                </div>
-                <div class="section-img">
-                    <img src="media/img/moneybox-item6.svg" alt="">
-                </div>
-            </div>
-            <div class="section-snowL-app">
-                <div class="section-item1">
-                    <h1>Start saving with MoneyBox today</h1>
-                    <p>The best user experience of savings account yet. Grow your money with MoneyBox</p>
-                </div>
-                <div class="section-item2">
-                    <ul>
-                        <li>
-                            <h2>1. Get the SnowLeopard App</h2>
-                            <p>Download SnowLeopard App on your iOS or Android device</p>
-                        </li>
-                        <li>
-                            <h2>2. Create a MoneyBox account  </h2>
-                            <p>Go to Dashboard, tap on MoneyBox, create a MoneyBox account</p>
-                        </li>
-                        <li>
-                            <h2>3. Save money and see it grow daily</h2>
-                            <p>Access your savings account 24/7 anywhere in the world, withdraw and deposit anytime convenient </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      </nav>
+    </header>
+    ​
+    <main class="money-box">
+      <div class="_limit_container">
+        <section class="sub-navigation">
+          <div class="sub-navigation__container">
+            <span class="sub-navigation__item" id="home"> <a href="#">Home</a> </span>
+            <span class="sub-navigation__item" id="private">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Private</a>
+            </span>
+            <span class="sub-navigation__item" id="feautures">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Features</a>
+            </span>
+            <span class="sub-navigation__item" id="account">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Account</a>
+            </span>
+            <span class="sub-navigation__item" id="budgeting">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#111111" />
+              </svg>
+              <a href="#">Stocks</a>
+            </span>
+          </div>
+          <div class="bt-line"></div>
+        </section>
+
+        <div class="commodity-header">
+          <div class="commodity-header-title">
+            <h1>Grow your money with daily interest via MoneyBox</h1>
+          </div>
+          <div class="commodity-small-text-img">
+            <p>MoneyBox allows you to earn interest up to 0.75% on USD paid daily, as well as the ability to withdraw at
+              anytime</p>
+            <img src="media/img/money-box-bg.svg" alt="">
+          </div>
         </div>
-      </main>
-​
-<footer>
+
+        <div class="intro">
+          <div class="intro-text">
+            <h3>Save and earn with MoneyBox</h3>
+          </div>
+        </div>
+
+        <div class="b_page_block row g-0 flex-md-row flex-sm-column">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center mb-5">
+            <div class="text d-flex flex-column">
+              <h4>Earn daily with MoneyBox</h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Save some money and earn from it. With MoneyBox you can get up to 0.75% EAR on USD,
+                  paid daily</h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Withdraw anytime convenient</h5>
+              </div>
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12 d-flex flex-row align-self-center mb-n5">
+            <div class="image image-1">
+              <img src="./media/img/moneyobox-item1.svg">
+            </div>
+          </div>
+        </div>
+
+        <div class="b_page_block row g-0 flex-md-row-reverse flex-sm-column">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center mb-5">
+            <div class="text d-flex flex-column">
+              <h4>Enjoy different ways to fund your MoneyBox</h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">You can start saving by choosing deposit method that fits you best</h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Fund your savings account with spare change or making a recurring or one-off
+                  transfer</h5>
+              </div>
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12 d-flex flex-row align-self-center mb-n5">
+            <div class="image image-2">
+              <img src="./media/img/moneybox-item2.svg" alt="stockImg">
+            </div>
+          </div>
+        </div>
+
+        <div class="b_page_block row g-0 flex-md-row flex-sm-column">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center mb-5">
+            <div class="text d-flex flex-column">
+              <h4>Put aside different currencies in your
+                personal
+                MoneyBox</h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Save your money in more than 30+ currencies</h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Like fiat, you can also store your funds in cryptos and commodities</h5>
+              </div>
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12 d-flex flex-row align-self-center mb-n5">
+            <div class="image image-3">
+              <img src="./media/img/moneybox-item3.svg" alt="stockImg">
+            </div>
+          </div>
+        </div>
+
+        <div class="b_page_block row g-0 flex-md-row-reverse flex-sm-column">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center mb-5">
+            <div class="text d-flex flex-column">
+              <h4>Save for common goal with Group MoneyBox</h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Set up a Group MoneyBox with family, friends, and colleagues to achieve common goals
+                  like dream holidays,
+                  adventurous trips, or simply birthday gifts</h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Enable trusted members with withdrawal permission and authority to manage money for
+                  common cause</h5>
+              </div>
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12 d-flex flex-row align-self-center mb-n5">
+            <div class="image image-4">
+              <img src="./media/img/moneybox-item4.svg" alt="stockImg">
+            </div>
+          </div>
+        </div>
+
+        <div class="b_page_block row g-0 flex-md-row flex-sm-column">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center mb-5">
+            <div class="text d-flex flex-column">
+              <h4>24/7 accessibility to your savings</h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">No barriers to get full access to your savings</h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Deposit and withdraw funds anytime, anywhere with ease, only couple of taps away
+                  through the app</h5>
+              </div>
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12 d-flex flex-row align-self-center mb-n5">
+            <div class="image image-5">
+              <img src="./media/img/moneybox-item5.svg" alt="stockImg">
+            </div>
+          </div>
+        </div>
+
+        <div class="b_page_block b_page_block-1 row g-0 flex-md-row-reverse flex-sm-column">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center mb-5">
+            <div class="text d-flex flex-column">
+              <h4>Top security of your money</h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Your funds are deposited and secured with our trusted partner banks. On top of that
+                  your money is
+                  protected by the <b> Financial Services Compensation Scheme</b> where eligible</h5>
+              </div>
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12 d-flex flex-row align-self-center mb-n5">
+            <div class="image image61">
+              <img src="./media/img/moneybox-item6.svg" alt="stockImg">
+            </div>
+          </div>
+        </div>
+
+        <section class="conclusion">
+          <div class="row w-100 conclusion__container align-items-center">
+            <div class="col-sm-12 col-md-6 conclusion__left">
+              <h3 class="mb-4">Start saving with MoneyBox today</h3>
+              <div class="bt-line"></div>
+              <h5>The best user experience of savings account yet. Grow your money with MoneyBox</h5>
+            </div>
+            <div class="col-sm-12 col-md-6 conclusion__right">
+              <h4>1. Get the SnowLeopard App</h4>
+              <h5>Download SnowLeopard App on your iOS or Android device</h5>
+              <h4>2. Create a MoneyBox account </h4>
+              <h5>Go to Dashboard, tap on MoneyBox, create a MoneyBox account</h5>
+              <h4>3. Save money and see it grow daily</h4>
+              <h5>Access your savings account 24/7 anywhere in the world, withdraw and deposit anytime convenient </h5>
+            </div>
+          </div>
+        </section>
+      </div>
+  </div>
+  </main>
+  ​
+  <footer>
     <div class="_limit_container">
       <div class="contact">
-          <div class="footer-logo">
-              <img src="media/img/footer-logo.svg" alt="">                    
+        <div class="footer-logo">
+          <img src="media/img/footer-logo.svg" alt="">
+        </div>
+        <form action="">
+          <label for="email">Contact us</label>
+          <div class="email-send">
+            <input type="email" placeholder="Email">
+            <button>Send</button>
           </div>
-          <form action="">
-              <label for="email">Contact us</label>
-              <div class="email-send">
-                  <input type="email" placeholder="Email">
-                  <button>Send</button>
-              </div>
-              
-              <div class="phone_email">
-                <span><i class="fas fa-phone-alt"></i>+7 775 000 3978</span>
-                <span><i class="fas fa-envelope"></i>snowleopard@gmail.com</span>
 
-              </div>
-          </form>
+          <div class="phone_email">
+            <span><i class="fas fa-phone-alt"></i>+7 775 000 3978</span>
+            <span><i class="fas fa-envelope"></i>snowleopard@gmail.com</span>
+
+          </div>
+        </form>
       </div>
-      
+
       <div class="footer-list">
-              <ul>
-                  <li>Account</li>
-                  <li>Joined accounts</li>
-                  <li>Budgeting</li>
-                  <li>Cards</li>
-                  <li>SnowLeopard Cub</li>
-                  <li>DuePay</li>
-              </ul>
-              <ul>
-                  <li>Wealth builder</li>
-                  <li>Stocks</li>
-                  <li>Crypto</li>
-                  <li>Commodities</li>
-                  <li>MoneyBox</li>
-                  <li>Marketplace</li>
-              </ul>
-              <ul>
-                  <li>Payments</li>
-                  <li>Money Transfers</li>
-                  <li>Split a bill</li>
-                  <li>Early salary</li>
-                  <li>Subscriptions</li>
-              </ul>
-              <ul>
-                  <li>Even more</li>
-                  <li>SNL Bonus</li>
-                  <li>Travel insurance</li>
-                  <li>Device insurance</li>
-                  <li>Property</li>
-                  <li>Security</li>
-              </ul>
-              <ul>
-                  <li>Blockchain</li>
-                  <li>SNL Token</li>
-                  <li>Built on Stellar</li>
-              </ul>
+        <ul>
+          <li>Account</li>
+          <li>Joined accounts</li>
+          <li>Budgeting</li>
+          <li>Cards</li>
+          <li>SnowLeopard Cub</li>
+          <li>DuePay</li>
+        </ul>
+        <ul>
+          <li>Wealth builder</li>
+          <li>Stocks</li>
+          <li>Crypto</li>
+          <li>Commodities</li>
+          <li>MoneyBox</li>
+          <li>Marketplace</li>
+        </ul>
+        <ul>
+          <li>Payments</li>
+          <li>Money Transfers</li>
+          <li>Split a bill</li>
+          <li>Early salary</li>
+          <li>Subscriptions</li>
+        </ul>
+        <ul>
+          <li>Even more</li>
+          <li>SNL Bonus</li>
+          <li>Travel insurance</li>
+          <li>Device insurance</li>
+          <li>Property</li>
+          <li>Security</li>
+        </ul>
+        <ul>
+          <li>Blockchain</li>
+          <li>SNL Token</li>
+          <li>Built on Stellar</li>
+        </ul>
       </div>
 
 
-  </div>
-  <div class="copyright">
-    <span>© 2021 SnowLeopard аll rights reserved</span>
-    <span>Website development. Developed by a Digital Agency Nidge</span>
-  </div>
+    </div>
+    <div class="copyright">
+      <span>© 2021 SnowLeopard аll rights reserved</span>
+      <span>Website development. Developed by a Digital Agency Nidge</span>
+    </div>
   </footer>
-</div>
+  </div>
 
-<!-- Boostrap JS CDN -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+  <!-- Boostrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
-<script src="script/menuBtn.js"></script>
+  <script src="script/menuBtn.js"></script>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
 
-    <script src="script/fadingOnScroll.js"></script>
+  <script src="script/fadingOnScroll.js"></script>
 </body>
+
 </html>

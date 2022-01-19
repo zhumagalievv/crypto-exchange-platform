@@ -1,69 +1,187 @@
-@import '../utils/mixins.scss';
+@import "../utils/mixins.scss";
 
 $primary-color: #e5e5e5;
 $gray: #888888;
 $black: #111111;
 $blue: #3e1bdb;
 
-
 * {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	font-family: 'Muller', 'Roboto';
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Muller", "Roboto";
 }
 body {
-	height: 100vh;
-	margin: 0px;
-	padding: 0px;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
 }
 
-
 .wrapper {
-	min-height: 100%;
-	display: flex;
-	flex-direction: column;
-	color: white;
-	header {
-		background: white;
-	}
-	main {
-		position: relative;
-		flex: 1 1 auto;
-	}
-	footer {
-		position: relative;
-		z-index: 1000;
-	}
+  @include commonFonts;
 
-	@include commonFonts;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  header {
+    background: white;
+  }
+  main {
+    position: relative;
+    flex: 1 1 auto;
+  }
+  footer {
+    position: relative;
+    z-index: 1000;
+  }
 
-	.headers {
+  .headers {
+    margin: 0 auto;
+    margin-bottom: 161px;
+    text-align: center;
 
-		margin-bottom: 161px;
-		text-align: center;
-		margin: 0 auto;
+    &__container {
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+    &__main-title {
+      margin: 0 91px 37px;
+    }
+    &__sub-title {
+      margin: 0 286px;
+    }
+  }
+  
+  .sub-navigation {
+    margin-bottom: 124px;
+    margin-top: 24px;
+    &__container {
+      margin-bottom: 16px;
+    }
 
-		&__container {
-			max-width: 1300px;
-			margin: 0 auto;
-		}
-		&__main-title {
-			margin: 0 91px 37px;
-		}
-		&__sub-title {
-			margin: 0 286px;
-		}
-	}
+    &__item {
+      margin-top: 24px;
+      a {
+        text-decoration: none;
+        color: $gray;
+        font-size: 14px;
+        line-height: 16px;
+      }
+      svg {
+        margin-top: -1px;
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 14px;
+        line-height: 16px;
+      }
 
-	@media screen and (max-width: 900px) {
-		.headers {
-			&__sub-title {
-				margin: 0 30px;
-			}
-			&__img img {
-				display: none;
-			}
-		}
-	}
+      &:last-child a {
+        color: $black;
+      }
+    }
+
+    .bt-line {
+      border-top: 1px solid $gray;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .headers {
+      &__sub-title {
+        margin: 0 30px;
+      }
+      &__img img {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    .headers {
+      &__main-title {
+        margin: 0 0px 37px;
+      }
+      &__sub-title {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.bt-line {
+  width: 10rem;
+}
+
+.conclusion {
+  margin-bottom: 100px;
+  .bt-line {
+    border-top: 2px solid $black;
+    margin-bottom: 40px;
+  }
+  &__right {
+    h4 + h5 {
+      margin-top: 24px;
+    }
+    h5 + h4 {
+      margin-top: 68px;
+    }
+  }
+}
+
+.text__list {
+  margin: 24px 0;
+  li {
+    list-style-type: none;
+    position: relative; /* It's needed for setting position to absolute in the next rule. */
+  }
+
+  li + li {
+    margin-top: 24px;
+  }
+
+  li::before {
+    content: "•";
+    position: absolute;
+    left: -0.8em; /* Adjust this value so that it appears where you want. */
+    font-size: 0.9em; /* Adjust this value so that it appears what size you want. */
+  }
+}
+
+a.learn-more {
+  font-size: 24px;
+  line-height: 117%;
+  /* or 28px */
+
+  letter-spacing: -0.03em;
+
+  /* Black */
+
+  color: $black;
+  margin-right: 60px;
+  svg {
+    font-size: 2rem;
+    margin-top: -1px;
+    margin-left: 8px;
+  }
+  text-decoration: none;
+}
+
+.bt-desc {
+  margin-bottom: 80px;
+  &__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.3px;
+
+    color: $gray;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .conclusion__left {
+    margin-bottom: 3rem;
+  }
 }

@@ -16,7 +16,7 @@
   align-items: center;
   padding: 124px 0 0; }
   .title h1 {
-    color: #3E1BDB;
+    color: #3e1bdb;
     font-size: 60px;
     font-weight: 600; }
   .title h2 {
@@ -25,35 +25,33 @@
     font-size: 16px;
     line-height: 32px;
     text-align: center;
-    letter-spacing: 0.1em; }
-
-.title-img {
-  width: 80%; }
-  .title-img img {
-    width: 100%; }
-
-.footer-title {
-  color: black;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  padding: 25vh 0; }
-  .footer-title h1 {
-    color: #3E1BDB;
-    font-size: 60px;
-    font-weight: 600; }
-  .footer-title h2 {
-    margin-top: 40px;
-    font-size: 16px;
-    font-size: 16px;
-    line-height: 32px;
+    align-items: center;
+    padding: 124px 0 0; }
+    .title h2 h1 {
+      color: #3E1BDB;
+      font-size: 60px;
+      font-weight: 600; }
+    .title h2 h2 {
+      margin-top: 40px;
+      font-size: 16px;
+      font-size: 16px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.1em; }
+  .title .title-img {
+    width: 80%; }
+    .title .title-img img {
+      width: 100%; }
+  .title .footer-title {
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
     letter-spacing: 0.1em; }
-  .footer-title .image {
+  .title .image {
     width: 60%; }
-    .footer-title .image img {
+    .title .image img {
       width: 100%; }
 
 .text {
@@ -79,15 +77,22 @@
       line-height: 24px;
       letter-spacing: 0.3px; }
     .text .point i {
-      color: #3E1BDB; }
+      color: #3e1bdb; }
   .text .learn-more-btn {
     margin-top: 24px; }
-    .text .learn-more-btn a, .text .learn-more-btn i {
+    .text .learn-more-btn a,
+    .text .learn-more-btn i {
       text-decoration: none;
       color: black;
       font-size: 24px;
       line-height: 117%;
       letter-spacing: -0.03em; }
+
+.image {
+  margin: 0 auto;
+  text-align: center; }
+  .image img {
+    width: 100%; }
 
 .purple {
   color: #3E1BDB; }
@@ -103,6 +108,9 @@
   .image img {
     width: 100%; }
 
+@media screen and (min-width: 1500px) {
+  .image img {
+    width: unset; } }
 @media only screen and (max-width: 1000px) {
   .image {
     margin-bottom: 50px; }
