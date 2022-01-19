@@ -2,299 +2,316 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Carousel JQery CDN -->
-    <link rel="stylesheet" href="https://punpkg.com/flickity@2.0/dist/flickity.min.css">
-    <script src="https://kit.fontawesome.com/f13dd7e9a5.js" crossorigin="anonymous"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
-    <!-- Custom style -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/pages/property.css">
+  <!-- Carousel JQery CDN -->
+  <link rel="stylesheet" href="https://punpkg.com/flickity@2.0/dist/flickity.min.css">
+  <script src="https://kit.fontawesome.com/f13dd7e9a5.js" crossorigin="anonymous"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+  <!-- Custom style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages/property.css">
 
-    <title>SnowLeopard</title>
+  <title>SnowLeopard</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="container_header">
-              <span><a href="index.html">Private</a></span>
-              <span><a href="business_main.html">Business</a></span>
+  <div class="wrapper">
+    <header>
+      <div class="container_header">
+        <span><a href="index.html">Private</a></span>
+        <span><a href="business_main.html">Business</a></span>
+      </div>
+      <nav>
+        <div class="wrapperN">
+          <div class="logo"><a href="index.html"><img src="media/img/logo.svg" alt=""></a></div>
+          <div class="navigation_bar" id='navbar'>
+            <ul class="nav-links">
+              <button id='closeBtn' class='closeBtn'><i class="fas fa-times"></i></button>
+              <li><a href="#" class="desktop-item">Features</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Features</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="content__row">
+                      <header>Account</header>
+                      <ul class="mega-links">
+                        <li><a href="account.html">Joined accounts</a></li>
+                        <li><a href="budgeting.html">Budgeting</a></li>
+                        <li><a href="card.html">Cards</a></li>
+                        <li><a href="cub.html">SnowLeopard Cub</a></li>
+                        <li><a href="due-pay.html">DuePay</a></li>
+                      </ul>
+                    </div>
+                    <div class="content__row">
+                      <header>Wealth builder</header>
+                      <ul class="mega-links">
+                        <li><a href="stocks.html">Stocks</a></li>
+                        <li><a href="crypto.html">Crypto</a></li>
+                        <li><a href="commodities.html">Commodities</a></li>
+                        <li><a href="money-box.html">MoneyBox</a></li>
+                        <li><a href="marketplace.html">Marketplace</a></li>
+                      </ul>
+                    </div>
+                    <div class="content__row">
+                      <header>Payments</header>
+                      <ul class="mega-links">
+                        <li><a href="money-transfers.html">Money transfers</a></li>
+                        <li><a href="split-bill.html">Split a bill</a></li>
+                        <li><a href="early-salary.html">Early salary</a></li>
+                        <li><a href="subscriptions.html">Subscriptions</a></li>
+                      </ul>
+                    </div>
+                    <div class="content__row">
+                      <header>Even more</header>
+                      <ul class="mega-links">
+                        <li><a href="snl_bonus.html">SNL Bonus</a></li>
+                        <li><a href="travel-insurance.html">Travel insurance</a></li>
+                        <li><a href="device-insurance.html">Device insurance</a></li>
+                        <li><a href="property.html">Property</a></li>
+                        <li><a href="security.html">Security</a></li>
+                      </ul>
+                    </div>
+                    <div class="content__row">
+                      <header>Blockchain</header>
+                      <ul class="mega-links">
+                        <li><a href="snl-token.html">SNL Token</a></li>
+                        <li><a href="built-on-stellar.html">Built on Stellar</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="choose_your_plan.html" class="desktop-item">Pick a plan</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Pick a plan</label>
+                <div class="mega-box">
+                  <div class="content d-flex flex-row justify-content-center align-items-center">
+                    <div class="content__row d-flex flex-row justify-content-center">
+                      <ul class="mega-links d-flex flex-column justify-content-center align-items-center ">
+                        <li><a href="basic-page.html">Basic</a></li>
+                        <li><a href="plus.html">Plus</a></li>
+                        <li><a href="premium.html">Premium</a></li>
+                        <li><a href="platinum.html">Platinum</a></li>
+                        <li><a href="choose_your_plan.html">Choose your plan</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#">About us</a>
+
+              </li>
+              <li><a href="#">Help</a></li>
+            </ul>
+            <div class="navigation_login">
+              <a href="#">Login</a>
+              <button class='getStarted'>Get Started</button>
+            </div>
           </div>
-          <nav>
-            <div class="wrapperN">
-              <div class="logo"><a href="index.html"><img src="media/img/logo.svg" alt=""></a></div>
-              <div class="navigation_bar" id='navbar'>
-                <ul class="nav-links">
-                  <button id='closeBtn' class='closeBtn'><i class="fas fa-times"></i></button>
-                  <li><a href="#"  class="desktop-item">Features</a>
-                    <input type="checkbox" id="showMega">
-                    <label for="showMega" class="mobile-item">Features</label>
-                    <div class="mega-box">
-                      <div class="content">
-                          <div class="content__row">
-                              <header>Account</header>
-                              <ul class="mega-links">
-                                <li><a href="account.html">Joined accounts</a></li>
-                                <li><a href="budgeting.html">Budgeting</a></li>
-                                <li><a href="card.html">Cards</a></li>
-                                <li><a href="cub.html">SnowLeopard Cub</a></li>
-                                <li><a href="due-pay.html">DuePay</a></li>
-                              </ul>
-                            </div>
-                        <div class="content__row">
-                          <header>Wealth builder</header>
-                          <ul class="mega-links">
-                            <li><a href="stocks.html">Stocks</a></li>
-                            <li><a href="crypto.html">Crypto</a></li>
-                            <li><a href="commodities.html">Commodities</a></li>
-                            <li><a href="money-box.html">MoneyBox</a></li>
-                            <li><a href="marketplace.html">Marketplace</a></li>
-                          </ul>
-                        </div>
-                        <div class="content__row">
-                          <header>Payments</header>
-                          <ul class="mega-links">
-                            <li><a href="money-transfers.html">Money transfers</a></li>
-                            <li><a href="split-bill.html">Split a bill</a></li>
-                            <li><a href="early-salary.html">Early salary</a></li>
-                            <li><a href="subscriptions.html">Subscriptions</a></li>
-                          </ul>
-                        </div>
-                        <div class="content__row">
-                          <header>Even more</header>
-                          <ul class="mega-links">
-                            <li><a href="snl_bonus.html">SNL Bonus</a></li>
-                            <li><a href="travel-insurance.html">Travel insurance</a></li>
-                            <li><a href="device-insurance.html">Device insurance</a></li>
-                            <li><a href="property.html">Property</a></li>
-                            <li><a href="security.html">Security</a></li>
-                          </ul>
-                        </div>
-                        <div class="content__row">
-                          <header>Blockchain</header>
-                          <ul class="mega-links">
-                            <li><a href="snl-token.html">SNL Token</a></li>
-                            <li><a href="built-on-stellar.html">Built on Stellar</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li><a href="choose_your_plan.html" class="desktop-item">Plans</a>
-                    <input type="checkbox" id="showMega">
-                    <label for="showMega" class="mobile-item">Plans</label>
-                    <div class="mega-box">
-                      <div class="content d-flex flex-row justify-content-center align-items-center">
-                        <div class="content__row d-flex flex-row justify-content-center">
-                          <ul class="mega-links d-flex flex-column justify-content-center align-items-center ">
-                            <li><a href="basic-page.html">Basic</a></li>
-                            <li><a href="plus.html">Plus</a></li>
-                            <li><a href="premium.html">Premium</a></li>
-                            <li><a href="platinum.html">Platinum</a></li>
-                            <li><a href="choose_your_plan.html">Choose your plan</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <a href="#">About us</a>
-                   
-                  </li>
-                  <li><a href="#">Help</a></li>
-                </ul>
-                <div class="navigation_login">
-                  <a href="#">Login</a>
-                  <button class='getStarted'>Get Started</button>
-                </div>
-              </div>
-              <button class="ToggleBtn" id='toggleBtn'><i class="fas fa-bars"></i></button>
-              </div>
-          </nav>
-          </header>
+          <button class="ToggleBtn" id='toggleBtn'><i class="fas fa-bars"></i></button>
+        </div>
+      </nav>
+    </header>
 
-        <main  class="device-insurance">
-            <div class="_limit_container">
-                <section class="sub-navigation">
-                    <div class="sub-navigation__container">
-                        <span class="sub-navigation__item" id="home"> <a href="#">Home</a> </span>
-                        <span class="sub-navigation__item" id="private">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
-                                    fill="#888888" />
-                            </svg>
-                            <a href="#">Private</a>
-                        </span>
-                        <span class="sub-navigation__item" id="feautures">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
-                                    fill="#888888" />
-                            </svg>
-                            <a href="#">Features</a>
-                        </span>
-                        <span class="sub-navigation__item" id="account">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
-                                    fill="#888888" />
-                            </svg>
-                            <a href="#">Even more</a>
-                        </span>
-                        <span class="sub-navigation__item" id="budgeting">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
-                                    fill="#111111" />
-                            </svg>
-                            <a href="#">Device insurance</a>
-                        </span>
-                    </div>
-                    <div class="bt-line"></div>
-                </section>
+    <main class="device-insurance">
+      <div class="_limit_container">
+        <section class="sub-navigation">
+          <div class="sub-navigation__container">
+            <span class="sub-navigation__item" id="home"> <a href="#">Home</a> </span>
+            <span class="sub-navigation__item" id="private">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Private</a>
+            </span>
+            <span class="sub-navigation__item" id="feautures">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Features</a>
+            </span>
+            <span class="sub-navigation__item" id="account">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Even more</a>
+            </span>
+            <span class="sub-navigation__item" id="budgeting">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#111111" />
+              </svg>
+              <a href="#">Device insurance</a>
+            </span>
+          </div>
+          <div class="bt-line"></div>
+        </section>
+      </div>
+
+
+      <div class="_limit_container property__title">
+        <div class="page_description">
+          <h1>
+            Manage property anywhere in the world with ease
+          </h1>
+          <h2>
+            Need to buy or manage property overseas? With SnowLeopard it is cheaper and easier than ever
+          </h2>
+          <div class="proeprty__map">
+            <img src="media/img/property_page/map.svg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="_limit_container block_m">
+        <div class="block_pos row w-100 ">
+          <div class="block_text col-md-6 col-sm-12">
+            ​<h4><b>Save tons of money when you buy property abroad</b></h4>
+            <div class="text_underline"></div>
+            <h5><i class="fas fa-check"></i> Sending money with SnowLeopard is on average 7 times cheaper than banks.
+              Also, with special rates for large amounts, you can get an even lower fee on any transfers over $120,000
+            </h5>
+            <h5><i class="fas fa-check"></i> Pay with SnowLeopard card and get great cashback</h5>
+            <h5><i class="fas fa-check"></i> Buy with crypto at the best exchange rate
+            </h5>
+          </div>
+          <div class="block_img col-md-6 col-sm-12">
+            <img src="media/img/property_page/globe.svg" alt="" class="img-fluid">
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="_limit_container block_m">
+        <div class="block_pos g-3 row w-100 ">
+          <div class="block_img col-md-6  col-sm-12 last-img">
+            <img src="media/img/property_page/properties.svg" alt="" class="img-fluid">
+          </div>
+          <div class="block_text col-md-6 col-sm-12">
+            ​<h4><b>Receive payments from tenants in more than 30+ currencies, and when the time is right, exchange at
+                the best rate</b></h4>
+            <div class="text_underline"></div>
+            <h5><i class="fas fa-check"></i> Receive payments from tenants in more than 30+ currencies, and when the
+              time is right, exchange at the best rate</h5>
+            <h5><i class="fas fa-check"></i> Pay your mortgage and utility bills with Direct Debit remotely. Hold 30+
+              currencies in one place and manage it all through one App</h5>
+            <h5><i class="fas fa-check"></i> Receive and spend funds in fiat and crypto </h5>
+          </div>
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="_limit_container">
+        <div class="contact">
+          <div class="footer-logo">
+            <img src="media/img/footer-logo.svg" alt="">
+          </div>
+          <form method="post" id='emailForm'>
+            <label for="email">Contact us</label>
+            <div class="email-send">
+              <input type="email" placeholder="Email" id="emailInput" required>
+              <button>Send</button>
             </div>
 
-
-            <div class="_limit_container property__title">
-                <div class="page_description">
-                    <h1>
-                        Manage property anywhere in the world with ease
-                    </h1>
-                    <h2>
-                        Need to buy or manage property overseas? With SnowLeopard it is cheaper and easier than ever
-                    </h2>
-                    <div class="proeprty__map">
-                        <img src="media/img/property_page/map.svg" alt="">
-                    </div>
-                </div>
+            <div class="phone_email">
+              <span><i class="fas fa-phone-alt"></i>+7 775 000 3978</span>
+              <span><i class="fas fa-envelope"></i>snowleopard@gmail.com</span>
 
             </div>
+          </form>
+        </div>
 
-            <div class="_limit_container block_m">
-                <div class="block_pos row w-100 ">
-                    <div class="block_text col-md-6 col-sm-12">
-                        ​<h4><b>Save tons of money when you buy property abroad</b></h4>
-                        <div class="text_underline"></div>
-                        <h5><i class="fas fa-check"></i> Sending money with SnowLeopard is on average 7 times cheaper than banks. Also, with special rates for large amounts, you can get an even lower fee on any transfers over $120,000
-                        </h5>
-                        <h5><i class="fas fa-check"></i> Pay with SnowLeopard card and get great cashback</h5>
-                        <h5><i class="fas fa-check"></i> Buy with crypto at the best exchange rate
-                        </h5>
-                    </div>
-                    <div class="block_img col-md-6 col-sm-12">
-                        <img src="media/img/property_page/globe.svg" alt="" class="img-fluid">
-                    </div>
-
-
-                </div>
-            </div>
-
-            <div class="_limit_container block_m">
-                <div class="block_pos g-3 row w-100 ">
-                    <div class="block_img col-md-6  col-sm-12 last-img">
-                        <img src="media/img/property_page/properties.svg" alt="" class="img-fluid">
-                    </div>
-                    <div class="block_text col-md-6 col-sm-12">
-                        ​<h4><b>Receive payments from tenants in more than 30+ currencies, and when the time is right, exchange at the best rate</b></h4>
-                        <div class="text_underline"></div>
-                        <h5><i class="fas fa-check"></i> Receive payments from tenants in more than 30+ currencies, and when the time is right, exchange at the best rate</h5>
-                        <h5><i class="fas fa-check"></i> Pay your mortgage and utility bills with Direct Debit remotely. Hold 30+ currencies in one place and manage it all through one App</h5>
-                        <h5><i class="fas fa-check"></i> Receive and spend funds in fiat and crypto </h5>
-                    </div>
-                    
-
-
-                </div>
-            </div>
-        </main>
-
-        <footer>
-            <div class="_limit_container">
-                <div class="contact">
-                    <div class="footer-logo">
-                        <img src="media/img/footer-logo.svg" alt="">
-                    </div>
-                    <form action="">
-                        <label for="email">Contact us</label>
-                        <div class="email-send">
-                            <input type="email" placeholder="Email">
-                            <button>Send</button>
-                        </div>
-
-                        <div class="phone_email">
-                            <span><i class="fas fa-phone-alt"></i>+7 775 000 3978</span>
-                            <span><i class="fas fa-envelope"></i>snowleopard@gmail.com</span>
-
-                        </div>
-                    </form>
-                </div>
-
-                <div class="footer-list">
-                    <ul>
-                        <li>Account</li>
-                        <li>Joined accounts</li>
-                        <li>Budgeting</li>
-                        <li>Cards</li>
-                        <li>SnowLeopard Cub</li>
-                        <li>DuePay</li>
-                    </ul>
-                    <ul>
-                        <li>Wealth builder</li>
-                        <li>Stocks</li>
-                        <li>Crypto</li>
-                        <li>Commodities</li>
-                        <li>MoneyBox</li>
-                        <li>Marketplace</li>
-                    </ul>
-                    <ul>
-                        <li>Payments</li>
-                        <li>Money Transfers</li>
-                        <li>Split a bill</li>
-                        <li>Early salary</li>
-                        <li>Subscriptions</li>
-                    </ul>
-                    <ul>
-                        <li>Even more</li>
-                        <li>SNL Bonus</li>
-                        <li>Travel insurance</li>
-                        <li>Device insurance</li>
-                        <li>Property</li>
-                        <li>Security</li>
-                    </ul>
-                    <ul>
-                        <li>Blockchain</li>
-                        <li>SNL Token</li>
-                        <li>Built on Stellar</li>
-                    </ul>
-                </div>
+        <div class="footer-list">
+          <ul>
+            <li>Account</li>
+            <li>Joined accounts</li>
+            <li>Budgeting</li>
+            <li>Cards</li>
+            <li>SnowLeopard Cub</li>
+            <li>DuePay</li>
+          </ul>
+          <ul>
+            <li>Wealth builder</li>
+            <li>Stocks</li>
+            <li>Crypto</li>
+            <li>Commodities</li>
+            <li>MoneyBox</li>
+            <li>Marketplace</li>
+          </ul>
+          <ul>
+            <li>Payments</li>
+            <li>Money Transfers</li>
+            <li>Split a bill</li>
+            <li>Early salary</li>
+            <li>Subscriptions</li>
+          </ul>
+          <ul>
+            <li>Even more</li>
+            <li>SNL Bonus</li>
+            <li>Travel insurance</li>
+            <li>Device insurance</li>
+            <li>Property</li>
+            <li>Security</li>
+          </ul>
+          <ul>
+            <li>Blockchain</li>
+            <li>SNL Token</li>
+            <li>Built on Stellar</li>
+          </ul>
+        </div>
 
 
-            </div>
-            <div class="copyright">
-                <span>© 2021 SnowLeopard аll rights reserved</span>
-                <span>Website development. Developed by a Digital Agency Nidge</span>
-            </div>
-        </footer>
-    </div>
+      </div>
+      <div class="copyright">
+        <span>© 2021 SnowLeopard аll rights reserved</span>
+        <span>Website development. Developed by a Digital Agency Nidge</span>
+      </div>
+    </footer>
+  </div>
 
-    <!-- Boostrap JS CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <script src='script/slider.js'></script>
-    <script src="script/menuBtn.js"></script>
+  <!-- Boostrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src='script/slider.js'></script>
+  <script src="script/menuBtn.js"></script>
+
+  <!-- Animation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
+
+  <script src="script/fadingOnScroll.js"></script>
+
+  <!-- Sending Email -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script src="script/sendEmail.js"></script>
+
 </body>
 
 </html>

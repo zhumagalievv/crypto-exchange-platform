@@ -1,22 +1,25 @@
 // // **Private
 
-// // Private plan
-// const basic_page = fadeIn('.basic-page .headers__img', '.basic-page .headers__img img', 350, 0.2)
+// Private plan
+const basic_page = fadeIn('.basic-page .headers__img', '.basic-page .headers__img img', 450, 0.2)
 
-// const plus_page = fadeIn('.plus-page .headers__img', '.plus-page .headers__img img', 350, 0.2)
-
-
-// const premium_page = fadeIn('.premium-page .headers__img', '.premium-page .headers__img img', 350, 0.2)
+const plus_page = fadeIn('.plus-page .headers__img', '.plus-page .headers__img img', 450, 0.2)
 
 
-// // Platinum
-// const platinum_page = fadeIn('.platinum-page .headers__img--anim', '.platinum-page .headers__img--anim img', 350, 0.2)
+const premium_page = fadeIn('.premium-page .headers__img', '.premium-page .headers__img img', 450, 0.2)
 
 
-// const platinum_page2 = fadeIn('.platinum-page .headers__img--anim2', '.platinum-page .headers__img--anim2 img', 250, 0.2)
+// Platinum
+const platinum_page = fadeIn('.platinum-page .headers__img--anim', '.platinum-page .headers__img--anim img', 1000, 0.2)
+
+
+const platinum_page2 = fadeIn('.platinum-page .headers__img--anim2', '.platinum-page .headers__img--anim2 img', 350, 0.2)
+
+const platinum_page3 = fadeIn('.platinum-page .headers__img--anim3', '.platinum-page .headers__img--anim3 img', 450, 0.2)
+
 
 const budgetting = fadeIn('.budgeting-page .headers__img', '.budgeting-page .headers__img img', 400, 0.2)
-// const account_page = fadeIn('.account_page .headers__img', '.account_page .headers__img img', 330, 0.25)
+const account_page = fadeIn('.account_page .headers__img', '.account_page .headers__img img', 400, 0.2)
 
 //crypto-page
 const crypto1 = fadeIn('.crypto-page #crypto-img1', '.crypto-page #crypto-img1 img', 100, 0.1)
@@ -42,16 +45,16 @@ const snl_bonus4 = fadeIn('.snl_bonus-page .img__item4', '.snl_bonus-page .img__
 const snl_bonus5 = fadeIn('.snl_bonus-page .img__item5', '.snl_bonus-page .img__item5 img', 100, 0.1)
 const snl_bonus6 = fadeIn('.snl_bonus-page .img__item6', '.snl_bonus-page .img__item6 img', 100, 0.1)
 
-// //commodities 
-// const commodities = fadeIn('.commodities .commodity-small-text-img', '.commodities .commodity-small-text-img img', 300, 0.18)
-// // money-box
-// const money_box = fadeIn('.money-box .commodity-small-text-img', '.money-box .commodity-small-text-img img', 300, 0.18)
-// // market-place
-// const marketplace = fadeIn('.marketplace .commodity-small-text-img', '.marketplace .commodity-small-text-img img', 150, 0.1)
+//commodities 
+const commodities = fadeIn('.commodities .commodity-small-text-img', '.commodities .commodity-small-text-img img', 400, 0.2)
+// money-box
+const money_box = fadeIn('.money-box .commodity-small-text-img', '.money-box .commodity-small-text-img img', 400, 0.2)
+// market-place
+const marketplace = fadeIn('.marketplace .commodity-small-text-img', '.marketplace .commodity-small-text-img img', 450, 0.3)
 
 // const snl_bonus = fadeIn('.snl_bonus-page .headers', '.snl_bonus-page .headers__img img', 300, 0.2)
 
-// const device_insurance = fadeIn('.device_insurance .headers', '.device_insurance .headers__img img', 300, 0.2)
+const device_insurance = fadeIn('.device_insurance .headers', '.device_insurance .headers__img img', 400, 0.2)
 
 const split_a_bill = fadeIn('.split-bill-page .headers__img', '.split-bill-page .headers__img img', 500, 0.1)   
 
@@ -59,11 +62,10 @@ const split_a_bill = fadeIn('.split-bill-page .headers__img', '.split-bill-page 
 const early_salary = fadeIn('.early-salary-page .headers__img', '.early-salary-page .headers__img img', 400, 0.2)
 
 
+const subscriptions_page = fadeIn('.subscriptions-page .headers__img', '.subscriptions-page .headers__img img', 350, 0.17)
 
-const subscriptions_page = fadeIn('.subscriptions-page .headers__img', '.subscriptions-page .headers__img img', 400, 0.2)
 
-
-// const built_on_stellar = fadeIn('.built-on-stellar-page  .headers__img', '.built-on-stellar-page .headers__img img', 450, 0.1)
+const built_on_stellar = fadeIn('.built-on-stellar-page  .headers__img', '.built-on-stellar-page .headers__img img', 750, 0.1)
 
 // // **Business
 // const b__cards = fadeIn('.b_cards_page .image--anim', '.b_cards_page .image--anim img', 450, 0.2)

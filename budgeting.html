@@ -276,7 +276,7 @@
                 <section class="conclusion mt-0">
                     <div class="row w-100 conclusion__container align-items-center">
                         <div class="col-sm-12 col-md-6 conclusion__left">
-                            <h3 class="mb-4">How to get started?</h3>   
+                            <h3 class="mb-4">How to get started?</h3>
                             <div class="bt-line"></div>
                             <h5>Manage your money and keep track of your spendings with SnowLeopard</h5>
                         </div>
@@ -290,7 +290,7 @@
                             </h5>
                         </div>
                     </div>
-            </section>
+                </section>
 
             </div>
 
@@ -303,10 +303,10 @@
                     <div class="footer-logo">
                         <img src="media/img/footer-logo.svg" alt="">
                     </div>
-                    <form action="">
+                    <form method="post" id='emailForm'>
                         <label for="email">Contact us</label>
                         <div class="email-send">
-                            <input type="email" placeholder="Email">
+                            <input type="email" placeholder="Email" id="emailInput" required>
                             <button>Send</button>
                         </div>
 
@@ -387,6 +387,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
 
     <script src="script/fadingOnScroll.js"></script>
+
+    <!-- Sending Email -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="script/sendEmail.js"></script>
 
 </body>
 

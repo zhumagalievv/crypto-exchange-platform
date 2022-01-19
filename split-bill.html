@@ -87,9 +87,9 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="choose_your_plan.html" class="desktop-item">Plans</a>
+                            <li><a href="choose_your_plan.html" class="desktop-item">Pick a plan</a>
                                 <input type="checkbox" id="showMega">
-                                <label for="showMega" class="mobile-item">Plans</label>
+                                <label for="showMega" class="mobile-item">Pick a plan</label>
                                 <div class="mega-box">
                                     <div class="content d-flex flex-row justify-content-center align-items-center">
                                         <div class="content__row d-flex flex-row justify-content-center">
@@ -267,10 +267,10 @@
                     <div class="footer-logo">
                         <img src="media/img/footer-logo.svg" alt="">
                     </div>
-                    <form action="">
+                    <form method="post" id='emailForm'>
                         <label for="email">Contact us</label>
                         <div class="email-send">
-                            <input type="email" placeholder="Email">
+                            <input type="email" placeholder="Email" id="emailInput" required>
                             <button>Send</button>
                         </div>
 
@@ -346,6 +346,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
 
     <script src="script/fadingOnScroll.js"></script>
+
+    <!-- Sending Email -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="script/sendEmail.js"></script>
 </body>
 
 </html>
