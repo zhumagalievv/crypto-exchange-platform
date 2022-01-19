@@ -1,6 +1,12 @@
 body {
   overflow-x: hidden; }
 
+main.main_page {
+  background-image: url("../../media/img/cube.svg");
+  background-repeat: no-repeat;
+  background-position-x: 105%;
+  background-position-y: 67%; }
+
 .mainContent__section {
   position: relative;
   width: 100%;
@@ -176,8 +182,8 @@ body {
   margin: 14px 0 40px 0; }
   .content__title h4 {
     font-weight: bold;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 24px;
     letter-spacing: 0.3px;
     color: #111111; }
   .content__title::after {
@@ -249,8 +255,8 @@ body {
   box-sizing: content-box; }
   .buyCrypto__section .section__title {
     font-weight: bold;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 24px;
     letter-spacing: 0.3px;
     color: #111111;
     margin: 10px 0; }
@@ -368,15 +374,20 @@ body {
           color: black; }
 
 .analyticSection {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   .analyticSection .section__title {
+    text-align: end;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 24px;
     letter-spacing: 0.3px;
     color: #111111;
     margin: 30px 0; }
   .analyticSection .bt-line {
+    position: absolute;
+    right: 0;
+    top: 30px;
     width: 10rem;
     border-top: 3px solid black;
     margin-top: 16px; }
@@ -510,6 +521,7 @@ body {
   justify-content: space-between;
   align-items: center; }
   .price_container .price_box {
+    background-color: white;
     padding: 24px;
     position: relative;
     border: 1px solid black;

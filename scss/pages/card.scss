@@ -1,3 +1,16 @@
+main{
+	background-image: 
+                    url("../../media/img/due-pay-cube1.svg"),
+                    url("../../media/img/cube-reversed.svg"),
+                    url("../../media/img/bg-cross-play.svg"),
+                    url("../../media/img/bg-figures-reversed.svg"),
+                    url("../../media/img/bg-figures-reversed.svg"),
+                    url("../../media/img/bg-figures-reversed.svg");
+	background-repeat: no-repeat;
+	background-position-x: 105%,36%,10%,85%,90%,90% ;
+	background-position-y: 67%,110%,25%,15%,50%,82%;
+
+}
 .title{
     h2{
         margin-bottom: 40px;
