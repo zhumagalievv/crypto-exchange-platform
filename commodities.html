@@ -88,9 +88,9 @@
                   </div>
                 </div>
               </li>
-              <li><a href="choose_your_plan.html" class="desktop-item">Plans</a>
+              <li><a href="choose_your_plan.html" class="desktop-item">Pick a plan</a>
                 <input type="checkbox" id="showMega">
-                <label for="showMega" class="mobile-item">Plans</label>
+                <label for="showMega" class="mobile-item">Pick a plan</label>
                 <div class="mega-box">
                   <div class="content d-flex flex-row justify-content-center align-items-center">
                     <div class="content__row d-flex flex-row justify-content-center">
@@ -107,7 +107,6 @@
               </li>
               <li>
                 <a href="#">About us</a>
-
               </li>
               <li><a href="#">Help</a></li>
             </ul>
@@ -120,7 +119,7 @@
         </div>
       </nav>
     </header>
-    ​
+
     <main class="commodities">
       <div class="_limit_container">
         <section class="sub-navigation">
@@ -148,7 +147,7 @@
                   d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
                   fill="#888888" />
               </svg>
-              <a href="#">Account</a>
+              <a href="#">Wealth builder</a>
             </span>
             <span class="sub-navigation__item" id="budgeting">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -156,7 +155,7 @@
                   d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
                   fill="#111111" />
               </svg>
-              <a href="#">Stocks</a>
+              <a href="#">Commodities</a>
             </span>
           </div>
           <div class="bt-line"></div>
@@ -178,7 +177,7 @@
             <h3>Instant in-app gold and silver purchase</h3>
           </div>
         </div>
-        
+
         <div class="b_page_block row g-0 flex-md-row flex-sm-column">
           <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center mb-5">
             <div class="text d-flex flex-column">
@@ -297,20 +296,19 @@
             investment. Learn more by reading our full Risk Disclosure and our Trading FAQ.
           </p>
         </section>
-
       </div>
     </main>
-    ​
+
     <footer>
       <div class="_limit_container">
         <div class="contact">
           <div class="footer-logo">
             <img src="media/img/footer-logo.svg" alt="">
           </div>
-          <form action="">
+          <form method="post" id='emailForm'>
             <label for="email">Contact us</label>
             <div class="email-send">
-              <input type="email" placeholder="Email">
+              <input type="email" placeholder="Email" id="emailInput" required>
               <button>Send</button>
             </div>
 
@@ -341,23 +339,28 @@
           </ul>
           <ul>
             <li>Payments</li>
-            <li> <a class="text-decoration-none text-muted" href="money-transfers.html">Money Transfers</a> </li>
+            <li> <a class="text-decoration-none text-muted" href="money-transfers.html">Money Transfers</a>
+            </li>
             <li> <a class="text-decoration-none text-muted" href="split-bill.html">Split a bill</a> </li>
             <li> <a class="text-decoration-none text-muted" href="early-salary.html">Early salary</a> </li>
-            <li> <a class="text-decoration-none text-muted" href="subscriptions.html">Subscriptions</a> </li>
+            <li> <a class="text-decoration-none text-muted" href="subscriptions.html">Subscriptions</a>
+            </li>
           </ul>
           <ul>
             <li>Even more</li>
             <li> <a class="text-decoration-none text-muted" href="snl-token.html">SNL Bonus</a> </li>
-            <li> <a class="text-decoration-none text-muted" href="travel-insurance.html">Travel insurance</a> </li>
-            <li> <a class="text-decoration-none text-muted" href="device-insurance.html">Device insurance</a> </li>
+            <li> <a class="text-decoration-none text-muted" href="travel-insurance.html">Travel
+                insurance</a> </li>
+            <li> <a class="text-decoration-none text-muted" href="device-insurance.html">Device
+                insurance</a> </li>
             <li> <a class="text-decoration-none text-muted" href="property.html">Property</a> </li>
             <li> <a class="text-decoration-none text-muted" href="security.html">Security</a> </li>
           </ul>
           <ul>
             <li>Blockchain</li>
             <li> <a class="text-decoration-none text-muted" href="snl-token.html">SNL Token</a> </li>
-            <li> <a class="text-decoration-none text-muted" href="built-on-stellar.html">Built on Stellar</a> </li>
+            <li> <a class="text-decoration-none text-muted" href="built-on-stellar.html">Built on
+                Stellar</a> </li>
           </ul>
         </div>
 
@@ -369,6 +372,7 @@
       </div>
     </footer>
   </div>
+
 
   <!-- Boostrap JS CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -386,6 +390,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
 
   <script src="script/fadingOnScroll.js"></script>
+
+  <!-- Sending Email -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script src="script/sendEmail.js"></script>
 </body>
 
 </html>

@@ -370,10 +370,10 @@
                     <div class="footer-logo">
                         <img src="media/img/footer-logo.svg" alt="">
                     </div>
-                    <form action="">
+                    <form method="post" id='emailForm'>
                         <label for="email">Contact us</label>
                         <div class="email-send">
-                            <input type="email" placeholder="Email">
+                            <input type="email" placeholder="Email" id="emailInput" required>
                             <button>Send</button>
                         </div>
 
@@ -449,6 +449,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
 
     <script src="script/fadingOnScroll.js"></script>
+
+     <!-- Sending Email -->
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+     <script src="script/sendEmail.js"></script>
 
 </body>
 

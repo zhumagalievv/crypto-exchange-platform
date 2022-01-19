@@ -5,7 +5,7 @@
 	background-image: $bg-figures, $bg-fg01;
 	background-repeat: no-repeat;
 	background-position-x: 4%, 45%;
-	background-position-y: 35%, 30.5%;
+	background-position-y: 34%, 30.5%;
 
 	.headers {
 		margin: 0 auto;
@@ -30,6 +30,7 @@
 		}
 
         &-second {
+			margin-top: 100px;
             margin-bottom: 50px;
             img {
                 width: 100%;
@@ -37,18 +38,12 @@
         }
 	}
 
-	.content-section {
-		.desc {
-			&__item:nth-child(2) {
-				margin: 0 0 10px;
-			}
-			&__item:nth-child(3) {
-				margin: 0 0 10px 30px;
-			}
+	.point-blue {
+		i {
+			visibility: hidden;
 		}
-        .secondary-text {
-            color: $blue;
-            margin-left: 27px;
-        }
+		h5 {
+			color: $blue;
+		}
 	}
 }
