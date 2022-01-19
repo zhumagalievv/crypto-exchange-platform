@@ -16,6 +16,9 @@
   <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
   <!-- Custom style -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/business_style.css">
+
+  <link rel="stylesheet" href="css/pages/duepay.css">
 
   <title>SnowLeopard</title>
 </head>
@@ -119,71 +122,198 @@
         </div>
       </nav>
     </header>
-    ​
-    <main>
-      <div class="_limit_container">
-        <div class="site-path">
-          <span>Home <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-          <span>Private <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-          <span>Features <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-          <span>Account</span>
-          <span><i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i> DuePay</span>
-        </div>
-        <div class="payment-header">
-          <img src="media/img/due-pay-bg.svg" alt="">
-          <div class="header-center">
-            <div class="header-title">
-              <h1>Group your monthly payments with DuePay</h1>
+    <main class="due-pay">
+      <div class="b_page_container">
+        <section class="sub-navigation ">
+            <div class="sub-navigation__container">
+                <span class="sub-navigation__item" id="home"> <a href="#">Home</a> </span>
+                <span class="sub-navigation__item" id="private">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                            fill="#888888" />
+                    </svg>
+                    <a href="#">Private</a>
+                </span>
+                <span class="sub-navigation__item" id="feautures">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                            fill="#888888" />
+                    </svg>
+                    <a href="#">Features</a>
+                </span>
+                <span class="sub-navigation__item" id="account">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                            fill="#888888" />
+                    </svg>
+                    <a href="#">Account</a>
+                </span>
+                <span class="sub-navigation__item" id="budgeting">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                            fill="#111111" />
+                    </svg>
+                    <a href="#">DuePay</a>
+                </span>
             </div>
-            <div class="header-small-text">
-              <h2>Smarter way to handle your monthly payments by groupping them into DuePay categories. Once set you can
-                manage bills with ease</h2>
+            <div class="bt-line"></div>
+        </section>
+        <div class="title">
+            <h1>Group your monthly payments <br> with DuePay</h1>
+            <h2>Smarter way to handle your monthly payments by groupping them into DuePay <br> categories. Once set you can manage bills with ease
+            </h2>
+            <div class="title-img image--anim">
+                <img src="media/img/duepay/title-img.svg" alt="">
             </div>
-          </div>
         </div>
+        <h3 class="text-center" style="margin-top: 160px;margin-bottom: 90px;">Manage your budget smarter with DuePay</h3>
+
+        <div class="b_page_block row g-0 flex-md-row flex-sm-column-reverse ">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center">
+              <div class="text d-flex flex-column">
+                  <h4>Group your bills into categories</h4>
+                  <div class="underline"></div>
+
+                  <div class="point d-flex flex-row align-items-start">
+                      <i class="fas fa-check p-0 mt-1 me-2"></i>
+                      <h5 class="p-0 m-0">Group your utility bills, scheduled payments, subscriptions and direct debits <br> into DuePay categories</h5>
+                  </div>
+                  <div class="point d-flex flex-row align-items-start">
+                      <i class="fas fa-check p-0 mt-1 me-2"></i>
+                      <h5 class="p-0 m-0">Spare yourself from hassle, set up due payment dates for each  <br>
+                        category and pay automatically</h5>
+                  </div>
+                  
+              </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12  d-flex flex-row justify-items-center">
+              <div class="image">
+                  <img src="media/img/duepay/img-1.svg" alt="">
+              </div>
+
+          </div>
+
+
       </div>
-      <img src="media/img/due-pay-cube1.svg" alt="" class='due-pay-cube1'>
-      <div class="_limit_container">
-        <div class="content-section right">
-          <div class="section-text">
-            <h2>Manage your budget smarter with DuePay</h2>
-            <span>Group your bills into categories</span>
-            <p>Group your utility bills, scheduled payments, subscriptions and direct debits into DuePay categories</p>
-            <p>Spare yourself from hassle, set up due payment dates for each
-              category and pay automatically</p>
-          </div>
-          <div class="section-img">
-            <img src="media/img/manage-due-pay-img.svg" alt="">
-          </div>
+      <div class="b_page_block row g-0 flex-md-row-reverse flex-sm-column-reverse ">
+        <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center">
+            <div class="text d-flex flex-column">
+                <h4>Put money aside for your next payment</h4>
+                <div class="underline"></div>
+
+                <div class="point d-flex flex-row align-items-start">
+                    <i class="fas fa-check p-0 mt-1 me-2"></i>
+                    <h5 class="p-0 m-0">Set up recurring payments into DuePay so bills money is set aside and <br> paid in time</h5>
+                </div>
+                <div class="point d-flex flex-row align-items-start">
+                    <i class="fas fa-check p-0 mt-1 me-2"></i>
+                    <h5 class="p-0 m-0">Knowing that your monthly payments are separated from your account 
+                     <br> balance it’s easier to manage your money</h5>
+                </div>
+                <div class="point d-flex flex-row align-items-start">
+                    <i class="fas fa-check p-0 mt-1 me-2"></i>
+                    <h5 class="p-0 m-0">In case of insufficient funds in your DuePay to cover up costs, funds will be <br> taken automatically from your main account so you don’t miss deadlines
+                    </h5>
+                </div>
+            </div>
         </div>
-        <div class="content-section left">
-          <div class="section-img">
-            <img src="media/img/put-money.svg" alt="">
-          </div>
-          <div class="section-text">
-            <h2 class='blue-text-underline'>Put money aside for your next payment</h2>
-            <p>Set up recurring payments into DuePay so bills money is set aside and paid in time</p>
-            <p>Knowing that your monthly payments are separated from your account balance it’s easier to manage your
-              money</p>
-            <p>In case of insufficient funds in your DuePay to cover up costs, funds will be taken automatically from
-              your main account so you don’t miss deadlines</p>
-          </div>
+        <div class="block_image col-md-6 col-sm-12  d-flex flex-row justify-items-center">
+            <div class="image">
+                <img src="media/img/duepay/img-2.svg" alt="">
+            </div>
+
         </div>
-        <div class="bg-arrow">
-          <img src="media/img/bg-arrow.svg" alt="">
-        </div>
-        <div class="content-section">
-          <div class="section-text">
-            <h2 class='blue-text-underline'>Get a clear overview of your payments</h2>
-            <p>Follow up payments on DuePay to check the status and be on track to cover your costs</p>
-            <p>Simple interface of DuePay provides full visibility of all your spendings</p>
+
+
+    </div>
+    <div class="b_page_block row g-0 flex-md-row flex-sm-column-reverse " style="margin-bottom: 184px;">
+      <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center">
+          <div class="text d-flex flex-column">
+              <h4>Get a clear overview of your payments</h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                  <i class="fas fa-check p-0 mt-1 me-2"></i>
+                  <h5 class="p-0 m-0">Follow up payments on DuePay to check the status and be on <br> track to cover your costs</h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start">
+                  <i class="fas fa-check p-0 mt-1 me-2"></i>
+                  <h5 class="p-0 m-0">Simple interface of DuePay provides full visibility of all your spendings
+                  </h5>
+              </div>
+              
           </div>
-          <div class="section-img">
-            <img src="media/img/clear-overflow.svg" alt="">
-          </div>
-        </div>
       </div>
-      <img src="media/img/due-pay-cube2.svg" alt="" class='due-pay-cube2'>
+      <div class="block_image col-md-6 col-sm-12  d-flex flex-row justify-items-center">
+          <div class="image-3">
+              <img src="media/img/duepay/img-3.svg" alt="">
+          </div>
+
+      </div>
+
+
+  </div>
+        
+        <!-- <div class="b_page_block row g-0 flex-md-row flex-sm-column-reverse ">
+            <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center">
+                <div class="text d-flex flex-column">
+                    <h4></h4>
+                    <div class="underline"></div>
+
+                    <div class="point d-flex flex-row align-items-start">
+                        <i class="fas fa-check p-0 mt-1 me-2"></i>
+                        <h5 class="p-0 m-0"></h5>
+                    </div>
+                    <div class="point d-flex flex-row align-items-start">
+                        <i class="fas fa-check p-0 mt-1 me-2"></i>
+                        <h5 class="p-0 m-0"></h5>
+                    </div>
+                    <div class="point d-flex flex-row align-items-start">
+                        <i class="fas fa-check p-0 mt-1 me-2"></i>
+                        <h5 class="p-0 m-0"></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="block_image col-md-6 col-sm-12  d-flex flex-row justify-items-center">
+                <div class="image">
+                    <img src="media/img/b_cards_page/globe.svg" alt="">
+                </div>
+
+            </div>
+
+
+        </div> -->
+    </div>
+
+    <!-- <div class="text">
+            <h4></h4>
+            <div class="underline"></div>
+
+            <div class="d-flex flex-row align-items-center">
+                <i class="fas fa-check"></i>
+                <h5></h5>
+            </div>
+            <div class="d-flex flex-row align-items-center">
+                <i class="fas fa-check"></i>
+                <h5></h5>
+            </div>
+            <div class="d-flex flex-row align-items-center">
+                <i class="fas fa-check"></i>
+                <h5></h5>
+            </div>
+        </div> -->
+
+
+
+
     </main>
     ​
     <footer>
@@ -261,6 +391,17 @@
     crossorigin="anonymous"></script>
 
   <script src="script/menuBtn.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
+
+  <script src="script/fadingOnScroll.js">
+  </script>
 
   <!-- Sending Email -->
   <script src="https://smtpjs.com/v3/smtp.js"></script>

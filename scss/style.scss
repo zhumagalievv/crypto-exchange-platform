@@ -1,6 +1,5 @@
 // @import '~mdb-ui-kit/css/mdb.min.css';
-@import 'variables/variables';
-@import 'pages/main_page';
+@import 'variables/variables.scss';
 @import 'fonts/fonts';
 @import 'components/components';
 @import 'components/header';
@@ -9,11 +8,8 @@
 @import 'utils/functions';
 @import 'themes/themes';
 @import 'pages/account_page';
-@import 'pages/due-pay';
 @import 'pages/commodities';
 @import 'pages/marketplace';
-@import 'pages/card';
-@import 'pages/cub';
 @import 'pages/budgeting';
 @import 'pages/stocks';
 @import 'pages/crypto';

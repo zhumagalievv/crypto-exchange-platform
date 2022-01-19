@@ -76,7 +76,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="b_plans_company.html">Pick a plan</a>
+                            <li><a href="b_plans_company.html">Plans</a>
 
 
                             </li>
@@ -140,7 +140,7 @@
                     <div class="bt-line"></div>
                 </section>
                 <div class="title">
-                    <h1>Corporate cards for your Business needs</h1>
+                    <h1>Corporate cards for your Business <br> needs</h1>
                     <h2>Issue corporate cards for your business, make payments and withdraw overseas without hidden
                         fees. Manage your team expenses in real-time
                     </h2>
@@ -348,10 +348,10 @@
                     <div class="footer-logo">
                         <img src="media/img/footer-logo.svg" alt="">
                     </div>
-                    <form action="">
+                    <form method="post" id='emailForm'>
                         <label for="email">Contact us</label>
                         <div class="email-send">
-                            <input type="email" placeholder="Email">
+                            <input type="email" placeholder="Email" id="emailInput" required>
                             <button>Send</button>
                         </div>
 
@@ -366,31 +366,39 @@
                 <div class="footer-list ">
                     <ul>
                         <li>Account</li>
-                        <li><a class="text-decoration-none text-muted" href="b_joined_accounts.html"> Joined accounts</a> </li>
-                        <li><a class="text-decoration-none text-muted" href="b_universal_accounts.html">Budgeting </a> </li>
+                        <li><a class="text-decoration-none text-muted" href="b_joined_accounts.html"> Joined
+                                accounts</a> </li>
+                        <li><a class="text-decoration-none text-muted" href="b_universal_accounts.html">Budgeting </a>
+                        </li>
                         <li><a class="text-decoration-none text-muted" href="b_cards.html">Cards </a> </li>
                     </ul>
-                    
+
                     <ul>
                         <li>Payments</li>
-                        <li> <a class="text-decoration-none text-muted" href="b_money_transfers.html">Money Transfers</a> </li>
-                        <li> <a class="text-decoration-none text-muted" href="b_online_payments.html">Online payments</a> </li>
-                        <li> <a class="text-decoration-none text-muted" href="b_request_payments.html">Request payments</a> </li>
-                        <li> <a class="text-decoration-none text-muted" href="b_recurring_payments.html">Recurring payments</a> </li>
+                        <li> <a class="text-decoration-none text-muted" href="b_money_transfers.html">Money
+                                Transfers</a> </li>
+                        <li> <a class="text-decoration-none text-muted" href="b_online_payments.html">Online
+                                payments</a> </li>
+                        <li> <a class="text-decoration-none text-muted" href="b_request_payments.html">Request
+                                payments</a> </li>
+                        <li> <a class="text-decoration-none text-muted" href="b_recurring_payments.html">Recurring
+                                payments</a> </li>
                         <li> <a class="text-decoration-none text-muted" href="b_expenses.html">Expenses</a> </li>
                     </ul>
                     <ul>
                         <li>Marketplace</li>
                         <li> <a class="text-decoration-none text-muted" href="snl-token.html">FinTech Hub</a> </li>
                         <li> <a class="text-decoration-none text-muted" href="b_rewards.html">Rewards</a> </li>
-                        <li> <a class="text-decoration-none text-muted" href="b_become_a_partner.html">Become Partner</a> </li>
+                        <li> <a class="text-decoration-none text-muted" href="b_become_a_partner.html">Become
+                                Partner</a> </li>
                         <li> <a class="text-decoration-none text-muted" href="property.html">Property</a> </li>
                         <li> <a class="text-decoration-none text-muted" href="security.html">Security</a> </li>
                     </ul>
                     <ul>
                         <li>Blockchain</li>
                         <li> <a class="text-decoration-none text-muted" href="b_snl_token.html">SNL Token</a> </li>
-                        <li> <a class="text-decoration-none text-muted" href="b_built_on_stellar.html">Built on Stellar</a> </li>
+                        <li> <a class="text-decoration-none text-muted" href="b_built_on_stellar.html">Built on
+                                Stellar</a> </li>
                     </ul>
                 </div>
 
@@ -410,7 +418,6 @@
 
     <script src="script/menuBtn.js"></script>
 
-    // Animation libraries for fadingOnScroll
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
@@ -420,8 +427,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
 
     <script src="script/fadingOnScroll.js">
+
     </script>
 
-</body >
+    <!-- Sending Email -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-</html >
+    <script src="script/sendEmail.js"></script>
+</body>
+
+</html>

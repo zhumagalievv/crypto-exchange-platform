@@ -16,6 +16,10 @@
   <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
   <!-- Custom style -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/business_style.css">
+
+  <link rel="stylesheet" href="css/pages/main_page.css">
+  <link rel="stylesheet" href="css/pages/card_page.css">
 
   <title>SnowLeopard</title>
 </head>
@@ -119,156 +123,323 @@
         </div>
       </nav>
     </header>
-    ​
-    <main>
-      <div class="_limit_container">
-        <div class="site-path">
-          <span>Home <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-          <span>Private <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-          <span>Features <i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i></span>
-          <span>Account</span>
-          <span><i class="fas fa-arrow-right" style="font-size: 14px; margin: 0 8px 0 5px;"></i> Cards</span>
+    <main class="cards">
+      <div class="b_page_container">
+        <section class="sub-navigation ">
+          <div class="sub-navigation__container">
+            <span class="sub-navigation__item" id="home"> <a href="#">Home</a> </span>
+            <span class="sub-navigation__item" id="private">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Private</a>
+            </span>
+            <span class="sub-navigation__item" id="feautures">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Features</a>
+            </span>
+            <span class="sub-navigation__item" id="account">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#888888" />
+              </svg>
+              <a href="#">Account</a>
+            </span>
+            <span class="sub-navigation__item" id="budgeting">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 7.29121L2 8.71978L11.1573 8.71978L7.65631 12.022L8.70485 13L14 8.00549L8.70485 3L7.65631 4L11.1573 7.29121L2 7.29121Z"
+                  fill="#111111" />
+              </svg>
+              <a href="#">Cards</a>
+            </span>
+          </div>
+          <div class="bt-line"></div>
+        </section>
+        <div class="title">
+          <h1>Get a SnowLeopard card</h1>
+          <h2>Control your card’s settings through Mobile App or Web. Main features include card <br> freezing, spending
+            limits and switch between currencies to be deducted from. Use your card <br> to spend overseas like a local
+            with the best exchange rates in more than 150 currencies
+          </h2>
+          <div class="title-img image--anim">
+            <img src="media/img/b_cards_page/title-img.svg" alt="">
+          </div>
         </div>
-        <div class="commodity-header">
-          <div class="commodity-header-title">
-            <h1>Get a SnowLeopard card</h1>
+        <h3 class="text-center" style="margin-top: 160px;margin-bottom: 90px;">Top security is our main priority</h3>
+        <div class="b_page_block row g-0 flex-md-row flex-sm-column mt-0">
+          <div class="point_numbers col-md-4 row align-items-start ">
+            <h3 class="d-flex flex-row justify-content-center align-items-center col-2">01</h3>
+            <div class="point_text col-10">
+              <h4 class="point_head">
+                Leading anti-fraud system
+              </h4>
+              <h5>
+                Get notified when we detect suspicious
+                activity related to your account
+              </h5>
+            </div>
           </div>
-          <div class="commodity-small-text-img">
-            <p>Control your card’s settings through Mobile App or Web. Main features include card freezing , spending
-              limits and switch between currencies to be deducted from. Use your card to spend overseas like a local
-              with the best exchange rates in more than 150 currencies</p>
+          <div class="point_numbers col-md-4 row align-items-star">
+            <h3 class="d-flex flex-row justify-content-center align-items-center col-2">02</h3>
+            <div class="point_text col-10">
+              <h4>
+                One-use cards eliminate
+                fraud when you shop online
+              </h4>
+              <h5>
+                Get one-use cards when shopping online. They can only be used once to keep your money safe
+              </h5>
+            </div>
           </div>
-          <div class="card-img">
-            <img src="media/img/card-page-bg.svg" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="_limit_container">
-        <div class="card-section-list">
-          <h2 class='blue-text-underline'>Stay updated with real-time notifications</h2>
-          <ul class='card-list'>
-            <li>
-              <h3>Leading anti-fraud system</h3>
-              <p>Get notified when we detect suspicious
-                activity related to your account</p>
-            </li>
-            <li>
-              <h3>One-use cards eliminate
-                fraud when you shop online</h3>
-              <p>Get one-use cards when shopping online. They can only be used once to keep your money safe</p>
-            </li>
-            <li>
-              <h3>SnowLeopard is keeping your card details safe </h3>
-              <p>With powerful security protocols and anti-fraud procedures we will ensure safety of your personal
-                details</p>
-            </li>
-          </ul>
-        </div>
-        <div class="content-section">
-          <div class="section-text">
-            <h2 class='blue-text-underline'>Control your card security via App</h2>
-            <p>Can’t find your card? No worries! Freeze your card and then unfreeze it once found</p>
-            <p>On and Off online payments swiftly</p>
-            <p>GEnable and disable contactless payments with just one click away</p>
-            <p>Set up a weekly and monthly card budgets to control your spending</p>
-          </div>
-          <div class="section-img">
-            <img src="media/img/card-item1.svg" alt="">
-            <div class="arrow-card-img">
-              <img src="media/img/card-item2.svg" alt="">
+          <div class="point_numbers col-md-4 row align-items-start">
+            <h3 class="d-flex flex-row justify-content-center align-items-center col-2">03</h3>
+            <div class="point_text col-10">
+              <h4>
+                SnowLeopard is keeping your card details safe
+              </h4>
+              <h5>
+                With powerful security protocols and anti-fraud procedures we will ensure safety of your personal
+                details
+              </h5>
             </div>
           </div>
         </div>
-        <div class="content-section left">
-          <div class="section-img">
-            <img src="media/img/card-item3.svg" alt="">
-          </div>
-          <div class="section-text">
-            <h2 class='blue-text-underline'>Use your card right away</h2>
-            <p>Start using your virtual card online or in-store without actual physical card</p>
-            <p>As long as your phone supports NFC you can link your card to Apple Pay or Google Pay and you are good to
-              go</p>
-          </div>
-        </div>
-        <div class="content-section right">
-          <div class="section-text">
-            <h2 class='blue-text-underline'>Spend overseas with SnowLeopard like a local</h2>
-            <p>Use SnowLeopard card overseas and get the best exchange rate in more than 150 countries</p>
-            <p>Send money worldwide hassle-free</p>
-            <p>Withdraw fiat and crypto money overseas from our partners without hidden fees</p>
-          </div>
-          <div class="section-img">
-            <img src="media/img/card-item4.svg" alt="">
-          </div>
-        </div>
-        <div class="content-section left">
-          <div class="section-img">
-            <img src="media/img/card-item5.svg" alt="">
-          </div>
-          <div class="section-text">
-            <h2 class='blue-text-underline'>Use our Virtual one-use debit card to protect
-              yourself from fraud</h2>
-            <p>Buy online with virtual one-use card where the card’s details completely change after the purchase is
-              done</p>
-            <p>Doubt the legtimacy of a website? Purchase goods and services using one-use virtual card to play safe</p>
-          </div>
-        </div>
-        <div class="content-section">
-          <div class="section-text">
-            <h2 class='blue-text-underline'>4 Different cards for our Subscription plans</h2>
-            <p>Choose the right plan for yourself that fits you the most.
-              Free trial any subscrition plan for 1 month to make up your mind</p>
-          </div>
-          <div class="section-img">
-            <img src="media/img/card-item2.svg" alt="">
-          </div>
-        </div>
-        <div class="price_container">
-          <div class="price_box">
-            <h5>Basic</h5>
-            <span>Free</span>
-            <div class="box_content">
-              Want to track your monthly budget or save up while traveling abroad? Basic account will help you to get
-              started
-            </div>
-            <button><a href="#">Learn more</a></button>
-          </div>
-          <div class="price_box">
-            <h5>Plus</h5>
-            <span>$4.99 / month</span>
-            <div class="box_content">
-              Upgrade to <b>«Plus»</b> and enjoy unique features of modern banking. Spend, save, secure and enjoy
-            </div>
-            <button><a href="#">Learn more</a></button>
-          </div>
-          <div class="price_box">
-            <h5>Premium</h5>
-            <span>$9.99 / month</span>
-            <div class="box_content">
-              Enhance your «Сitizen of the world» lifestyle with Premium account which gives you clever tools to manage
-              your money
-            </div>
-            <button><a href="#">Learn more</a></button>
-          </div>
-          <div class="price_box">
-            <h5>Platinum</h5>
-            <span>$18.99 / month</span>
-            <div class="box_content">
-              Get full package of perks and services with Platinum account. Moreover, stand out from the crowd with a
-              contactless Metal card
-            </div>
-            <button><a href="#">Learn more</a></button>
-          </div>
-        </div>
-      </div>
-      <div class="margin-bottom">
+        <div class="b_page_block row g-0 flex-md-row flex-sm-column-reverse ">
+          <div class="block_text  col-md-6 col-sm-12 d-flex justify-items-center ">
+            <div class="text d-flex flex-column">
+              <h4>Control your card security via App</h4>
+              <div class="underline"></div>
 
-      </div>
-      <div class="cards-cube2">
-        <div class="card_cube__block">
-          <img src="media/img/cards-item6.svg" alt="">
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Can’t find your card? No worries! Freeze your card and then unfreeze it once found
+                </h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start ">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">On and Off online payments swiftly
+                </h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start ">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Enable and disable contactless payments with just one click away
+                </h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start ">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Set up a weekly and monthly card budgets to control your spending
+                </h5>
+              </div>
+
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12  d-flex justify-items-center">
+            <div class="image">
+              <img src="media/img/card-item1.svg" alt="">
+            </div>
+
+          </div>
+
+
         </div>
+
+        <div class="b_page_block row g-0 flex-md-row-reverse flex-sm-column-reverse">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center align-items-start">
+            <div class="text d-flex flex-column">
+              <h4>Use your card right away
+              </h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Start using your virtual card online or in-store without actual physical card</h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">As long as your phone supports NFC you can link your card to Apple Pay or Google Pay
+                  and you are good to go</h5>
+              </div>
+
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12  d-flex flex-row justify-items-center">
+            <div class="image">
+              <img src="media/img/card-item3.svg" alt="">
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="b_page_block row g-0 flex-md-row flex-sm-column-reverse align-items-start ">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center">
+            <div class="text d-flex flex-column">
+              <h4>Spend overseas with SnowLeopard like a local</h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Use SnowLeopard card overseas and get the best exchange rate in more than 150
+                  countries</h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Send money worldwide hassle-free
+                </h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Withdraw fiat and crypto money overseas from our partners without hidden fees
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12  d-flex flex-row justify-items-center">
+            <div class="image">
+              <img src="media/img/card-item4.svg" alt="">
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <div class="b_page_block row g-0 flex-md-row-reverse flex-sm-column-reverse ">
+          <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center">
+            <div class="text d-flex flex-column">
+              <h4>Use our Virtual one-use debit card to protect
+                yourself from fraud</h4>
+              <div class="underline"></div>
+
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Buy online with virtual one-use card where the card’s details completely change
+                  after the purchase is done</h5>
+              </div>
+              <div class="point d-flex flex-row align-items-start">
+                <i class="fas fa-check p-0 mt-1 me-2"></i>
+                <h5 class="p-0 m-0">Doubt the legtimacy of a website? Purchase goods and services using one-use virtual
+                  card to play safe</h5>
+              </div>
+
+            </div>
+          </div>
+          <div class="block_image col-md-6 col-sm-12  d-flex flex-row justify-items-center">
+            <div class="image">
+              <img src="media/img/card-item5.svg" alt="">
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="blockContent">
+          <div class="_limit_container">
+            <div class="plan_container">
+              <h1 style="color: #3E1BDB;">4 Different cards for our Subscription plans</h1>
+              <p style="font-size: 18px;">Choose the right plan for yourself that fits you the most. <br>
+                Free trial any subscription plan for 1 month to make up your mind</p>
+            </div>
+            <div class="price_container">
+              <div class="price_box">
+                <h5 class="fw-bold">Basic</h5>
+                <span class="fw-bold">Free</span>
+                <div class="box_content">
+                  Want to track your monthly budget or save up while traveling abroad? <b>Basic</b> account will help
+                  you to get started
+                </div>
+                <button><a href="basic-page.html" class="fw-bold">Learn more</a></button>
+              </div>
+              <div class="price_box">
+                <h5 class="fw-bold">Plus</h5>
+                <span class="fw-bold">$4.99 / month</span>
+                <div class="box_content">
+                  Upgrade to <b>«Plus»</b> and enjoy unique features of modern banking. Spend, save, secure and enjoy
+                </div>
+                <button><a href="plus.html" class="fw-bold">Learn more</a></button>
+              </div>
+              <div class="price_box">
+                <h5 class="fw-bold">Premium</h5>
+                <span class="fw-bold">$9.99 / month</span>
+                <div class="box_content">
+                  Enhance your «Сitizen of the world» lifestyle with Premium account which gives you clever tools to
+                  manage your money
+                </div>
+                <button><a href="premium.html" class="fw-bold">Learn more</a></button>
+              </div>
+              <div class="price_box">
+                <h5 class="fw-bold">Platinum</h5>
+                <span class="fw-bold">$18.99 / month</span>
+                <div class="box_content">
+                  Get full package of perks and services with Platinum account. Moreover, stand out from the crowd with
+                  a contactless Metal card
+                </div>
+                <button><a href="platinum.html" class="fw-bold">Learn more</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="b_page_block row g-0 flex-md-row flex-sm-column-reverse ">
+            <div class="block_text col-md-6 col-sm-12 d-flex flex-row justify-items-center">
+                <div class="text d-flex flex-column">
+                    <h4></h4>
+                    <div class="underline"></div>
+
+                    <div class="point d-flex flex-row align-items-start">
+                        <i class="fas fa-check p-0 mt-1 me-2"></i>
+                        <h5 class="p-0 m-0"></h5>
+                    </div>
+                    <div class="point d-flex flex-row align-items-start">
+                        <i class="fas fa-check p-0 mt-1 me-2"></i>
+                        <h5 class="p-0 m-0"></h5>
+                    </div>
+                    <div class="point d-flex flex-row align-items-start">
+                        <i class="fas fa-check p-0 mt-1 me-2"></i>
+                        <h5 class="p-0 m-0"></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="block_image col-md-6 col-sm-12  d-flex flex-row justify-items-center">
+                <div class="image">
+                    <img src="media/img/b_cards_page/globe.svg" alt="">
+                </div>
+
+            </div>
+
+
+        </div> -->
       </div>
+
+      <!-- <div class="text">
+            <h4></h4>
+            <div class="underline"></div>
+
+            <div class="d-flex flex-row align-items-center">
+                <i class="fas fa-check"></i>
+                <h5></h5>
+            </div>
+            <div class="d-flex flex-row align-items-center">
+                <i class="fas fa-check"></i>
+                <h5></h5>
+            </div>
+            <div class="d-flex flex-row align-items-center">
+                <i class="fas fa-check"></i>
+                <h5></h5>
+            </div>
+        </div> -->
+
+
+
+
     </main>
     ​
     <footer>
@@ -346,6 +517,18 @@
     crossorigin="anonymous"></script>
 
   <script src="script/menuBtn.js"></script>
+
+  <!-- Animation libraries for fadingOnScroll -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
+
+  <script src="script/fadingOnScroll.js"></script>
+
 
   <!-- Sending Email -->
   <script src="https://smtpjs.com/v3/smtp.js"></script>

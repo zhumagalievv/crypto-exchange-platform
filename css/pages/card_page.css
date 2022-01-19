@@ -1,0 +1,24 @@
+.title h2 {
+  margin-bottom: 40px; }
+
+.point_numbers h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: black;
+  width: 60px;
+  height: 60px;
+  background-color: #FAFF00;
+  border-radius: 50%; }
+
+.point_text {
+  color: black; }
+  .point_text .point_head {
+    margin-bottom: 48px; }
+  .point_text h4 {
+    margin-bottom: 20px; }
+
+/*# sourceMappingURL=card_page.css.map */

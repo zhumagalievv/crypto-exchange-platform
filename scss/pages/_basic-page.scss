@@ -2,7 +2,7 @@
 	background-image: $bg-figures, $bg-figures-reversed, $bg-cub-reversed;
 	background-repeat: no-repeat;
 	background-position-x: 41%, 7%, 81%;
-	background-position-y: 50%, 58%, 108%;
+	background-position-y: 47%, 55%, 108%;
 
 	.headers {
 		margin: 0 auto;
@@ -24,6 +24,10 @@
 				width: 70%;
 				transition: .3s ease-out;
 			}
+		}
+
+		&-second {
+			margin-top: 150px;
 		}
 
 		.price_container {

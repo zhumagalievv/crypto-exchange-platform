@@ -2,10 +2,10 @@
 @import "../pages/stocks";
 
 .snl_bonus-page {
-  background-image: $bg-figures-reversed, $bg-figures;
+  background-image: $bg-figures-reversed, $bg-figures, $bg-figures-colored;
   background-repeat: no-repeat;
-  background-position-x: 87%, 69%;
-  background-position-y: 56%, 69%;
+  background-position-x: 87%, 69%, 5.5%;
+  background-position-y: 57%, 71%, 86%;
 
   .headers {
     margin: 0 auto;

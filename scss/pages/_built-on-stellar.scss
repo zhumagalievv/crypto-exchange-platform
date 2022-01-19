@@ -25,6 +25,7 @@
       }
 
       img {
+        width: 100%;
         transition: 0.3s ease-out;
       }
     }
@@ -43,18 +44,22 @@
 
   .text__list {
     margin-top: 24px;
-	margin-bottom: 0;
-	margin-left: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
     li + li {
       margin-top: 12px;
     }
   }
 
   .text .point-edit {
-	  margin-top: 24px;
+    margin-top: 24px;
   }
 
   .intro-2 {
-	  margin-top: 100px;
+    margin-top: 100px;
+  }
+
+  .image {
+    width: 60%;
   }
 }

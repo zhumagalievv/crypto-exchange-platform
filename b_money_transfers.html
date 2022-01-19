@@ -76,7 +76,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="b_plans_company.html">Pick a plan</a>
+                            <li><a href="b_plans_company.html">Plans</a>
                                 
                             
                             </li>
@@ -140,7 +140,7 @@
                     <div class="bt-line"></div>
                 </section>
                 <div class="title">
-                    <h1>Send different forms of money around the Globe with low commission</h1>
+                    <h1>Send different forms of money <br> around the Globe with low <br> commission</h1>
                     <h2>Make profitable international money transfers and payments with different fiat and crypto currencies, without hidden
                         commissions</h2>
                     <div class="image">
@@ -253,11 +253,6 @@
                         <h5></h5>
                     </div>
                 </div> -->
-
-
-
-
-
         </main>
 
         <footer>
@@ -266,10 +261,10 @@
                     <div class="footer-logo">
                         <img src="media/img/footer-logo.svg" alt="">
                     </div>
-                    <form action="">
+                    <form method="post" id='emailForm'>
                         <label for="email">Contact us</label>
                         <div class="email-send">
-                            <input type="email" placeholder="Email">
+                            <input type="email" placeholder="Email" id="emailInput" required>
                             <button>Send</button>
                         </div>
 
@@ -327,6 +322,11 @@
         crossorigin="anonymous"></script>
 
     <script src="script/menuBtn.js"></script>
+
+    <!-- Sending Email -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="script/sendEmail.js"></script>
 </body>
 
 </html>

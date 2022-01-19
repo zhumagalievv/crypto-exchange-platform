@@ -1,0 +1,20 @@
+.title-img {
+  width: 100%;
+  margin-top: -280px; }
+  .title-img img {
+    width: 100%; }
+
+main {
+  background-image: url("../../media/img/cube-reversed.svg"), url("../../media/img/cube-reversed.svg"), url("../../media/img/bg-cross-play.svg");
+  background-repeat: no-repeat;
+  background-position-x: 10%,125%,10%;
+  background-position-y: 118%,46%,75%; }
+
+.image-3 {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center; }
+  .image-3 img {
+    width: 100%; }
+
+/*# sourceMappingURL=duepay.css.map */

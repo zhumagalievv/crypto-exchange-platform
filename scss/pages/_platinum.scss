@@ -12,6 +12,10 @@
     margin-top: 0;
   }
 
+  .image {
+		width: 68%;
+	}
+
   .headers {
     margin: 0 auto;
     max-width: 1400px;
@@ -101,7 +105,8 @@
     }
   }
 
-  .text .point-blue h5 {
-    color: $blue;
-  }
+}
+
+.text .point-blue h5 {
+  color: $blue;
 }

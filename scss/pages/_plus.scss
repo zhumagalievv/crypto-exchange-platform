@@ -23,6 +23,10 @@
 			margin: 0 240px 52px;
 		}
 
+		&-edit {
+			margin-top: 70px;
+		}
+
 		&__img {
 			img {
 				transition: .3s ease-out;
@@ -68,17 +72,8 @@
 		}
 	}
 
-	.content-section {
-		margin-top: 0px;
-		&-sixth {
-			.desc {
-				&__item:nth-child(1) {
-					margin: 0 0 10px;
-				}
-				&__item:nth-child(2) {
-					margin: 0 0 10px 30px;
-				}
-			}
-		}
+	.image {
+		width: 68%;
 	}
+	
 }

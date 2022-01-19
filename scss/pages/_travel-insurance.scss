@@ -60,6 +60,10 @@
     }
   }
 
+  .image {
+    width: 70%;
+  }
+
   .conclusion {
     display: flex;
     flex-wrap: nowrap;
@@ -71,4 +75,12 @@
       max-width: 600px;
     }
   }
+}
+
+@media screen and (min-width: 1500px) {
+  .travel-insurance-page {
+    .image {
+      width: 100%;
+    }
+  } 
 }

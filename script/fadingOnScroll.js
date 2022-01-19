@@ -1,4 +1,4 @@
-// // **Private
+// **Private
 
 // Private plan
 const basic_page = fadeIn('.basic-page .headers__img', '.basic-page .headers__img img', 450, 0.2)
@@ -8,6 +8,12 @@ const plus_page = fadeIn('.plus-page .headers__img', '.plus-page .headers__img i
 
 const premium_page = fadeIn('.premium-page .headers__img', '.premium-page .headers__img img', 450, 0.2)
 
+
+const cards = fadeIn('.cards .title-img', '.cards .title-img img', 550, 0.2)
+
+const cub = fadeIn('.cub .title-img', '.cub .title-img img', 350, 0.2)
+
+const due_pay = fadeIn('.due-pay .title-img', '.due-pay .title-img img', 450, 0.2)
 
 // Platinum
 const platinum_page = fadeIn('.platinum-page .headers__img--anim', '.platinum-page .headers__img--anim img', 1000, 0.2)
@@ -52,9 +58,7 @@ const money_box = fadeIn('.money-box .commodity-small-text-img', '.money-box .co
 // market-place
 const marketplace = fadeIn('.marketplace .commodity-small-text-img', '.marketplace .commodity-small-text-img img', 450, 0.3)
 
-// const snl_bonus = fadeIn('.snl_bonus-page .headers', '.snl_bonus-page .headers__img img', 300, 0.2)
-
-const device_insurance = fadeIn('.device_insurance .headers', '.device_insurance .headers__img img', 400, 0.2)
+const device_insurance = fadeIn('.device_insurance .title-img', '.device_insurance .title-img img', 400, 0.2)
 
 const split_a_bill = fadeIn('.split-bill-page .headers__img', '.split-bill-page .headers__img img', 500, 0.1)   
 
@@ -67,18 +71,26 @@ const subscriptions_page = fadeIn('.subscriptions-page .headers__img', '.subscri
 
 const built_on_stellar = fadeIn('.built-on-stellar-page  .headers__img', '.built-on-stellar-page .headers__img img', 750, 0.1)
 
-// // **Business
-// const b__cards = fadeIn('.b_cards_page .image--anim', '.b_cards_page .image--anim img', 450, 0.2)
+const b_built_on_stellar = fadeIn('.b_built_on_stellar  .title-img', '.b_built_on_stellar  .title-img img', 750, 0.1)
 
-// const b_request = fadeIn('.request_page .title-img', '.request_page .title-img img', 300, 0.15)
 
-// const b_recurring = fadeIn('.recurring_page .title-img', '.recurring_page .title-img img', 300, 0.15)
+// **Business
+const b__cards = fadeIn('.b_cards_page .image--anim', '.b_cards_page .image--anim img', 450, 0.2)
 
-// const b_expenses = fadeIn('.b_expenses .title-img', '.b_expenses .title-img img', 300, 0.15)
+const b_request = fadeIn('.request_page .title-img', '.request_page .title-img img', 400, 0.15)
 
-// const b_fintech_hub = fadeIn('.fintech_page .title-img', '.fintech_page .title-img img', 300, 0.1)
+const b_recurring = fadeIn('.recurring_page .title-img', '.recurring_page .title-img img', 400, 0.15)
 
-// const b_rewards = fadeIn('.b_rewards_page .title-img', '.b_rewards_page .title-img img', 240, 0.17)
+const b_expenses = fadeIn('.b_expenses .title-img', '.b_expenses .title-img img', 400, 0.15)
+
+const b_joined_accounts = fadeIn('.b_joined_accounts .title-img', '.b_joined_accounts .title-img img', 400, 0.15)
+
+const b_universal_accounts = fadeIn('.b_universal_accounts .title-img', '.b_universal_accounts .title-img img', 350, 0.15)
+
+
+const b_fintech_hub = fadeIn('.fintech_page .title-img', '.fintech_page .title-img img', 400, 0.12)
+
+const b_rewards = fadeIn('.b_rewards_page .title-img', '.b_rewards_page .title-img img', 420, 0.17)
 
 // const b_b_stellar = fadeIn('.b_built_on_stellar .title-img', '.b_built_on_stellar .title-img img', 450, 0.2)
 
