@@ -1,33 +1,36 @@
 .footer-cube {
   position: relative;
   height: 250px;
-  img {
-    position: absolute;
-    bottom: -132%;
-    left: 13%;
-  }
 }
+
+.footer-cube img {
+  position: absolute;
+  bottom: -132%;
+  left: 13%;
+}
+
 .arrow-marketplace {
   position: absolute;
   bottom: 25%;
   right: 0;
 }
 
-.marketplace {
-  .commodity-header {
-    margin-bottom: 450px;
-  }
-  .commodity-small-text-img {
-    position: relative;
-    img {
-      position: absolute;
-      top: -89px;
-      left: 60px;
-    }
-  }
-  .image-2 {
-    width: 90%;
-  }
+.marketplace .commodity-header {
+  margin-bottom: 450px;
+}
+
+.marketplace .commodity-small-text-img {
+  position: relative;
+}
+
+.marketplace .commodity-small-text-img img {
+  position: absolute;
+  top: -89px;
+  left: 60px;
+}
+
+.marketplace .image-2 {
+  width: 90%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -44,3 +47,4 @@
     display: none;
   }
 }
+/*# sourceMappingURL=marketplace.css.map */

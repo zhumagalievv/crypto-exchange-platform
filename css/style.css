@@ -1200,10 +1200,10 @@ a.learn-more svg {
   background-image: url("../media/img/bg-figures.svg");
   background-repeat: no-repeat;
   background-position-x: 92%;
-  background-position-y: 42%;
+  background-position-y: 46%;
 }
 
-.commodities backgr .image-2 {
+.commodities .image-2 {
   width: 70%;
 }
 
@@ -1249,6 +1249,10 @@ a.learn-more svg {
   }
 }
 
+.money-box .image-4 {
+  width: 80%;
+}
+
 .footer-cube {
   position: relative;
   height: 250px;
@@ -1278,6 +1282,10 @@ a.learn-more svg {
   position: absolute;
   top: -89px;
   left: 60px;
+}
+
+.marketplace .image-2 {
+  width: 90%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -3014,10 +3022,10 @@ a.learn-more svg {
 }
 
 .platinum-page {
-  background-image: url("../media/img/bg-figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-cub-reversed.svg");
+  background-image: url("../media/img/bg-figures.svg"), url("../media/img/platinum/big_figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-cub-reversed.svg");
   background-repeat: no-repeat;
-  background-position-x: 10%, 90%, 81%;
-  background-position-y: 10%, 5%, 104%;
+  background-position-x: 10%, 18%, 90%, 81%;
+  background-position-y: 10%, 60%, 5%, 104%;
 }
 
 .platinum-page .intro-2 .intro-text {

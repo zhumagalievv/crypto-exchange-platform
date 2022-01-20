@@ -15,8 +15,10 @@ const cub = fadeIn('.cub .title-img', '.cub .title-img img', 350, 0.2)
 
 const due_pay = fadeIn('.due-pay .title-img', '.due-pay .title-img img', 450, 0.2)
 
+
+
 // Platinum
-const platinum_page = fadeIn('.platinum-page .headers__img--anim', '.platinum-page .headers__img--anim img', 1000, 0.2)
+const platinum_page = fadeIn('.platinum-page .headers__img--anim', '.platinum-page .headers__img--anim img', 500, 0.2)
 
 
 const platinum_page2 = fadeIn('.platinum-page .headers__img--anim2', '.platinum-page .headers__img--anim2 img', 350, 0.2)
@@ -58,7 +60,7 @@ const money_box = fadeIn('.money-box .commodity-small-text-img', '.money-box .co
 // market-place
 const marketplace = fadeIn('.marketplace .commodity-small-text-img', '.marketplace .commodity-small-text-img img', 450, 0.3)
 
-const device_insurance = fadeIn('.device_insurance .title-img', '.device_insurance .title-img img', 400, 0.2)
+const device_insurance = fadeIn('.device-insurance .title-img', '.device-insurance .title-img img', 350, 0.2)
 
 const split_a_bill = fadeIn('.split-bill-page .headers__img', '.split-bill-page .headers__img img', 500, 0.1)   
 
@@ -122,7 +124,7 @@ function fadeIn(parentClass, childClass, duration, triggerHook) {
         triggerHook: triggerHook,
     })
         .setTween(tween)
-        .addIndicators()
+        // .addIndicators()
         .addTo(controller)
 }
 
