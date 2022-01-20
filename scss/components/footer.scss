@@ -124,6 +124,13 @@ footer{
                             font-size: 16px;
                             color: #FFFFFF;
                     }
+                    a{
+                        &:hover{
+                            transition: 0.2s ease-in;
+                            color: white !important;
+                            
+                        }
+                    }
                 }
             }
         }
