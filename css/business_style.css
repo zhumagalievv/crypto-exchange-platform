@@ -53,7 +53,7 @@
   width: 100%;
 }
 
-.title .footer-title {
+.footer-title {
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,15 +69,15 @@
   letter-spacing: 0.1em;
 }
 
-.title .image {
+.image {
   width: 60%;
 }
 
-.title .image img {
+.image img {
   width: 100%;
 }
 
-.title .text {
+.text {
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,23 +94,23 @@
           align-items: flex-start;
 }
 
-.title .text h4 {
+.text h4 {
   font-size: 24px;
   padding-bottom: 16px;
   font-weight: 700;
 }
 
-.title .text .underline {
+.text .underline {
   border-top: black 2px solid;
   width: 160px;
   margin-bottom: 53px;
 }
 
-.title .text .point {
+.text .point {
   margin-top: 27px;
 }
 
-.title .text .point h5 {
+.text .point h5 {
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
@@ -118,16 +118,16 @@
   letter-spacing: 0.3px;
 }
 
-.title .text .point i {
+.text .point i {
   color: #3e1bdb;
 }
 
-.title .text .learn-more-btn {
+.text .learn-more-btn {
   margin-top: 24px;
 }
 
-.title .text .learn-more-btn a,
-.title .text .learn-more-btn i {
+.text .learn-more-btn a,
+.text .learn-more-btn i {
   text-decoration: none;
   color: black;
   font-size: 24px;
@@ -135,22 +135,22 @@
   letter-spacing: -0.03em;
 }
 
-.title .image {
+.image {
   height: 100%;
   width: 50%;
   margin: 0 auto;
   text-align: center;
 }
 
-.title .image img {
+.image img {
   width: 100%;
 }
 
-.title .purple {
+.purple {
   color: #3e1bdb;
 }
 
-.title .purple-border {
+.purple-border {
   border-color: #3e1bdb;
 }
 

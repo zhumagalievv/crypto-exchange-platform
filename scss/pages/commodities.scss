@@ -51,9 +51,9 @@
   background-image: url("../media/img/bg-figures.svg");
   background-repeat: no-repeat;
   background-position-x: 92%;
-  background-position-y: 42%;
+  background-position-y: 46%;
 
-  backgr .image {
+  .image {
     &-2 {
       width: 70%;
     }
@@ -65,6 +65,8 @@
 .b_page_block-1 {
   margin-bottom: 100px;
 }
+
+
 @media screen and (max-width: 1300px) {
   .commodities,
   .money-box,
@@ -96,5 +98,11 @@
     .commodity-header {
       margin-bottom: 100px;
     }
+  }
+}
+
+.money-box {
+  .image-4 {
+    width: 80%;
   }
 }
