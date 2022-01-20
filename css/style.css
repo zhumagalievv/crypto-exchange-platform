@@ -599,6 +599,12 @@ footer ._limit_container .footer-list ul li:first-child, footer .copyright .foot
   color: #FFFFFF;
 }
 
+footer ._limit_container .footer-list ul li a:hover, footer .copyright .footer-list ul li a:hover {
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  color: white !important;
+}
+
 footer .copyright {
   width: 90%;
   border-top: 1px solid #1D1F4D;
