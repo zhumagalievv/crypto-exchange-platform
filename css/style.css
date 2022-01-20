@@ -2858,18 +2858,14 @@ a.learn-more svg {
   color: #111111;
 }
 
-.basic-page .content-section-fourth .desc__item:nth-child(1) {
-  margin: 0 0 10px;
-}
-
-.basic-page .content-section-fourth .desc__item:nth-child(2) {
-  margin: 0 0 10px 30px;
+.basic-page .image-1, .basic-page .image-4, .basic-page .image-5 {
+  width: 70%;
 }
 
 .plus-page {
   background-image: url("../media/img/bg-figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-figures.svg"), url("../media/img/plus/bg-fg01.svg"), url("../media/img/plus/bg-fg02.svg"), url("../media/img/plus/bg-fg01.svg"), url("../media/img/bg-cub-reversed.svg");
   background-repeat: no-repeat;
-  background-position-x: 10%, 88%, 8%,    74%, 5%, 90%,  81%;
+  background-position-x: 5%, 88%, 8%,    74%, 5%, 90%,  81%;
   background-position-y: 15%, 8%,  30.5%, 66.5%, 55%, 99%, 108%;
 }
 
@@ -2939,6 +2935,10 @@ a.learn-more svg {
   width: 68%;
 }
 
+.plus-page .image-6 {
+  width: 83%;
+}
+
 .premium-page {
   background-image: url("../media/img/bg-figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-cub-reversed.svg");
   background-repeat: no-repeat;
@@ -2948,6 +2948,10 @@ a.learn-more svg {
 
 .premium-page .image {
   width: 68%;
+}
+
+.premium-page .image-9 {
+  width: 70%;
 }
 
 .premium-page .headers {
@@ -2973,12 +2977,8 @@ a.learn-more svg {
   transition: .3s ease-out;
 }
 
-.premium-page .headers .hide {
-  opacity: 0;
-  -webkit-transform: translateY(-100px);
-          transform: translateY(-100px);
-  -webkit-transition: 2s ease-in-out;
-  transition: 2s ease-in-out;
+.premium-page .headers-second {
+  margin-top: 100px;
 }
 
 .premium-page .headers .price_container {
@@ -3017,15 +3017,20 @@ a.learn-more svg {
   color: #111111;
 }
 
-.premium-page .content-section {
-  margin-top: 0px;
+.premium-page .b_page_block-1 {
+  margin-top: 0;
+}
+
+.premium-page .intro-text-2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .platinum-page {
   background-image: url("../media/img/bg-figures.svg"), url("../media/img/platinum/big_figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-cub-reversed.svg");
   background-repeat: no-repeat;
-  background-position-x: 10%, 18%, 90%, 81%;
-  background-position-y: 10%, 60%, 5%, 104%;
+  background-position-x: 17%, 18%, 90%, 81%;
+  background-position-y: 9.5%, 58.5%, 5%, 104%;
 }
 
 .platinum-page .intro-2 .intro-text {
