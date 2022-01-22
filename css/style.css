@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Muller';
-  src: url("../fonts/Muller/Commercial/OTF/MullerDemo-ExtraBold.otf");
+  src: url("../media/font/Muller/Fontfabric - MullerRegular.otf");
   font-style: normal;
 }
 
@@ -739,7 +739,7 @@ footer .copyright span:last-child {
           box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Muller", "Roboto";
+  font-family: "Muller", "Roboto", Consolas, "Courier New", monospace;
 }
 
 body {
@@ -902,6 +902,14 @@ body {
   .wrapper .headers__sub-title {
     margin: 0;
   }
+}
+
+.iti__country-name {
+  color: #111;
+}
+
+.iti__selected-dial-code {
+  color: #111111;
 }
 
 .bt-line {
@@ -3143,5 +3151,130 @@ a.learn-more svg {
 
 .text .point-blue h5 {
   color: #3e1bdb;
+}
+
+.modals {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  border: 1px solid #111;
+  border-radius: 10px;
+  z-index: 1002;
+  background-color: #fff;
+  width: 500px;
+  max-width: 90%;
+}
+
+.modals label {
+  color: #111;
+}
+
+.modals.active {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+
+.modals-header {
+  position: relative;
+  padding: 10px 15px;
+}
+
+.modals-header__title {
+  color: #111;
+  text-align: center;
+  border-bottom: 0.5px solid rgba(136, 136, 136, 0.4);
+}
+
+#contactForm {
+  width: 100%;
+  max-width: 500px;
+}
+
+textarea#comment {
+  height: 150px;
+}
+
+.btnForm {
+  cursor: pointer;
+  max-width: 167px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  border-color: #fff;
+}
+
+.btn-submit {
+  background: #3e1bdb;
+  color: #fff;
+}
+
+.btn-submit:hover {
+  background: #3e1bdb;
+  opacity: 0.7;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  z-index: 1001;
+  pointer-events: all;
+}
+
+.alert-message {
+  position: fixed;
+  top: 1%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-animation: showOut 2.5s ease-out;
+          animation: showOut 2.5s ease-out;
+  z-index: 1003;
+}
+
+@-webkit-keyframes showOut {
+  30%, 100% {
+    opacity: 1;
+  }
+  30% {
+    -webkit-transform: translate(-50%, 115%);
+            transform: translate(-50%, 115%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, 115%);
+            transform: translate(-50%, 115%);
+  }
+}
+
+@keyframes showOut {
+  30%, 100% {
+    opacity: 1;
+  }
+  30% {
+    -webkit-transform: translate(-50%, 115%);
+            transform: translate(-50%, 115%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, 115%);
+            transform: translate(-50%, 115%);
+  }
 }
 /*# sourceMappingURL=style.css.map */
