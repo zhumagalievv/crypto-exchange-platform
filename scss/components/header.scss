@@ -10,8 +10,11 @@ $font: 16px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+    .current_page{
+      border-bottom: white solid 1px;
+    }
     span{
+        
         font-size: $font;
         margin: 0 45px;
         &:nth-child(1) a{

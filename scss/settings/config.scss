@@ -61,6 +61,13 @@ body {
     }
 
     &__item {
+      a[href="index.html"],a[href="business_main.html"]{
+          transition: 0.2s ease-in-out ;
+					&:hover{
+						font-size: large;
+            color: black;
+					}
+      }
       margin-top: 24px;
       a {
         text-decoration: none;
