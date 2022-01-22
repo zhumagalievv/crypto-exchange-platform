@@ -1,23 +1,9 @@
-// function sendMail() {
-//   const email = document.getElementById('email').value
-//   console.log("dasd"+email)
+const emailForm = document.getElementById('emailForm');
 
-//     var tempParams = {
-//       from_name: "Sultanbek",
-//     to_name: "Sultanbek",
-//     message:email
-//   }
-//   console.log("dasd"+tempParams.message)
-
-//   emailjs.send('gmail', 'template_lwpdi0k', tempParams).then(res => console.log("success", res))
-// }
-
-const form = document.getElementById('emailForm');
-form.addEventListener('submit', sendMail)
+emailForm.addEventListener('submit', sendMail);
 
 function sendMail(e) {
   e.preventDefault()
-
 
   const email = document.getElementById('emailInput').value;
 
@@ -27,35 +13,28 @@ function sendMail(e) {
     From: 'allaniyazovsultan1@gmail.com',
     Subject: "This is the subject",
     Body: email + " - email of the user"
-  }).then(
-    alert("Message was sent")
-  );
-
-
+  }).then(showAlert('The message has been sent!'));
+  clearEmail()
 }
 
-// ExecuteOrDelayUntilScriptLoaded(getCurrentUser, "sp.js");
+function showAlert(message) {
+  const div = document.createElement('div')
+  div.className = 'alert alert-success alert-message';
+  div.appendChild(document.createTextNode(message));
 
-// var currentUser;
+  document.querySelector('.wrapper main').appendChild(div);
 
-// function getCurrentUser() {
-//   var ctx = new SP.ClientContext.get_current();
-//   var web = ctx.get_web();
-//   currentUser = web.get_currentUser();
-//   ctx.load(currentUser);
-//   ctx.executeQueryAsync(onSuccess, onFailure);
-// }
+  // Vanish in 3 seconds
+  setTimeout(() => document.querySelector('.alert').remove(), 3000);
+}
 
-// function onSuccess() {
-//   alert(currentUser.get_title()); // Domain\Account
-//   alert(currentUser.get_email());
-// }
+function clearEmail() {
+  document.querySelector('#emailInput').value = '';
+}
 
 
 
-// token 27cb8cc8-a57c-46b9-9579-5b53dcd04172
-// B0A85E7DA8349539452109A98B98F83C8DFB
-// allaniyazovsultan1@gmail.com
-// smtp.elasticemail.com
+
+
 
 

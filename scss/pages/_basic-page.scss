@@ -68,16 +68,7 @@
 		}
 	}
 
-	.content-section {
-		&-fourth {
-			.desc {
-				&__item:nth-child(1) {
-					margin: 0 0 10px;
-				}
-				&__item:nth-child(2) {
-					margin: 0 0 10px 30px;
-				}
-			}
-		}
+	.image-1, .image-4, .image-5 {
+		width: 70%;
 	}
 }

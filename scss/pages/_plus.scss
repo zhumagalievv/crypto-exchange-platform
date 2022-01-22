@@ -5,7 +5,7 @@
 	background-image: $bg-figures, $bg-figures-reversed, $bg-figures, $bg-fg01,$bg-fg02, $bg-fg01,
 	$bg-cub-reversed;
 	background-repeat: no-repeat;
-	background-position-x: 10%, 88%, 8%,    74%, 5%, 90%,  81%;
+	background-position-x: 5%, 88%, 8%,    74%, 5%, 90%,  81%;
 	background-position-y: 15%, 8%,  30.5%, 66.5%, 55%, 99%, 108%;
 
 	.headers {
@@ -75,5 +75,10 @@
 	.image {
 		width: 68%;
 	}
+
+	.image-6 {
+		width: 83%;
+	}
+
 	
 }
