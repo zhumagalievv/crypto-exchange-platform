@@ -162,6 +162,11 @@ main.main_page{
 				justify-content: end;
 				display: flex;
 				align-items: center;
+				transition: 0.2s ease-in-out ;
+				
+					&:hover{
+						transform: scale(1.1);
+					}
 				i {
 					margin: 0 10px;
 				}
@@ -253,6 +258,11 @@ main.main_page{
 		line-height: 117%;
 		letter-spacing: -0.03em;
 		color: #111111;
+		transition: 0.2s ease-in-out ;
+
+		&:hover{
+			transform: scale(1.1);
+		}
 		.fas {
 			position: absolute;
 			margin: 4px 0 0 15px;
@@ -424,6 +434,11 @@ main.main_page{
 			flex-direction: row;
 			div {
 				cursor: pointer;
+				transition: 0.2s ease-in-out ;
+				
+					&:hover{
+						transform: scale(1.1);
+					}
 				button {
 					@include reset-button;
 					width: 190px;
@@ -434,6 +449,7 @@ main.main_page{
 					letter-spacing: -0.03em;
 					color: #111111;
 					text-align: start;
+					
 					a{
 						text-decoration: none;
 						color: black;
@@ -667,6 +683,8 @@ main.main_page{
 			cursor: pointer;
 			background: none;
 			border: none;
+
+					
 			a {
 				text-decoration: none;
 				color: black;
@@ -674,6 +692,10 @@ main.main_page{
 				line-height: 24px;
 				letter-spacing: 0.1em;
 				color: #111111;
+				transition: 0.2s ease-in-out ;
+				&:hover{
+					font-size: 20px;
+				}
 			}
 		}
 	}
