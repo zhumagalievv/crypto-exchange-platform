@@ -11,6 +11,17 @@ $blue: #3e1bdb;
   margin: 0;
   font-family: "Muller", "Roboto", Consolas, "Courier New", monospace;
 }
+
+header nav .getStarted:hover {
+  transform: scale(1.1);
+  background-color: rgba(62, 27, 219, 0.85);
+  transition: all .3s ease-out;
+}
+
+.getStarted {
+  transition: all .3s ease-out;
+}
+
 body {
   height: 100vh;
   margin: 0px;

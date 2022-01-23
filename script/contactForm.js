@@ -48,10 +48,10 @@ function sendContactForm(e) {
         To: 'allaniyazovsultan1@gmail.com',
         From: 'allaniyazovsultan1@gmail.com',
         Subject: "SnowLeopard Feedback",
-        Body: `Fullname:     "${fullName}".<br>
-               Email:        "${email}".<br>
-               ${dual_code}${pNumber}.<br>
-               Feedbackk:    "${comment}".`
+        Body: `Fullname:     ${fullName}.<br>
+               Email:        ${email}.<br>
+               ${dual_code} ${pNumber}.<br>
+               Feedback:    "${comment}".`
     }).then(showAlert('The message has been sent'));
 
     const modal = e.target.closest('.modals.active')
@@ -82,12 +82,23 @@ function clearContactForm() {
 var input = document.querySelector("#pNumber");
 
 window.intlTelInput(input, {
-    initialCountry: "kz",
+    initialCountry: "auto",
     separateDialCode: true,
-    preferredCountries: ["us", "ru", "gb", "kz", "cn"],
-    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
+    preferredCountries: ["us", "ru",  "kz", "cn", "de", "jp"],  
+    geoIpLookup: getIp,
+    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js" // just for formatting/placeholders etc
 });
 
+function getIp(callback) {
+    fetch('https://ipinfo.io/json?token=578d1bc7393832', { headers: { 'Accept': 'application/json' }})
+      .then((resp) => resp.json())
+      .catch(() => {
+        return {
+          country: 'us',
+        };
+      })
+      .then((resp) => callback(resp.country));
+   }
 
 $('#pNumber').on("countrychange", function () {
     $('#pNumber').val("");
