@@ -44,15 +44,19 @@ function sendContactForm(e) {
     const dual_code = element.closest('.iti').firstChild.firstChild.getAttribute('title')
 
     Email.send({
-        SecureToken: "887caab8-cb46-46a7-89c2-00fbfd853034",
+        SecureToken: "c5079c95-2102-47db-baf3-b75fb63656bc",
         To: 'allaniyazovsultan1@gmail.com',
         From: 'allaniyazovsultan1@gmail.com',
-        Subject: "SnowLeopard Feedback",
+        Subject: "SnowLeopard Feedback contacts",
         Body: `Fullname:     ${fullName}.<br>
                Email:        ${email}.<br>
                ${dual_code} ${pNumber}.<br>
                Feedback:    "${comment}".`
-    }).then(showAlert('The message has been sent'));
+    }).then(showAlert('The message has been sent!'));
+    // allaniyazovsultan1@gmail.com
+    // password 9AA8E4E892B6DC2986A0D397E059568B6744
+
+    // abcdDCBA1234#
 
     const modal = e.target.closest('.modals.active')
     closeModal(modal);
@@ -84,21 +88,21 @@ var input = document.querySelector("#pNumber");
 window.intlTelInput(input, {
     initialCountry: "auto",
     separateDialCode: true,
-    preferredCountries: ["us", "ru",  "kz", "cn", "de", "jp"],  
+    preferredCountries: ["us", "ru", "kz", "cn", "de", "jp"],
     geoIpLookup: getIp,
     utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js" // just for formatting/placeholders etc
 });
 
 function getIp(callback) {
-    fetch('https://ipinfo.io/json?token=578d1bc7393832', { headers: { 'Accept': 'application/json' }})
-      .then((resp) => resp.json())
-      .catch(() => {
-        return {
-          country: 'us',
-        };
-      })
-      .then((resp) => callback(resp.country));
-   }
+    fetch('https://ipinfo.io/json?token=578d1bc7393832', { headers: { 'Accept': 'application/json' } })
+        .then((resp) => resp.json())
+        .catch(() => {
+            return {
+                country: 'us',
+            };
+        })
+        .then((resp) => callback(resp.country));
+}
 
 $('#pNumber').on("countrychange", function () {
     $('#pNumber').val("");

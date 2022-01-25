@@ -8,12 +8,16 @@ function sendMail(e) {
   const email = document.getElementById('emailInput').value;
 
   Email.send({
-    SecureToken: "887caab8-cb46-46a7-89c2-00fbfd853034",
+    SecureToken: "c5079c95-2102-47db-baf3-b75fb63656bc",
     To: 'allaniyazovsultan1@gmail.com',
     From: 'allaniyazovsultan1@gmail.com',
-    Subject: "This is the subject",
+    Subject: "SnowLeopard Feedback email",
     Body: email + " - email of the user"
   }).then(showAlert('The message has been sent!'));
+
+
+  // allaniyazovsultan1@gmail.com
+  // password 9AA8E4E892B6DC2986A0D397E059568B6744
   clearEmail()
 }
 
