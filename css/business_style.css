@@ -190,10 +190,4 @@
             flex-direction: column;
   }
 }
-
-@media (min-width: 576px) {
-  .image {
-    padding: 3rem !important;
-  }
-}
 /*# sourceMappingURL=business_style.css.map */
