@@ -45,7 +45,7 @@ function sendContactForm(e) {
 
     Email.send({
         SecureToken: "c5079c95-2102-47db-baf3-b75fb63656bc",
-        To: 'allaniyazovsultan1@gmail.com',
+        To:   'daulet.sergaziyev@snowleopard.co.com',
         From: 'allaniyazovsultan1@gmail.com',
         Subject: "SnowLeopard Feedback contacts",
         Body: `Fullname:     ${fullName}.<br>
