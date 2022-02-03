@@ -1042,6 +1042,7 @@ a.learn-more svg {
   border: 1px solid black;
   text-align: center;
   border-radius: 24px;
+  background: #fff;
   margin: 20px 20px 20px 0;
   width: 261px;
   height: 355px;
@@ -2906,8 +2907,8 @@ a.learn-more svg {
 .plus-page {
   background-image: url("../media/img/bg-figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-figures.svg"), url("../media/img/plus/bg-fg01.svg"), url("../media/img/plus/bg-fg02.svg"), url("../media/img/plus/bg-fg01.svg"), url("../media/img/bg-cub-reversed.svg");
   background-repeat: no-repeat;
-  background-position-x: 5%, 88%, 8%,    74%, 5%, 90%,  81%;
-  background-position-y: 15%, 8%,  30.5%, 66.5%, 55%, 99%, 108%;
+  background-position-x: 5%, 88%, 8%, 83.5%, 5%, 90%, 81%;
+  background-position-y: 15%, 8%, 30.5%, 66.5%, 55%, 99%, 108%;
 }
 
 .plus-page .headers {
@@ -2931,8 +2932,8 @@ a.learn-more svg {
 }
 
 .plus-page .headers__img img {
-  -webkit-transition: .3s ease-out;
-  transition: .3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
   width: 70%;
 }
 
@@ -2978,6 +2979,10 @@ a.learn-more svg {
 
 .plus-page .image-6 {
   width: 83%;
+}
+
+.intro__text {
+  margin: 200px auto -110px;
 }
 
 .premium-page {

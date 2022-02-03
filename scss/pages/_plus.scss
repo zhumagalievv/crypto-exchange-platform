@@ -1,84 +1,86 @@
 .plus-page {
-    $bg-fg01: url('../media/img/plus/bg-fg01.svg');
-    $bg-fg02: url('../media/img/plus/bg-fg02.svg');
+  $bg-fg01: url("../media/img/plus/bg-fg01.svg");
+  $bg-fg02: url("../media/img/plus/bg-fg02.svg");
 
-	background-image: $bg-figures, $bg-figures-reversed, $bg-figures, $bg-fg01,$bg-fg02, $bg-fg01,
-	$bg-cub-reversed;
-	background-repeat: no-repeat;
-	background-position-x: 5%, 88%, 8%,    74%, 5%, 90%,  81%;
-	background-position-y: 15%, 8%,  30.5%, 66.5%, 55%, 99%, 108%;
+  background-image: $bg-figures, $bg-figures-reversed, $bg-figures, $bg-fg01,
+    $bg-fg02, $bg-fg01, $bg-cub-reversed;
+  background-repeat: no-repeat;
+  background-position-x: 5%, 88%, 8%, 83.5%, 5%, 90%, 81%;
+  background-position-y: 15%, 8%, 30.5%, 66.5%, 55%, 99%, 108%;
 
-	.headers {
-		margin: 0 auto;
-		max-width: 1400px;
-		width: 100%;
-		position: relative;
-		margin-bottom: 160px;
+  .headers {
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 160px;
 
-		&__main-title {
-			padding: 0 70px;
-		}
+    &__main-title {
+      padding: 0 70px;
+    }
 
-		&__sub-title {
-			margin: 0 240px 52px;
-		}
+    &__sub-title {
+      margin: 0 240px 52px;
+    }
 
-		&-edit {
-			margin-top: 70px;
-		}
+    &-edit {
+      margin-top: 70px;
+    }
 
-		&__img {
-			img {
-				transition: .3s ease-out;
-				width: 70%;
-			}
-		}
+    &__img {
+      img {
+        transition: 0.3s ease-out;
+        width: 70%;
+      }
+    }
 
-		.price_container {
-			justify-content: center;
-			gap: 50px;
-			h5 {
-				font-weight: bold;
-				font-size: 24px;
-				line-height: 24px;
-				text-align: center;
-				letter-spacing: 0.1em;
+    .price_container {
+      justify-content: center;
+      gap: 50px;
+      h5 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1em;
 
-				/* Black */
-				color: $black;
-			}
-		}
-		.price_box {
-			span {
-				font-weight: bold;
-				font-size: 16px;
-				line-height: 16px;
-				text-align: center;
-				letter-spacing: 0.1em;
-			}
-			button > a {
-				font-weight: bold;
-				font-size: 16px;
-				line-height: 24px;
-				/* or 150% */
+        /* Black */
+        color: $black;
+      }
+    }
+    .price_box {
+      span {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.1em;
+      }
+      button > a {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
 
-				text-align: center;
-				letter-spacing: 0.1em;
+        text-align: center;
+        letter-spacing: 0.1em;
 
-				/* Black */
+        /* Black */
 
-				color: $black;
-			}
-		}
-	}
+        color: $black;
+      }
+    }
+  }
 
-	.image {
-		width: 68%;
-	}
+  .image {
+    width: 68%;
+  }
 
-	.image-6 {
-		width: 83%;
-	}
+  .image-6 {
+    width: 83%;
+  }
+}
 
-	
+.intro__text {
+  margin: 200px auto -110px;
 }
