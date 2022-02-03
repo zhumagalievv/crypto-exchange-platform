@@ -3,7 +3,7 @@
 }
 
 .rewards_block h3 {
-  color: #3E1BDB;
+  color: #3e1bdb;
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
@@ -21,10 +21,36 @@
 
 .rewards_block .image img {
   width: 100%;
+  -webkit-animation: float 7s infinite ease-out;
+          animation: float 7s infinite ease-out;
 }
 
 .b_rewards_page .title-img img {
-  -webkit-transition: .3s ease-out;
-  transition: .3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+@-webkit-keyframes float {
+  0%,
+  100% {
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 /*# sourceMappingURL=b_rewards.css.map */

@@ -1,30 +1,40 @@
 .rewards_block {
-    margin: 160px 0;
-    h3{
-        color:#3E1BDB;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 36px;
-        text-align: center;
-        letter-spacing: 0.02em;
-        margin-bottom: 80px;
-
+  margin: 160px 0;
+  h3 {
+    color: #3e1bdb;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 80px;
+  }
+  .image {
+    width: 100%;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    img {
+      width: 100%;
+      animation: float 7s infinite ease-out;
     }
-    .image{
-        width: 100%;
-        width: 85%;
-        margin: 0 auto;
-        text-align: center;
-        img{
-            width: 100%;
-        }
-    }    
+  }
 }
 
 .b_rewards_page {
-    .title-img {
-        img  {
-            transition: .3s ease-out;
-        }
+  .title-img {
+    img {
+      transition: 0.3s ease-out;
     }
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(40px);
+  }
+  50% {
+    transform: translateY(0);
+  }
 }
