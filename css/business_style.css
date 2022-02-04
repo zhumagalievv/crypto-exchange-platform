@@ -67,6 +67,8 @@
           flex-direction: column;
   text-align: center;
   letter-spacing: 0.1em;
+  margin-top: 160px;
+  margin-bottom: 160px;
 }
 
 .image {
