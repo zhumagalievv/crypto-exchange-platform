@@ -3191,7 +3191,7 @@ a.learn-more svg {
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(0);
           transform: translate(-50%, -50%) scale(0);
-  border: 1px solid #111;
+  border: 1px solid #8b8383;
   border-radius: 10px;
   z-index: 1002;
   background-color: #fff;
