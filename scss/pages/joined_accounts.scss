@@ -147,6 +147,10 @@
       color: white;
       border-radius: 8px;
       margin: 40px 0 31px;
+      transition: 0.1s ease-in-out;
+      &:hover{
+        transform: scale(1.1);
+      }
     }
   }
 }
