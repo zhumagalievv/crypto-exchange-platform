@@ -131,9 +131,10 @@ main.main_page{
 				padding: 10px;
 				background-color: #ffffff;
 				width: 394px;
-				height: 196px;
+				height: 225px;
 				min-width: 120px;
 				margin: 0 20px;
+				justify-content: space-between;
 				transition: transform 500ms ease;
 				background: rgba(255, 255, 255, 0.4);
 				border: 1px solid #111111;
@@ -151,7 +152,7 @@ main.main_page{
 				p {
 					font-size: 14px;
 					line-height: 24px;
-
+					flex: 1;
 					letter-spacing: 0.3px;
 
 					color: rgba(17, 17, 17, 0.65);
@@ -163,7 +164,7 @@ main.main_page{
 				display: flex;
 				align-items: center;
 				transition: 0.2s ease-in-out ;
-				
+				margin-top: 0.5rem!important;
 					&:hover{
 						transform: scale(1.1);
 					}
