@@ -2908,7 +2908,7 @@ a.learn-more svg {
   background-image: url("../media/img/bg-figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-figures.svg"), url("../media/img/plus/bg-fg01.svg"), url("../media/img/plus/bg-fg02.svg"), url("../media/img/plus/bg-fg01.svg"), url("../media/img/bg-cub-reversed.svg");
   background-repeat: no-repeat;
   background-position-x: 5%, 88%, 8%, 83.5%, 5%, 90%, 81%;
-  background-position-y: 15%, 8%, 30.5%, 66cl 0.5%, 55%, 99%, 108%;
+  background-position-y: 15%, 8%, 30.5%, 66.5%, 55%, 99%, 108%;
 }
 
 .plus-page .headers {
