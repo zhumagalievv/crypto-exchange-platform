@@ -8,6 +8,13 @@
   background-position-x: 5%, 88%, 8%, 83.5%, 5%, 90%, 81%;
   background-position-y: 15%, 8%, 30.5%, 66.5%, 55%, 99%, 108%;
 
+  .price_container .price_box button {
+		transition: .2s ease-out;
+		&:hover {
+			transform: translate(-50%) scale(1.2);
+		}
+	}
+
   .headers {
     margin: 0 auto;
     max-width: 1400px;

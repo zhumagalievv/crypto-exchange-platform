@@ -4,6 +4,20 @@ main {
   background-position-x: 40%;
   background-position-y: 105%;
   background-size: 50%;
+
+  .price_container .price_box button {
+		transition: .2s ease-out;
+		&:hover {
+			transform: translate(-50%) scale(1.2);
+		}
+	}
+
+  .learn-m {
+    transition: .2s ease-out;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 }
 .plans_btn {
   white-space: nowrap;

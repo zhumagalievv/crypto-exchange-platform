@@ -6,6 +6,26 @@ main {
   background-size: 50%;
 }
 
+main .price_container .price_box button {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+main .price_container .price_box button:hover {
+  -webkit-transform: translate(-50%) scale(1.2);
+          transform: translate(-50%) scale(1.2);
+}
+
+main .learn-m {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+main .learn-m:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .plans_btn {
   white-space: nowrap;
   margin-top: 96px;

@@ -4,7 +4,7 @@
   background-image: $bg-fg01, $bg-figures, $bg-figures-reversed, $bg-cub;
   background-repeat: no-repeat;
   background-position-x: 15%, 90%, 92%, 10%;
-  background-position-y: 61.5%, 62.5%, 76.5%, 110.2%;
+  background-position-y: 61.5%, 62%, 76.5%, 110.2%;
 
   .headers {
     margin: 0 auto;
@@ -25,6 +25,13 @@
         width: 100%;
       }
       margin-bottom: 160px;
+    }
+  }
+
+  .learn-more {
+    transition: .2s ease-out;
+    &:hover {
+      transform: scale(1.1);      
     }
   }
 

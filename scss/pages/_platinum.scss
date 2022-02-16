@@ -16,6 +16,13 @@
 		width: 68%;
 	}
 
+  .price_container .price_box button {
+		transition: .2s ease-out;
+		&:hover {
+			transform: translate(-50%) scale(1.2);
+		}
+	}
+
   .headers {
     margin: 0 auto;
     max-width: 1400px;

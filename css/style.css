@@ -2453,7 +2453,7 @@ a.learn-more svg {
   background-image: url("../media/img/money-transfers/bg-figures01.svg"), url("../media/img/bg-figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-cub.svg");
   background-repeat: no-repeat;
   background-position-x: 15%, 90%, 92%, 10%;
-  background-position-y: 61.5%, 62.5%, 76.5%, 110.2%;
+  background-position-y: 61.5%, 62%, 76.5%, 110.2%;
 }
 
 .money-transfers-page .headers {
@@ -2478,6 +2478,16 @@ a.learn-more svg {
 
 .money-transfers-page .headers__img img {
   width: 100%;
+}
+
+.money-transfers-page .learn-more {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.money-transfers-page .learn-more:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .money-transfers-page .intro-text {
@@ -2904,11 +2914,41 @@ a.learn-more svg {
   width: 70%;
 }
 
+.basic-page .learn-more {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.basic-page .learn-more:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.basic-page .price_container .price_box button {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.basic-page .price_container .price_box button:hover {
+  -webkit-transform: translate(-50%) scale(1.2);
+          transform: translate(-50%) scale(1.2);
+}
+
 .plus-page {
   background-image: url("../media/img/bg-figures.svg"), url("../media/img/bg-figures-reversed.svg"), url("../media/img/bg-figures.svg"), url("../media/img/plus/bg-fg01.svg"), url("../media/img/plus/bg-fg02.svg"), url("../media/img/plus/bg-fg01.svg"), url("../media/img/bg-cub-reversed.svg");
   background-repeat: no-repeat;
   background-position-x: 5%, 88%, 8%, 83.5%, 5%, 90%, 81%;
   background-position-y: 15%, 8%, 30.5%, 66.5%, 55%, 99%, 108%;
+}
+
+.plus-page .price_container .price_box button {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.plus-page .price_container .price_box button:hover {
+  -webkit-transform: translate(-50%) scale(1.2);
+          transform: translate(-50%) scale(1.2);
 }
 
 .plus-page .headers {
@@ -3000,6 +3040,26 @@ a.learn-more svg {
   width: 70%;
 }
 
+.premium-page .price_container .price_box button {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.premium-page .price_container .price_box button:hover {
+  -webkit-transform: translate(-50%) scale(1.2);
+          transform: translate(-50%) scale(1.2);
+}
+
+.premium-page .learn-more {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.premium-page .learn-more:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .premium-page .headers {
   margin: 0 auto;
   max-width: 1400px;
@@ -3089,6 +3149,16 @@ a.learn-more svg {
 
 .platinum-page .image {
   width: 68%;
+}
+
+.platinum-page .price_container .price_box button {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.platinum-page .price_container .price_box button:hover {
+  -webkit-transform: translate(-50%) scale(1.2);
+          transform: translate(-50%) scale(1.2);
 }
 
 .platinum-page .headers {

@@ -71,4 +71,18 @@
 	.image-1, .image-4, .image-5 {
 		width: 70%;
 	}
+
+	.learn-more{
+		transition: .2s ease-out;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+
+	.price_container .price_box button {
+		transition: .2s ease-out;
+		&:hover {
+			transform: translate(-50%) scale(1.2);
+		}
+	}
 }
